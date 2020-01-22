@@ -5,6 +5,8 @@ if [ ! -f /cre/versions.txt ]; then
     exit 1
 fi
 
+cat /cre/versions.txt
+
 ##if [ ! -f /cre/node-procfile ]; then
 ##    echo "[FAIL]: File /cre/node-procfile not found!"
 ##    exit 1

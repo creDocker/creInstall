@@ -1,15 +1,15 @@
 # Adapted from 
-FROM tamboraorg/creubuntu:2016.0
+FROM tamboraorg/creubuntu:0.2020
 MAINTAINER Michael Kahle <michael.kahle@yahoo.de>
 
-ARG BUILD_YEAR=2016
+ARG BUILD_YEAR=2020
 ARG BUILD_MONTH=0
-ARG BUILD_TAG=2016.0
+ARG BUILD_TAG=0.2020
 
 #ENV DEBIAN_FRONTEND noninteractive
 #ENV INITRD No
 #ENV LANG en_US.UTF-8
-ENV NODE_VERSION 10.15.3
+ENV NODE_VERSION 11.15.3
 
 LABEL Name="Node for CRE" \
       CRE=$CRE_VERSION \ 
@@ -20,7 +20,7 @@ LABEL Name="Node for CRE" \
       Build_=$BUILD_TAG 
 
 # Install nodejs
-RUN curl -sL https://deb.nodesource.com/setup_10.x | bash - && \
+RUN curl -sL https://deb.nodesource.com/setup_11.x | bash - && \
     apt-get install -y nodejs 
 #RUN apt-get update && apt-get install npm && apt-get clean ## included in nodejs
 

@@ -24,9 +24,9 @@ LABEL Name="Node for CRE" \
 ##    apt-get install -y nodejs 
 RUN \
   apt-get update && \
-  apt-get install -y nodejs
-
-#RUN apt-get update && apt-get install npm && apt-get clean ## included in nodejs
+  apt-get install -y nodejs npm  ## npm not included in nodejs
+# https://linuxconfig.org/how-to-install-node-js-on-ubuntu-20-04-lts-focal-fossa
+##RUN apt-get update && apt-get install npm && apt-get clean ## included in nodejs
 
 # https://medium.com/@aguidrevitch/when-installation-of-global-package-using-npm-inside-docker-fails-b551b5dda389
 # Dockerfile sometimes run npm as nobody.

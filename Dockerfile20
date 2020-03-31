@@ -9,7 +9,7 @@ ARG BUILD_TAG=0.2020
 #ENV DEBIAN_FRONTEND noninteractive
 #ENV INITRD No
 #ENV LANG en_US.UTF-8
-ENV NODE_VERSION 11.15.3
+ENV NODE_VERSION 12.16.1
 
 LABEL Name="Node for CRE" \
       CRE=$CRE_VERSION \ 
@@ -20,16 +20,9 @@ LABEL Name="Node for CRE" \
       Build_=$BUILD_TAG 
 
 # Install nodejs
-##RUN curl -sL https://deb.nodesource.com/setup_11.x | bash - && \
-##    apt-get install -y nodejs 
 RUN \
   apt-get update && \
   apt-get install -y nodejs npm  ## npm not included in nodejs
-# https://linuxconfig.org/how-to-install-node-js-on-ubuntu-20-04-lts-focal-fossa
-##RUN apt-get update && apt-get install npm && apt-get clean ## included in nodejs
-
-# https://medium.com/@aguidrevitch/when-installation-of-global-package-using-npm-inside-docker-fails-b551b5dda389
-# Dockerfile sometimes run npm as nobody.
 
 ENV NPM_CONFIG_PREFIX=/cre/node/.npm-global
 ENV PATH=$PATH:/cre/node/.npm-global/bin

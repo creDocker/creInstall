@@ -1,5 +1,5 @@
 # Adapted from 
-FROM tamboraorg/creubuntu:latest
+FROM tamboraorg/creubuntu:2018.0
 MAINTAINER Michael Kahle <michael.kahle@yahoo.de>
 
 ARG BUILD_YEAR=2018

@@ -1,5 +1,5 @@
 # Adapted from 
-FROM tamboraorg/creubuntu:0.2022
+FROM tamboraorg/creubuntu:2022.0
 MAINTAINER Michael Kahle <michael.kahle@yahoo.de>
 
 ARG BUILD_YEAR=2022

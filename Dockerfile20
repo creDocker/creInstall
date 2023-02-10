@@ -61,11 +61,12 @@ RUN apt-get install -y glibc-source
 ENV SDKMAN_DIR=/cre/sdkman
 ## RUN export SDKMAN_DIR="/cre/sdkman" && curl -s "https://get.sdkman.io" | bash
 #RUN curl -s "https://get.sdkman.io" | bash
-RUN wget "https://get.sdkman.io" -o sdk.sh 
-RUN cat sdk.sh
-RUN chmod 777 sdk.sh 
-RUN ./sdk.sh 
-RUN rm -f sdk.sh
+RUN wget -qO- "https://get.sdkman.io" | sh -s - --admin --no-path
+#RUN wget "https://get.sdkman.io" -o sdk.sh 
+#RUN cat sdk.sh
+#RUN chmod 777 sdk.sh 
+#RUN ./sdk.sh 
+#RUN rm -f sdk.sh
 RUN source "$SDKMAN_DIR/bin/sdkman-init.sh"
 
 RUN mkdir -p /cre && touch /cre/versions.txt && \ 

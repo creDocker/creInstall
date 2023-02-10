@@ -4,4 +4,6 @@ creBuild 	 2023.02
   OpenSSL 1.1.1f  31 Mar 2020
   Java 	 openjdk version "1.8.0_352"
   Python3 	 Python 3.8.10
-  docker-gen 	 0.7.4
+ creNode 	 12.16.1
+  node 	 v18.14.0
+  npm 	 9.3.1

@@ -67,7 +67,7 @@ RUN curl -s "https://get.sdkman.io" | bash
 #RUN chmod 777 sdk.sh 
 #RUN bash sdk.sh 
 #RUN rm -f sdk.sh
-RUN source "$SDKMAN_DIR/bin/sdkman-init.sh"
+RUN bash source "$SDKMAN_DIR/bin/sdkman-init.sh"
 
 RUN mkdir -p /cre && touch /cre/versions.txt && \ 
     echo "$(date +'%F %R') \t creNode \t ${NODE_VERSION}" >> /cre/versions.txt  && \

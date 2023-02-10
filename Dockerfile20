@@ -44,9 +44,10 @@ RUN npm install -g npm-get-version
 ## npm set init.author.name "example_user"
 ## npm config set init.author.url http://iamsim.me/
 ### RUN npm set init.version "${CRE_VERSION}.0" 
-RUN npm config --init-version "${CRE_VERSION}.0"
+## RUN npm config --init-version "${CRE_VERSION}.0"
+## RUN npm config set init.version "${CRE_VERSION}.0"
 ### RUN npm set init.license "Apache-2.0"
-RUN npm config --init-license "Apache-2.0"
+## RUN npm config --init-license "Apache-2.0"
 # npm set init.author.email "example-user@example.com" 
 # npm set init.author.name "example_user" 
 # npm config set init.author.url http://iamsim.me/ 

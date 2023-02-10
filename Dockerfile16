@@ -20,7 +20,7 @@ LABEL Name="Node for CRE" \
       Build_=$BUILD_TAG 
 
 # Install nodejs
-RUN curl -sL https://deb.nodesource.com/setup_10.x | bash - && apt-get install -y nodejs  ## npm included in nodejs
+RUN curl -sL https://deb.nodesource.com/setup_11.x | bash - && apt-get install -y nodejs  ## npm included in nodejs
 #RUN apt-get update && apt-get install -y nodejs npm  ## npm not included in nodejs
 
 
@@ -38,19 +38,19 @@ RUN npm -g config set user root
 # can be used to update node
 RUN npm install -g n 
 #RUN n stable # update node
-###RUN npm install -g npm-install-peers
-###RUN npm install -g npm-add-script  
-###RUN npm install -g keywords
-#RUN npm install -g json
-#RUN npm install -g set-version
-#RUN npm install -g npm-get-version
+RUN npm install -g npm-install-peers
+RUN npm install -g npm-add-script  
+RUN npm install -g keywords
+RUN npm install -g json
+RUN npm install -g set-version
+RUN npm install -g npm-get-version
 
 ## npm set init.author.email "example-user@example.com"
 ## npm set init.author.name "example_user"
 ## npm config set init.author.url http://iamsim.me/
 
-###RUN npm set init.version "${CRE_VERSION}.0"
-###RUN npm set init.license "Apache-2.0"
+RUN npm set init.version "${CRE_VERSION}.0"
+RUN npm set init.license "Apache-2.0"
 
 # npm set init.author.email "example-user@example.com" 
 # npm set init.author.name "example_user" 

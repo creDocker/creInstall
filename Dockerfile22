@@ -9,7 +9,7 @@ ARG BUILD_TAG=0.2022
 #ENV DEBIAN_FRONTEND noninteractive
 #ENV INITRD No
 #ENV LANG en_US.UTF-8
-ENV NODE_VERSION 16.16.1
+ENV NODE_VERSION 18.16.1
 
 LABEL Name="Node for CRE" \
       CRE=$CRE_VERSION \ 
@@ -20,7 +20,7 @@ LABEL Name="Node for CRE" \
       Build_=$BUILD_TAG 
 
 # Install nodejs
-RUN curl -sL https://deb.nodesource.com/setup_16.x | bash - && apt-get install -y nodejs ## npm included in nodejs
+RUN curl -sL https://deb.nodesource.com/setup_18.x | bash - && apt-get install -y nodejs ## npm included in nodejs
 #RUN apt-get update && apt-get install -y nodejs npm  ## npm not included in nodejs
 
 
@@ -43,8 +43,8 @@ RUN npm install -g npm-get-version
 ## npm set init.author.name "example_user"
 ## npm config set init.author.url http://iamsim.me/
 
-###RUN npm set init.version "${CRE_VERSION}.0"
-###RUN npm set init.license "Apache-2.0"
+RUN npm set init.version "${CRE_VERSION}.0"
+RUN npm set init.license "Apache-2.0"
 
 # npm set init.author.email "example-user@example.com" 
 # npm set init.author.name "example_user" 

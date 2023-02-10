@@ -20,7 +20,7 @@ LABEL Name="Node for CRE" \
       Build_=$BUILD_TAG 
 
 # Install nodejs
-RUN curl -sL https://deb.nodesource.com/setup_12.x | bash - && apt-get install -y nodejs ## npm included in nodejs
+RUN curl -sL https://deb.nodesource.com/setup_14.x | bash - && apt-get install -y nodejs ## npm included in nodejs
 #RUN apt-get update && apt-get install -y nodejs npm  ## npm not included in nodejs
 
 # https://medium.com/@aguidrevitch/when-installation-of-global-package-using-npm-inside-docker-fails-b551b5dda389

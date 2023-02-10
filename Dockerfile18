@@ -20,9 +20,8 @@ LABEL Name="Node for CRE" \
       Build_=$BUILD_TAG 
 
 # Install nodejs
-RUN curl -sL https://deb.nodesource.com/setup_11.x | bash - && \
-    apt-get install -y nodejs 
-#RUN apt-get update && apt-get install npm && apt-get clean ## included in nodejs
+RUN curl -sL https://deb.nodesource.com/setup_11.x | bash - && apt-get install -y nodejs ## npm included in nodejs
+#RUN apt-get update && apt-get install -y nodejs npm  ## npm not included in nodejs
 
 ####RUN apt-get install -y libc6
 ####RUN apt-get install -y glibc-source 

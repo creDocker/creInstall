@@ -20,9 +20,8 @@ LABEL Name="Node for CRE" \
       Build_=$BUILD_TAG 
 
 # Install nodejs
-RUN \
-  apt-get update && \
-  apt-get install -y nodejs npm  ## npm not included in nodejs
+RUN curl -sL https://deb.nodesource.com/setup_12.x | bash - && apt-get install -y nodejs ## npm included in nodejs
+#RUN apt-get update && apt-get install -y nodejs npm  ## npm not included in nodejs
 
 ENV NPM_CONFIG_PREFIX=/cre/node/.npm-global
 ENV PATH=$PATH:/cre/node/.npm-global/bin

@@ -67,6 +67,8 @@ RUN curl -s "https://get.sdkman.io" | bash
 #RUN chmod 777 sdk.sh 
 #RUN bash sdk.sh 
 #RUN rm -f sdk.sh
+RUN cat "$SDKMAN_DIR/bin/sdkman-init.sh"
+RUN chmod 777 "$SDKMAN_DIR/bin/sdkman-init.sh"
 RUN "$SDKMAN_DIR/bin/sdkman-init.sh"
 
 RUN mkdir -p /cre && touch /cre/versions.txt && \ 

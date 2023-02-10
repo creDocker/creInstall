@@ -54,6 +54,8 @@ RUN npm install -g npm-get-version
 
 # https://sdkman.io/install
 
+RUN apt-get install -y  bash
+
 ENV SDKMAN_DIR=/cre/sdkman
 ## RUN export SDKMAN_DIR="/cre/sdkman" && curl -s "https://get.sdkman.io" | bash
 ##RUN curl -s "https://get.sdkman.io" | bash

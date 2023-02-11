@@ -2,7 +2,7 @@
 
 SDK_VERSION=$(/cre/sdk.sh version | grep version | sed -e 's|SDKMAN!: cli version: ||' -e 's|; native extensions:.*||')
 
-SDK_SUBPATH=u$UBUNTU_VERSION/v$SDK_VERSION
+SDK_SUBPATH=u$UBUNTU_VERSION/sdkman/v$SDK_VERSION
 
 echo "Current dir: $(pwd)"
 #echo "Current env: $(env)"

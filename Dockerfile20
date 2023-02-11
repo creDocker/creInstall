@@ -69,14 +69,15 @@ RUN curl -s "https://get.sdkman.io" | bash
 #RUN rm -f sdk.sh
 RUN cat "$SDKMAN_DIR/bin/sdkman-init.sh"
 RUN chmod 777 "$SDKMAN_DIR/bin/sdkman-init.sh"
-RUN "$SDKMAN_DIR/bin/sdkman-init.sh"
+#RUN "$SDKMAN_DIR/bin/sdkman-init.sh"
+RUN /bin/bash -c "source $SDKMAN_DIR/bin/sdkman-init.sh; sdk version"
 
 RUN mkdir -p /cre && touch /cre/versions.txt && \ 
     echo "$(date +'%F %R') \t creNode \t ${NODE_VERSION}" >> /cre/versions.txt  && \
     echo "$(date +'%F %R') \t  ldd \t $(ldd --version | grep GLIBC)" >> /cre/versions.txt && \
     echo "$(date +'%F %R') \t  node \t $(node --version)" >> /cre/versions.txt && \
     echo "$(date +'%F %R') \t  npm \t $(npm --version)" >> /cre/versions.txt && \ 
-    echo "$(date +'%F %R') \t  sdk \t $(sdk version)" >> /cre/versions.txt
+    echo "$(date +'%F %R') \t  sdk \t $(/bin/bash -c source $SDKMAN_DIR/bin/sdkman-init.sh; sdk version)" >> /cre/versions.txt
 
 COPY cre /cre
 

@@ -52,13 +52,18 @@ RUN npm install -g npm-get-version
 # npm config set init.author.url http://iamsim.me/ 
 # https://docs.npmjs.com/creating-a-package-json-file#default-values-extracted-from-the-current-directory 
 
+COPY cre /cre
+
 # https://sdkman.io/install
 ENV SDKMAN_DIR=/cre/sdkman
-RUN curl -s "https://get.sdkman.io" | bash
+#RUN curl -s "https://get.sdkman.io" | bash
+RUN curl -s "https://get.sdkman.io" > /cre/sdkman.sh
+RUN chmod 777 /cre/sdkman.sh
+RUN /bin/bash /cre/sdkman.sh
 RUN chmod 777 "$SDKMAN_DIR/bin/sdkman-init.sh"
 RUN /bin/bash -c "source $SDKMAN_DIR/bin/sdkman-init.sh; sdk version"
 
-COPY cre /cre
+
 
 #https://stackoverflow.com/questions/62188599/cannot-build-dockerfile-with-sdkman
 

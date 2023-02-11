@@ -59,7 +59,7 @@ COPY cre /cre
 ENV SDKMAN_DIR=/cre/sdkman
 
 ## RUN curl -s "https://get.sdkman.io" > /cre/sdkman-install.sh
-RUN cp /cre/versions/u18.04/sdkman/v5.18.3/sdkman-install.sh /cre/sdkman-install.sh
+RUN cp /cre/versions/u18.04/sdkman/v5.13.2/sdkman-install.sh /cre/sdkman-install.sh
 
 RUN chmod 777 /cre/sdkman-install.sh
 RUN /bin/bash /cre/sdkman-install.sh

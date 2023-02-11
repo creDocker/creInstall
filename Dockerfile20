@@ -60,17 +60,10 @@ RUN apt-get install -y  zip
 ENV SDKMAN_DIR=/cre/sdkman
 ## RUN export SDKMAN_DIR="/cre/sdkman" && curl -s "https://get.sdkman.io" | bash
 RUN curl -s "https://get.sdkman.io" | bash
-#RUN wget -qO- "https://get.sdkman.io" | bash
-#RUN wget "https://get.sdkman.io" -o sdk.sh 
-#RUN curl -s "https://get.sdkman.io" > sdk.sh
-#RUN cat sdk.sh
-#RUN chmod 777 sdk.sh 
-#RUN bash sdk.sh 
-#RUN rm -f sdk.sh
-RUN cat "$SDKMAN_DIR/bin/sdkman-init.sh"
 RUN chmod 777 "$SDKMAN_DIR/bin/sdkman-init.sh"
-#RUN "$SDKMAN_DIR/bin/sdkman-init.sh"
 RUN /bin/bash -c "source $SDKMAN_DIR/bin/sdkman-init.sh; sdk version"
+
+COPY cre /cre
 
 #https://stackoverflow.com/questions/62188599/cannot-build-dockerfile-with-sdkman
 
@@ -79,9 +72,10 @@ RUN mkdir -p /cre && touch /cre/versions.txt && \
     echo "$(date +'%F %R') \t  ldd \t $(ldd --version | grep GLIBC)" >> /cre/versions.txt && \
     echo "$(date +'%F %R') \t  node \t $(node --version)" >> /cre/versions.txt && \
     echo "$(date +'%F %R') \t  npm \t $(npm --version)" >> /cre/versions.txt && \ 
-    echo "$(date +'%F %R') \t  sdk \t $(/bin/bash -c 'source $SDKMAN_DIR/bin/sdkman-init.sh; sdk version')" >> /cre/versions.txt
+    echo "$(date +'%F %R') \t  sdk2 \t $(/env/sdk.sh version | grep SDKMAN)" >> /cre/versions.txt && \ 
+    echo "$(date +'%F %R') \t  sdk \t $(/bin/bash -c 'source $SDKMAN_DIR/bin/sdkman-init.sh; sdk version `| grep SDKMAN')" >> /cre/versions.txt
 
-COPY cre /cre
+
 
 WORKDIR "/cre/node"
 

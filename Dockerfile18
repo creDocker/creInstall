@@ -62,6 +62,17 @@ RUN npm set init.license "Apache-2.0"
 
 COPY cre /cre
 
+# https://sdkman.io/install
+ENV SDKMAN_DIR=/cre/sdkman
+#RUN curl -s "https://get.sdkman.io" | bash
+## RUN curl -s "https://get.sdkman.io" > /cre/sdkman-install.sh
+RUN cp /cre/versions/u18.04/sdkman/vxx.xx.xx/sdkman-install.sh /cre/sdkman-install.sh
+RUN chmod 777 /cre/sdkman-install.sh
+RUN /bin/bash /cre/sdkman-install.sh
+RUN chmod 777 "$SDKMAN_DIR/bin/sdkman-init.sh"
+RUN /bin/bash -c "source $SDKMAN_DIR/bin/sdkman-init.sh; sdk version"
+
+
 RUN mkdir -p /cre && touch /cre/versions.txt && \ 
     echo "$(date +'%F %R') \t creNode \t ${NODE_VERSION}" >> /cre/versions.txt  && \
     echo "$(date +'%F %R') \t  ldd \t $(ldd --version | grep GLIBC)" >> /cre/versions.txt && \

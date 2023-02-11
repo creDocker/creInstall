@@ -72,8 +72,8 @@ RUN mkdir -p /cre && touch /cre/versions.txt && \
     echo "$(date +'%F %R') \t  ldd \t $(ldd --version | grep GLIBC)" >> /cre/versions.txt && \
     echo "$(date +'%F %R') \t  node \t $(node --version)" >> /cre/versions.txt && \
     echo "$(date +'%F %R') \t  npm \t $(npm --version)" >> /cre/versions.txt && \ 
-    echo "$(date +'%F %R') \t  sdk2 \t $(/cre/sdk.sh version | grep SDKMAN)" >> /cre/versions.txt && \ 
-    echo "$(date +'%F %R') \t  sdk \t $(/bin/bash -c 'source $SDKMAN_DIR/bin/sdkman-init.sh; sdk version `| grep SDKMAN')" >> /cre/versions.txt
+    echo "$(date +'%F %R') \t  sdk2 \t $(/cre/sdk.sh version | grep version)" >> /cre/versions.txt && \ 
+    echo "$(date +'%F %R') \t  sdk \t $(/bin/bash -c 'source $SDKMAN_DIR/bin/sdkman-init.sh; sdk version | grep version')" >> /cre/versions.txt
 
 WORKDIR "/cre/node"
 

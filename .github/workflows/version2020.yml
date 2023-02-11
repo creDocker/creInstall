@@ -27,6 +27,8 @@ jobs:
       - name: cp version.txt
 #        run: (cp /cre/versions.txt cre/versions/versions_2020.txt) 
         run: (cut -f2,3 /cre/versions.txt > cre/versions/versions_2020.txt)
+      - name: store install script
+        run: (/cre/sdkman-store.sh) 
       - name: Submit changes       
         uses: EndBug/add-and-commit@v9
         with:

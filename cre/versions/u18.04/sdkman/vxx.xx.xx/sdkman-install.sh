@@ -37,7 +37,7 @@ trap echo_failed_command EXIT
 
 # Global variables
 export SDKMAN_SERVICE="https://api.sdkman.io/2"
-export SDKMAN_VERSION="5.12.4"  
+export SDKMAN_VERSION="5.14.3"  
 export SDKMAN_NATIVE_VERSION="0.0.23"
 # infer platform
 function infer_platform() {

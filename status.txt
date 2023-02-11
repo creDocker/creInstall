@@ -6,6 +6,13 @@ Todo:
 
 old sdk:  5.9.2   5.12.4x 5.13.2  5.14.3(x)
 
+try old 16.04  with 5.13.2
+
+22 -> store
+22 -> version print
+
+20,22, -> check version exists
+
 
 
 

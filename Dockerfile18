@@ -66,14 +66,12 @@ RUN /bin/bash /cre/sdkman-install.sh
 RUN chmod 777 "$SDKMAN_DIR/bin/sdkman-init.sh"
 RUN /bin/bash -c "source $SDKMAN_DIR/bin/sdkman-init.sh; sdk version"
 
-
-
 RUN mkdir -p /cre && touch /cre/versions.txt && \ 
     echo "$(date +'%F %R') \t creNode \t ${NODE_VERSION}" >> /cre/versions.txt  && \
     echo "$(date +'%F %R') \t  ldd \t $(ldd --version | grep GLIBC)" >> /cre/versions.txt && \
     echo "$(date +'%F %R') \t  node \t $(node --version)" >> /cre/versions.txt && \
     echo "$(date +'%F %R') \t  npm \t $(npm --version)" >> /cre/versions.txt && \
-    echo "$(date +'%F %R') \t  sdk \t $(/cre/sdk.sh version | grep SDKMAN | grep -v available | sed -e 's|SDKMAN ||' | sed $'s/\e\\[[0-9;:]*[a-zA-Z]//g')" >> /cre/versions.txt 
+    echo "$(date +'%F %R') \t  sdk \t $(/cre/sdk.sh version | grep SDKMAN | grep -v available | sed -e 's|SDKMAN ||' | sed -e 's/\e\\[[0-9;:]*[a-zA-Z]//g')" >> /cre/versions.txt 
 
 WORKDIR "/cre/node"
 

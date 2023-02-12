@@ -10,6 +10,7 @@ if [ -z "$SDK_VERSION" ]; then
     #18.04 / 16.04
     SDK_VERSION=$(/cre/sdk.sh version | grep SDKMAN | grep -v available | sed -e 's|SDKMAN ||' | sed -e 's/\e\\[[0-9;:]*[a-zA-Z]//g')
 fi
+echo "Current SDKMAN version detected: $SDK_VERSION"
 SDK_SUBPATH=u$UBUNTU_VERSION/sdkman/v$SDK_VERSION
 
 echo "Current dir: $(pwd)"

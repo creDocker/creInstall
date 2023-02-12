@@ -57,6 +57,9 @@ COPY cre /cre
 ENV SDKMAN_DIR=/cre/sdkman
 #RUN curl -s "https://get.sdkman.io" | bash
 RUN curl -s "https://get.sdkman.io" > /cre/sdkman-install.sh
+# might patch SDKMAN_NATIVE_VERSION="*.*.*" (see i.e.16&18)
+# sed -e 's|SDKMAN_NATIVE_VERSION=".*"|SDKMAN_NATIVE_VERSION="0.0.20"|' -i sdkman-install.sh
+# or download old version stored
 ## RUN cp /cre/versions/u22.04/sdkman/v5.16.0/sdkman-install.sh /cre/sdkman-install.sh
 RUN chmod 777 /cre/sdkman-install.sh
 RUN /bin/bash /cre/sdkman-install.sh

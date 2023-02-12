@@ -58,6 +58,14 @@ else
    exit 1
 fi
 
+## check if sdk works by installing kotlin
+/cre/sdk.sh install kotlin
+/cre/sdk.sh list kotlin
+kotlinPath=$(/cre/sdk.sh home kotlin current)/bin
+kotlinVersion=$($kotlinPath/kotlin --version)
+echo "Kotlin: $kotlinVersion"
+
+
 ##exit 1
 echo "[SUCCESS]"
 exit 0

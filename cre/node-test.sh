@@ -18,14 +18,14 @@ if [ -z "$isInFile" ]; then
     echo "[FAIL]: node not installed!"
     #exit 1
 fi
-anyVersion=$(echo $isInFile | sed -e 's|.*node.* v.*\..*\..*|v1.2.3|')
-if [[ "$anyVersion" = "v1.2.3" ]]; then
-   echo "[SUCCESS]: some node version found!"
+anyVersion=$(echo $isInFile | sed -e 's|.*node.* v.*\..*\..*|vx.y.z|')
+if [[ "$anyVersion" = "vx.y.z" ]]; then
+   echo "[SUCCESS]: some node version found! ($anyVersion)"
 else
    echo "[FAIL]: no node version found!"
 fi
-rightVersion=$(echo $isInFile | sed -e 's|.*node.* v${NODE_VERSION}\..*\..*|vXX.2.3|')
-if [[ "$rightVersion" = "vXX.2.3" ]]; then
+rightVersion=$(echo $isInFile | sed -e "s|.*node.* v${NODE_VERSION}\..*\..*|v${NODE_VERSION}.y.z|")
+if [[ "$rightVersion" = "v${NODE_VERSION}.2.3" ]]; then
    echo "[SUCCESS]: right node version found!"
 else
    echo "[FAIL]: wrong node version found! ($rightVersion)vs(${NODE_VERSION})"

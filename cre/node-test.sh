@@ -12,10 +12,30 @@ cat /cre/versions.txt
 ##    exit 1
 ##fi
 
-isInFile=$(cat /cre/versions.txt | grep -c "npm")
-if [ $isInFile -eq 0 ]; then
+## check NODE_VERSION
+isInFile=$(cat /cre/versions.txt | grep "node")
+if [ -z $isInFile ]; then
+    echo "[FAIL]: node not installed!"
+    #exit 1
+fi
+anyVersion=$(echo $isInFile | sed -e 's|.*node.* v.*\..*\..*|v1.2.3|')
+if [[ $anyVersion = v1.2.3 ]]; then
+   echo "[SUCCESS]: some node version found!"
+else
+   echo "[FAIL]: no node version found!"
+fi
+rightVersion=$(echo $isInFile | sed -e 's|.*node.* v${NODE_VERSION}\..*\..*|vXX.2.3|')
+if [[ $anyVersion = vXX.2.3 ]]; then
+   echo "[SUCCESS]: right node version found!"
+else
+   echo "[FAIL]: wrong node version found!"
+fi
+
+## check npm
+isInFile=$(cat /cre/versions.txt | grep "npm")
+if [ -z $isInFile ]; then
     echo "[FAIL]: npm not installed!"
-    exit 1
+    #exit 1
 fi
 
 anyVersion=$(echo $isInFile | sed -e 's|.*sdk.* .*\..*\..*|1.2.3|')

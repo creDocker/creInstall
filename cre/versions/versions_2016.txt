@@ -4,7 +4,7 @@ creBuild 	 2023.02
   OpenSSL 1.0.2g  1 Mar 2016
   Java 	 openjdk version "1.8.0_292"
   Python3 	 Python 3.5.2
- creNode 	 10.15.3
+ creNode 	 12
   ldd 	 ldd (Ubuntu GLIBC 2.23-0ubuntu11.3) 2.23
   node 	 v12.22.12
   npm 	 6.14.16

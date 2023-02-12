@@ -33,6 +33,6 @@ jobs:
         uses: EndBug/add-and-commit@v9
         with:
 #         pull: '--rebase --autostash ...'
-          add: 'cre/versions/versions_2018.txt'
+          add: 'cre/versions/versions_2018.txt cre/versions/u18.04/sdkman/v*/*'
           tag_push: '--force'
 

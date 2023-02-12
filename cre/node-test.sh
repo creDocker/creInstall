@@ -63,8 +63,11 @@ fi
 /cre/sdk.sh list kotlin
 kotlinPath=$(/cre/sdk.sh home kotlin current)/bin
 $kotlinPath/kotlinc -help
-kotlinVersion=$($kotlinPath/kotlinc -version)
+##kotlinc-jvm 1.8.0 (JRE 1.8.0_352-8u352-ga-1~20.04-b08)
+$kotlinPath/kotlinc -version
+kotlinVersion=$(${kotlinPath}/kotlinc -version)
 echo "Kotlin: $kotlinVersion"
+
 
 
 ##exit 1

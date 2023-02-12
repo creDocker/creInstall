@@ -60,7 +60,7 @@ ENV SDKMAN_DIR=/cre/sdkman
 
 ## RUN curl -s "https://get.sdkman.io" > /cre/sdkman-install.sh
 # might patch or cp old version
-sed -e 's|SDKMAN_NATIVE_VERSION=".*"|SDKMAN_NATIVE_VERSION="0.0.20"|' -i sdkman-install.sh
+RUN sed -e 's|SDKMAN_NATIVE_VERSION=".*"|SDKMAN_NATIVE_VERSION="0.0.20"|' -i sdkman-install.sh
 #RUN cp /cre/versions/u18.04/sdkman/v5.15.99/sdkman-install.sh /cre/sdkman-install.sh
 
 RUN chmod 777 /cre/sdkman-install.sh

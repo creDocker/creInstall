@@ -25,10 +25,10 @@ else
    echo "[FAIL]: no node version found!"
 fi
 rightVersion=$(echo $isInFile | sed -e 's|.*node.* v${NODE_VERSION}\..*\..*|vXX.2.3|')
-if [[ "$anyVersion" = "vXX.2.3" ]]; then
+if [[ "$rightVersion" = "vXX.2.3" ]]; then
    echo "[SUCCESS]: right node version found!"
 else
-   echo "[FAIL]: wrong node version found! ($rightVersion)"
+   echo "[FAIL]: wrong node version found! ($rightVersion)vs(${NODE_VERSION})"
 fi
 
 ## check npm
@@ -38,7 +38,7 @@ if [ -z "$isInFile" ]; then
     #exit 1
 fi
 
-anyVersion=$(echo $isInFile | sed -e 's|.*sdk.* .*\..*\..*|1.2.3|')
+anyVersion=$(echo $isInFile | sed -e 's|.*npm.* .*\..*\..*|1.2.3|')
 if [[ "$anyVersion" = "1.2.3" ]]; then
    echo "[SUCCESS]: some npm version found!"
 else

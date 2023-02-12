@@ -66,11 +66,11 @@ kotlinPath=$(/cre/sdk.sh home kotlin current)/bin
 ##kotlinc-jvm 1.8.0 (JRE 1.8.0_352-8u352-ga-1~20.04-b08)
 #$kotlinPath/kotlinc -version
 kotlinVersion=$(${kotlinPath}/kotlinc -version 2>&1)
-kotlinCheck=$(echo ${kotlinVersion} | sed -e 's|kotlinc-jvm .*\..*\..* (.*)|x.y.z|')
+kotlinCheck=$(echo ${kotlinVersion} | sed -e 's|.*kotlin.* .*\..*\..* (.*)|x.y.z|')
 if [[ "$kotlinCheck" = "x.y.z" ]]; then
    echo "[SUCCESS]: some kotlin version found!"
 else
-   echo "[FAIL]: no kotlin version found! ($kotlinVersion)"
+   echo "[FAIL]: no kotlin version found! ($kotlinVersion)vs(kotlinCheck)"
    exit 1
 fi
 

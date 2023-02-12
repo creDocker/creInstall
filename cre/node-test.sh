@@ -18,5 +18,12 @@ if [ $isInFile -eq 0 ]; then
     exit 1
 fi
 
+anyVersion=$(echo $isInFile | sed -e 's|.*sdk.* .*\..*\..*|1.2.3|')
+if [[ $anyVersion = 1.2.3 ]]; then
+   echo "[SUCCESS]: some npm version found!"
+else
+   echo "[FAIL]: no npm version found!"
+fi
+
 echo "[SUCCESS]"
 exit 0

@@ -28,7 +28,7 @@ rightVersion=$(echo $isInFile | sed -e 's|.*node.* v${NODE_VERSION}\..*\..*|vXX.
 if [[ "$anyVersion" = "vXX.2.3" ]]; then
    echo "[SUCCESS]: right node version found!"
 else
-   echo "[FAIL]: wrong node version found!"
+   echo "[FAIL]: wrong node version found! ($rightVersion)"
 fi
 
 ## check npm

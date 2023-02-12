@@ -62,7 +62,8 @@ fi
 /cre/sdk.sh install kotlin
 /cre/sdk.sh list kotlin
 kotlinPath=$(/cre/sdk.sh home kotlin current)/bin
-kotlinVersion=$($kotlinPath/kotlin --version)
+$kotlinPath/kotlinc -help
+kotlinVersion=$($kotlinPath/kotlinc -version)
 echo "Kotlin: $kotlinVersion"
 
 

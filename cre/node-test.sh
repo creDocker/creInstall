@@ -15,7 +15,7 @@ if [ -z "$isInFile" ]; then
 fi
 anyVersion=$(echo $isInFile | sed -e 's|.*node.* v.*\..*\..*|vx.y.z|')
 if [[ "$anyVersion" = "vx.y.z" ]]; then
-   echo "[SUCCESS]: some node version found! ($anyVersion)"
+   echo "[SUCCESS]: some node version found!"
 else
    echo "[FAIL]: no node version found!"
    exit 1
@@ -24,7 +24,7 @@ rightVersion=$(echo $isInFile | sed -e "s|.*node.* v${NODE_VERSION}\..*\..*|v${N
 if [[ "$rightVersion" = "v${NODE_VERSION}.y.z" ]]; then
    echo "[SUCCESS]: right node version found!"
 else
-   echo "[FAIL]: wrong node version found! ($rightVersion)vs(${NODE_VERSION})"
+   echo "[FAIL]: wrong node version found!"
    exit 1
 fi
 

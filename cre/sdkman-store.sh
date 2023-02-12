@@ -1,7 +1,15 @@
 #!/usr/bin/env bash 
 
-SDK_VERSION=$(/cre/sdk.sh version | grep version | sed -e 's|SDKMAN!: cli version: ||' -e 's|; native extensions:.*||')
-
+#22.04
+SDK_VERSION=$(/cre/sdk.sh version | grep script | sed -e 's|script: ||')
+if [ -z "$SDK_VERSION" ]; then
+    #20.04
+    SDK_VERSION=$(/cre/sdk.sh version | grep version | sed -e 's|SDKMAN!: cli version: ||' -e 's|; native extensions:.*||')
+fi
+if [ -z "$SDK_VERSION" ]; then
+    #18.04 / 16.04
+    SDK_VERSION=$(/cre/sdk.sh version | grep SDKMAN | grep -v available | sed -e 's|SDKMAN ||' | sed -e 's/\e\\[[0-9;:]*[a-zA-Z]//g')
+fi
 SDK_SUBPATH=u$UBUNTU_VERSION/sdkman/v$SDK_VERSION
 
 echo "Current dir: $(pwd)"

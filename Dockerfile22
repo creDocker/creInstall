@@ -76,6 +76,6 @@ RUN mkdir -p /cre && touch /cre/versions.txt && \
 
 WORKDIR "/cre/node"
 
-ENTRYPOINT ["/cre/node-entrypoint.sh"]
+ENTRYPOINT ["/cre/install-entrypoint.sh"]
 
-CMD ["shoreman", "/cre/node-procfile"]
+CMD ["shoreman", "/cre/install-procfile"]

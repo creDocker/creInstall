@@ -29,9 +29,11 @@ jobs:
         run: (cut -f2,3 /cre/versions.txt > cre/versions/versions_2022.txt)
       - name: store install script
         run: (/cre/sdkman-store.sh) 
+      - name: store candidates
+        run: (/cre/sdk.sh list > cre/sdk_candidates.txt) 
       - name: Submit changes       
         uses: EndBug/add-and-commit@v9
         with:
 #          pull: '--rebase --autostash ...'
-          add: 'cre/versions/versions_2022.txt cre/versions/u22.04/sdkman/v*/*'
+          add: 'cre/versions/versions_2022.txt cre/versions/u22.04/sdkman/v*/* cre/sdk_candidates.txt'
           tag_push: '--force'

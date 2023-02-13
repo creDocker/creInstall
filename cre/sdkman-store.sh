@@ -40,6 +40,11 @@ else
     echo "SDKMAN script $SDK_SUBPATH exists."
 fi
 
+# may delete older files, only keep 3 versions #rm echo for executing
+currentDir="$(pwd)"
+cd "$currentRoot/cre/versions/u$UBUNTU_VERSION/sdkman/
+ls -tr | tail -n +4 | xargs echo rm -rf --
+cd "$currentDir"
 
 
 

@@ -125,7 +125,7 @@ Gaiden is a tool that makes it easy to create documentation with Markdown.
 
                                                             $ sdk install gaiden
 --------------------------------------------------------------------------------
-Gradle (7.6)                                                  http://gradle.org/
+Gradle (8.0.1)                                                http://gradle.org/
 
 Gradle is a build automation tool that builds upon the concepts of Apache Ant
 and Apache Maven and introduces a Groovy-based domain-specific language (DSL)
@@ -141,7 +141,7 @@ A tool for gathering profiling and benchmarking information for Gradle builds
 
                                                     $ sdk install gradleprofiler
 --------------------------------------------------------------------------------
-Grails (5.3.0)                                               https://grails.org/
+Grails (5.3.2)                                               https://grails.org/
 
 Grails is a powerful web framework, for the Java platform aimed at multiplying
 developers productivity thanks to a Convention-over-Configuration, sensible
@@ -219,7 +219,7 @@ and designers.
 
                                                              $ sdk install jbake
 --------------------------------------------------------------------------------
-JBang (0.103.0)                             http://github.com/maxandersen/jbang/
+JBang (0.103.1)                             http://github.com/maxandersen/jbang/
 
 JBang makes it easy to use Java for scripting. It lets you use a single file for
 code and dependency management and allows you to run it directly.
@@ -371,7 +371,7 @@ graph and diagrams for your Mule configurations.
 
                                                             $ sdk install mulefd
 --------------------------------------------------------------------------------
-Maven Daemon (0.9.0)                          https://github.com/mvndaemon/mvnd/
+Maven Daemon (0.8.2)                          https://github.com/mvndaemon/mvnd/
 
 The mvnd project aims to provide a daemon infrastructure for maven based builds.
 It borrows techniques from Gradle and Takari to provide a simple and efficient
@@ -402,14 +402,14 @@ Pierrot helps you to manage many GitHub repositories with a single command.
 
                                                            $ sdk install pierrot
 --------------------------------------------------------------------------------
-Pomchecker (1.7.0)                        https://github.com/kordamp/pomchecker/
+Pomchecker (1.8.0)                        https://github.com/kordamp/pomchecker/
 
 Pomchecker - Checks that POM files comply with the minimum rules required for
 publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.0.0.Alpha4)                                     http://quarkus.io
+Quarkus CLI (2.16.3.Final)                                     http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.

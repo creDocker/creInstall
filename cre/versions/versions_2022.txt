@@ -1,11 +1,11 @@
 creBuild 	 2023.02
- creUbuntu 	 22.04.1 LTS
+ creUbuntu 	 22.04.2 LTS
   UbuntuName 	 jammy
   OpenSSL 3.0.2 15 Mar 2022 (Library: OpenSSL 3.0.2 15 Mar 2022)
   Java 	 openjdk version "11.0.17" 2022-10-18
   Python3 	 Python 3.10.6
  creNode 	 16
   ldd 	 ldd (Ubuntu GLIBC 2.35-0ubuntu3.1) 2.35
-  node 	 v16.19.0
+  node 	 v16.19.1
   npm 	 8.19.3
   sdk 	 5.16.1

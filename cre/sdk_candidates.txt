@@ -101,7 +101,7 @@ and work over a variety of transports such as HTTP, JMS or JBI.
 
                                                                $ sdk install cxf
 --------------------------------------------------------------------------------
-docToolchain (2.1.0)                https://doctoolchain.github.io/docToolchain/
+docToolchain (2.2.0)                https://doctoolchain.github.io/docToolchain/
 
 docToolchain is an implementation of the docs-as-code approach for software
 architecture plus some additional automation. The basis of docToolchain is the
@@ -219,7 +219,7 @@ and designers.
 
                                                              $ sdk install jbake
 --------------------------------------------------------------------------------
-JBang (0.103.1)                             http://github.com/maxandersen/jbang/
+JBang (0.104.0)                             http://github.com/maxandersen/jbang/
 
 JBang makes it easy to use Java for scripting. It lets you use a single file for
 code and dependency management and allows you to run it directly.
@@ -358,7 +358,7 @@ Maven project.
 
                                                                $ sdk install mcs
 --------------------------------------------------------------------------------
-Micronaut (3.8.4)                                           http://micronaut.io/
+Micronaut (3.8.5)                                           http://micronaut.io/
 
 Micronaut is an open source microservice framework for the JVM
 
@@ -446,7 +446,7 @@ strings, and no checked exceptions.
 
                                                              $ sdk install scala
 --------------------------------------------------------------------------------
-Scala CLI (0.1.20)                               https://scala-cli.virtuslab.org
+Scala CLI (0.2.0)                                https://scala-cli.virtuslab.org
 
 Scala CLI is a command-line tool to interact with the Scala language. It lets
 you compile, run, test, and package your Scala code (and more!)
@@ -481,7 +481,7 @@ fault-tolerance.
 
                                                              $ sdk install spark
 --------------------------------------------------------------------------------
-Spring Boot (3.0.2)                       http://projects.spring.io/spring-boot/
+Spring Boot (3.0.3)                       http://projects.spring.io/spring-boot/
 
 Spring Boot takes an opinionated view of building production-ready Spring
 applications. It favors convention over configuration and is designed to get you

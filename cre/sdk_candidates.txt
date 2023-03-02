@@ -259,7 +259,7 @@ program analysis.
 
                                                              $ sdk install joern
 --------------------------------------------------------------------------------
-JReleaser (1.4.0)                                          https://jreleaser.org
+JReleaser (1.5.0)                                          https://jreleaser.org
 
 JReleaser is a release automation tool for Java projects. Its goal is to
 simplify creating releases and publishing artifacts to multiple package managers
@@ -358,7 +358,7 @@ Maven project.
 
                                                                $ sdk install mcs
 --------------------------------------------------------------------------------
-Micronaut (3.8.5)                                           http://micronaut.io/
+Micronaut (3.8.6)                                           http://micronaut.io/
 
 Micronaut is an open source microservice framework for the JVM
 
@@ -371,7 +371,7 @@ graph and diagrams for your Mule configurations.
 
                                                             $ sdk install mulefd
 --------------------------------------------------------------------------------
-Maven Daemon (0.8.2)                          https://github.com/mvndaemon/mvnd/
+Maven Daemon (0.8.2)                        https://github.com/apache/maven-mvnd
 
 The mvnd project aims to provide a daemon infrastructure for maven based builds.
 It borrows techniques from Gradle and Takari to provide a simple and efficient
@@ -388,7 +388,7 @@ this candidate provides the migrate command for managing database migrations
 
                                                            $ sdk install mybatis
 --------------------------------------------------------------------------------
-Neo4j-Migrations (2.1.1)                https://neo4j.com/labs/neo4j-migrations/
+Neo4j-Migrations (2.1.2)                https://neo4j.com/labs/neo4j-migrations/
 
 Neo4j-Migrations is a database migration and refactoring tool that allows
 running Cypher scripts and programmatic refactorings in a controlled and
@@ -496,7 +496,7 @@ servers through SSH.
 
                                                            $ sdk install sshoogr
 --------------------------------------------------------------------------------
-Taxi (1.33.5)                                               https://taxilang.org
+Taxi (1.35.0)                                               https://taxilang.org
 
 Taxi is a language for documenting data - such as data models - and the
 contracts of APIs. It describes data semantically, allowing powerful tooling to
@@ -519,7 +519,7 @@ MQTT and COAP. It provides a command line client tool for IoT development.
 
                                                            $ sdk install toolkit
 --------------------------------------------------------------------------------
-Vert.x (4.3.8)                                                  http://vertx.io/
+Vert.x (4.4.0)                                                  http://vertx.io/
 
 Vert.x is a tool-kit for building reactive applications on the JVM.
 
@@ -533,7 +533,7 @@ Machine.
 
                                                           $ sdk install visualvm
 --------------------------------------------------------------------------------
-Webtau (1.50)                     https://github.com/testingisdocumenting/webtau
+Webtau (1.51)                     https://github.com/testingisdocumenting/webtau
 
 Webtau (short for web test automation) is a testing API, command line tool and a
 framework to write unit, integration and end-to-end tests. Tests can span

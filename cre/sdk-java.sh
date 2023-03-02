@@ -17,5 +17,7 @@ SDK_JAVA="$(/cre/sdk.sh list java | grep ' $JAVA_VERSION\..*-$JAVA_FAMILY' | hea
 echo "java-base: $JAVA_VERSION"
 echo "java-sdk : $SDK_JAVA"
 
-#/cre/sdk.sh install java $SDK_JAVA
+
+## TODO check if $SDK_JAVA is set 
+/cre/sdk.sh install java $SDK_JAVA
 

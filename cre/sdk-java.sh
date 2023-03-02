@@ -12,12 +12,12 @@ JAVA_FAMILY="open"
 
 /cre/sdk.sh list java
 
-SDK_JAVA="$(/cre/sdk.sh list java | grep ' $JAVA_VERSION\..*-$JAVA_FAMILY' | head -n 1 | cut --delimiter=\| --fields=6 |sed 's/ *//g')"
+SDK_JAVA="$(/cre/sdk.sh list java | grep ' $JAVA_VERSION\..*-$JAVA_FAMILY' | head -n 1 | cut --delimiter=\| --fields=6 |sed 's/ *//g' 2>&1)"
 
 echo "java-base: $JAVA_VERSION"
 echo "java-sdk : $SDK_JAVA"
 
 
 ## TODO check if $SDK_JAVA is set 
-/cre/sdk.sh install java $SDK_JAVA
+## /cre/sdk.sh install java $SDK_JAVA
 

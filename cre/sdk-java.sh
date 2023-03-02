@@ -7,7 +7,7 @@
 
 JAVA_FAMILY="open"
 # JAVA_FAMILY="tem"
-# JAVA_FAMILY="mnspecial"
+# JAVA_FAMILY="grl"   ## GraalVM  >=19
 # JAVA_FAMILY="$@"
 
 /cre/sdk.sh list java

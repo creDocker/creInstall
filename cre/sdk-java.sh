@@ -5,12 +5,18 @@
 ## source ${SDKMAN_DIR}/bin/sdkman-init.sh
 ## sdk $@
 
-JAVA_FAMILY="open"
+JAVA_FAMILY=open
 # JAVA_FAMILY="tem"
 # JAVA_FAMILY="grl"   ## GraalVM  >=19
 # JAVA_FAMILY="$@"
 
 /cre/sdk.sh list java
+
+echo "possible families for version ${JAVA_VERSION}:"
+/cre/sdk.sh list java | grep " ${JAVA_VERSION}\..*-.*" | cut --delimiter=\| --fields=4 |sed 's/ *//g' | sort -u
+
+echo "possible versions for family ${JAVA_FAMILY}:"
+/cre/sdk.sh list java | grep " .*\..*-${JAVA_FAMILY}" | cut --delimiter=\| --fields=3 |sed 's/ *//g' | sort -u
 
 SDK_JAVA="$(/cre/sdk.sh list java | grep ' ${JAVA_VERSION}\..*-${JAVA_FAMILY}' | head -n 1 | cut --delimiter=\| --fields=6 |sed 's/ *//g' 2>&1)"
 #SDK_JAVA="$(/cre/sdk.sh list java | grep ' 11\..*-open' | head -n 1 | cut --delimiter=\| --fields=6 |sed 's/ *//g' 2>&1)"

@@ -28,7 +28,8 @@ SDK_JAVA="$(/cre/sdk.sh list java | grep ' 11\..*-${JAVA_FAMILY}' | head -n 1 | 
 
 COMMAND=" /cre/sdk.sh list java | grep ' ${JAVA_VERSION}\..*-${JAVA_FAMILY}' | head -n 1 | cut --delimiter=\| --fields=6 | sed 's/ *//g' "
 echo $COMMAND
-SDK_JAVA="$($COMMAND)"
+#SDK_JAVA="$($COMMAND)"
+SDK_JAVA=$(eval "$COMMAND")
 
 
 echo "java-base: $JAVA_VERSION"

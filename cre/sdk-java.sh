@@ -21,13 +21,13 @@ echo "possible versions for family ${JAVA_FAMILY}:"
 ##SDK_JAVA="$(/cre/sdk.sh list java | grep ' ${JAVA_VERSION}\..*-${JAVA_FAMILY}' | head -n 1 | cut --delimiter=\| --fields=6 | sed 's/ *//g' 2>&1)"
 #SDK_JAVA="$(/cre/sdk.sh list java | grep ' 11\..*-open' | head -n 1 | cut --delimiter=\| --fields=6 |sed 's/ *//g' 2>&1)"
 ##SDK_JAVA="$(/cre/sdk.sh list java | grep ' ${JAVA_VERSION}\..*-open' | head -n 1 | cut --delimiter=\| --fields=6 |sed 's/ *//g' 2>&1)"
-#SDK_JAVA="$(/cre/sdk.sh list java | grep ' 11\..*-${JAVA_FAMILY}' | head -n 1 | cut --delimiter=\| --fields=6 |sed 's/ *//g' 2>&1)"
-SDK_JAVA="$(/cre/sdk.sh list java | grep \" ${JAVA_VERSION}\..*-${JAVA_FAMILY}\" | head -n 1 | cut --delimiter=\| --fields=6 | sed 's/ *//g' 2>&1)"
+SDK_JAVA="$(/cre/sdk.sh list java | grep ' 11\..*-${JAVA_FAMILY}' | head -n 1 | cut --delimiter=\| --fields=6 |sed 's/ *//g' 2>&1)"
+##SDK_JAVA="$(/cre/sdk.sh list java | grep \" ${JAVA_VERSION}\..*-${JAVA_FAMILY}\" | head -n 1 | cut --delimiter=\| --fields=6 | sed 's/ *//g' 2>&1)"
 
 
 
 COMMAND=" /cre/sdk.sh list java | grep ' ${JAVA_VERSION}\..*-${JAVA_FAMILY}' | head -n 1 | cut --delimiter=\| --fields=6 | sed 's/ *//g' "
-echo $command
+echo $COMMAND
 #SDK_JAVA="$($COMMAND)"
 
 

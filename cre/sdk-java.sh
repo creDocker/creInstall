@@ -20,9 +20,11 @@ fi
 
 echo "possible families for version ${sdkversion}:"
 /cre/sdk.sh list java | grep " ${sdkversion}\..*-.*" | cut --delimiter=\| --fields=4 | sed 's/ *//g' | sort -u | sed -z 's/\n/, /g'
+echo -e "\n"
 
 echo "possible versions for family ${sdkfamily}:"
 /cre/sdk.sh list java | grep " .*\..*-${sdkfamily}" | cut --delimiter=\| --fields=3 | sed 's/ *//g' | sed 's/\..*//g' | sort -u -n | sed -z 's/\n/, /g'
+echo -e "\n"
 
 cmd=" /cre/sdk.sh list java | grep ' ${sdkversion}\..*-${sdkfamily}' | head -n 1 | cut --delimiter=\| --fields=6 | sed 's/ *//g' "
 SDK_JAVA=$(eval "$cmd")

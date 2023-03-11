@@ -101,7 +101,7 @@ and work over a variety of transports such as HTTP, JMS or JBI.
 
                                                                $ sdk install cxf
 --------------------------------------------------------------------------------
-docToolchain (2.2.0)                https://doctoolchain.github.io/docToolchain/
+docToolchain (2.2.1)                https://doctoolchain.github.io/docToolchain/
 
 docToolchain is an implementation of the docs-as-code approach for software
 architecture plus some additional automation. The basis of docToolchain is the
@@ -182,6 +182,15 @@ of machines, each offering local computation and storage.
 
                                                             $ sdk install hadoop
 --------------------------------------------------------------------------------
+Helidon CLI (Coming soon!)                                    https://helidon.io
+
+The Helidon CLI lets you easily create a Helidon project by picking from a set
+of archetypes. It also supports a developer loop that performs continuous
+compilation and application restart, so you can easily iterate over source code
+changes.
+
+                                                           $ sdk install helidon
+--------------------------------------------------------------------------------
 http4k (4.0.0.0)                                              http://http4k.org/
 
 http4k is the Functional toolkit for building HTTP applications in Kotlin
@@ -194,7 +203,7 @@ Infrastructor is an open source server provisioning tool written in Groovy
 
                                                      $ sdk install infrastructor
 --------------------------------------------------------------------------------
-Jarviz (0.2.0)                                 https://github.com/kordamp/jarviz
+Jarviz (0.3.0)                                 https://github.com/kordamp/jarviz
 
 Jarviz is a JAR analyzer tool. You can obtaine metadata from a JAR such as its
 manifest, manifest entries, bytecode versions, declarative services, and more.
@@ -358,7 +367,7 @@ Maven project.
 
                                                                $ sdk install mcs
 --------------------------------------------------------------------------------
-Micronaut (3.8.6)                                           http://micronaut.io/
+Micronaut (3.8.7)                                           http://micronaut.io/
 
 Micronaut is an open source microservice framework for the JVM
 
@@ -388,7 +397,7 @@ this candidate provides the migrate command for managing database migrations
 
                                                            $ sdk install mybatis
 --------------------------------------------------------------------------------
-Neo4j-Migrations (2.1.2)                https://neo4j.com/labs/neo4j-migrations/
+Neo4j-Migrations (2.2.0)                https://neo4j.com/labs/neo4j-migrations/
 
 Neo4j-Migrations is a database migration and refactoring tool that allows
 running Cypher scripts and programmatic refactorings in a controlled and

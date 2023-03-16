@@ -18,6 +18,15 @@ if [ -z "$sdkversion" ]; then
  sdkversion=$JAVA_VERSION
 fi
 
+## https://www.graalvm.org/22.0/docs/getting-started/
+#mapping of GraalVM:
+# Java -> Graal
+# 11 -> 22.3.r11-grl
+# 17 -> 22.3.r17-grl
+## for graal also install this:
+# gu install native-image
+
+
 echo "possible families for version ${sdkversion}:"
 /cre/sdk.sh list java | grep " ${sdkversion}\..*-.*" | cut --delimiter=\| --fields=4 | sed 's/ *//g' | sort -u | sed -z 's/\n/, /g'
 echo -e "\n"

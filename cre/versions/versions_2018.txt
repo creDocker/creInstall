@@ -8,4 +8,4 @@ creBuild 	 2023.03
   ldd 	 ldd (Ubuntu GLIBC 2.27-3ubuntu1.6) 2.27
   node 	 v14.21.3
   npm 	 6.14.18
-  sdk 	 [1;33m5.17.0[0m
+  sdk 	 [1;33m5.18.0[0m

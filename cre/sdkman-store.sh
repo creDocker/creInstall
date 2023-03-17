@@ -1,6 +1,5 @@
 #!/usr/bin/env bash 
 
-
 echo "SDK VERSION:"
 echo ""
 echo $(/cre/sdk.sh version)

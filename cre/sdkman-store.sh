@@ -1,5 +1,11 @@
 #!/usr/bin/env bash 
 
+
+echo "SDK VERSION:"
+echo ""
+echo $(/cre/sdk.sh version)
+echo ""
+
 #22.04
 SDK_VERSION=$(/cre/sdk.sh version | grep script | sed -e 's|script: ||')
 if [ -z "$SDK_VERSION" ]; then

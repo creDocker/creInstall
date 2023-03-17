@@ -45,6 +45,9 @@ currentDir="$(pwd)"
 cd "$currentRoot/cre/versions/u$UBUNTU_VERSION/sdkman/"
 ls -tr | tail -n +4 | xargs echo rm -rf --
 ls -tr | head -n -4 | xargs echo rm -rf --
+ls -tr | tail -n -4 | xargs echo rm -rf --
+ls -tr | head -n +4 | xargs echo rm -rf --
+echo ""
 cd "$currentDir"
 
 

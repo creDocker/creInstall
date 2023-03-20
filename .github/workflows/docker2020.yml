@@ -34,12 +34,12 @@ jobs:
         with:
           file: ./Dockerfile20
           push: true
-          tags: tamboraorg/creinstall:check20 
+          tags: credocker/creinstall:check20 
 
       -
         name: Test
         run: |
-          docker run tamboraorg/creinstall:check20 /cre/install-test.sh   
+          docker run credocker/creinstall:check20 /cre/install-test.sh   
 
       -
         name: Build and push
@@ -48,6 +48,6 @@ jobs:
         with:
           file: ./Dockerfile20
           push: true
-          tags: tamboraorg/creinstall:2020.0, tamboraorg/crenode:latest 
+          tags: credocker/creinstall:2020.0, credocker/creinstall:latest 
       
 

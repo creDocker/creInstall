@@ -34,12 +34,12 @@ jobs:
         with:
           file: ./Dockerfile18
           push: true
-          tags: tamboraorg/creinstall:check18
+          tags: credocker/creinstall:check18
 
       -
         name: Test
         run: |
-          docker run tamboraorg/creinstall:check18 /cre/install-test.sh  
+          docker run credocker/creinstall:check18 /cre/install-test.sh  
       -
         name: Build and push
         id: docker_push
@@ -47,5 +47,5 @@ jobs:
         with:
           file: ./Dockerfile18
           push: true
-          tags: tamboraorg/creinstall:2018.0 
+          tags: credocker/creinstall:2018.0 
 

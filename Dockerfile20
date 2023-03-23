@@ -37,7 +37,16 @@ RUN npm install -g keywords
 RUN npm install -g json
 RUN npm install -g set-version
 RUN npm install -g npm-get-version
+#RUN npm install -g freeze-deps security
 RUN npm install -g freeze-deps
+#npx ?
+RUN npm-install-peers
+#RUN npm install -g
+RUN npm list -g
+
+
+# https://www.npmjs.com/package/npm-install-peers
+# https://www.npmjs.com/package/install-peers
 
 ## npm set init.author.email "example-user@example.com"
 ## npm config --init-author-name "AJ ONeal"

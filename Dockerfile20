@@ -37,6 +37,7 @@ RUN npm install -g keywords
 RUN npm install -g json
 RUN npm install -g set-version
 RUN npm install -g npm-get-version
+RUN npm install -g merge-packages
 ##RUN npm install -g freeze-deps security@0.0.1
 ##RUN npm install -g freeze-deps
 

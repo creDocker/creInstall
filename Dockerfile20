@@ -40,8 +40,8 @@ RUN npm install -g npm-get-version
 RUN npm install -g freeze-deps security
 #RUN npm install -g freeze-deps
 #npx ?
-#RUN npm-install-peers
-RUN npm install -g
+##RUN npm-install-peers
+##RUN npm install -g
 RUN npm list -g
 
 

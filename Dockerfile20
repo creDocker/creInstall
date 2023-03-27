@@ -40,10 +40,10 @@ RUN npm install -g npm-get-version
 RUN npm install -g merge-packages
 ##RUN npm install -g freeze-deps security@0.0.1
 ##RUN npm install -g freeze-deps
+RUN npm install -g npx
 
 ##RUN npm-install-peers
 ##RUN npm install -g
-#npx ?
 RUN npm list -g
 
 

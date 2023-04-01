@@ -152,7 +152,7 @@ meta-programming and Asynchronous programming.
 
                                                             $ sdk install grails
 --------------------------------------------------------------------------------
-Groovy (4.0.10)                                      http://www.groovy-lang.org/
+Groovy (4.0.11)                                      http://www.groovy-lang.org/
 
 Groovy is a powerful, optionally typed and dynamic language, with static-typing
 and static compilation capabilities, for the Java platform aimed at multiplying
@@ -367,7 +367,7 @@ Maven project.
 
                                                                $ sdk install mcs
 --------------------------------------------------------------------------------
-Micronaut (3.8.7)                                           http://micronaut.io/
+Micronaut (3.8.8)                                           http://micronaut.io/
 
 Micronaut is an open source microservice framework for the JVM
 
@@ -380,7 +380,7 @@ graph and diagrams for your Mule configurations.
 
                                                             $ sdk install mulefd
 --------------------------------------------------------------------------------
-Maven Daemon (0.8.2)                        https://github.com/apache/maven-mvnd
+Maven Daemon (1.0-m6-m39)                   https://github.com/apache/maven-mvnd
 
 The mvnd project aims to provide a daemon infrastructure for maven based builds.
 It borrows techniques from Gradle and Takari to provide a simple and efficient
@@ -418,7 +418,7 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.0.0.Beta1)                                      http://quarkus.io
+Quarkus CLI (2.16.5.Final)                                     http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
@@ -521,7 +521,7 @@ technologies.
 
                                                             $ sdk install tomcat
 --------------------------------------------------------------------------------
-ToolKit (0.6.3)                    https://github.com/IoT-Technology/IoT-Toolkit
+ToolKit (0.6.5)                    https://github.com/IoT-Technology/IoT-Toolkit
 
 Toolkit is a client command line tool that supports multiple IoT protocols like
 MQTT and COAP. It provides a command line client tool for IoT development.

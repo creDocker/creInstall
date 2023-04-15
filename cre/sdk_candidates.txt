@@ -125,7 +125,7 @@ Gaiden is a tool that makes it easy to create documentation with Markdown.
 
                                                             $ sdk install gaiden
 --------------------------------------------------------------------------------
-Gradle (8.0.2)                                                http://gradle.org/
+Gradle (8.1)                                                  http://gradle.org/
 
 Gradle is a build automation tool that builds upon the concepts of Apache Ant
 and Apache Maven and introduces a Groovy-based domain-specific language (DSL)
@@ -302,7 +302,7 @@ dependencies.
 
                                                                 $ sdk install ki
 --------------------------------------------------------------------------------
-Kobweb (0.9.11)                                      https://kobweb.varabyte.com
+Kobweb (0.9.12)                                      https://kobweb.varabyte.com
 
 Kobweb is an opinionated Kotlin web framework built on top of Compose for Web.
 The CLI provides commands to help setup and manage your project.
@@ -359,7 +359,7 @@ reporting and documentation from a central piece of information.
 
                                                              $ sdk install maven
 --------------------------------------------------------------------------------
-MCS (0.3.1)                                    https://github.com/mthmulders/mcs
+MCS (0.3.2)                                    https://github.com/mthmulders/mcs
 
 Search the Maven Central Repository from your command line! Using mcs, you can
 find artifacts and generate the required pom.xml snippet to use directly in your
@@ -367,7 +367,7 @@ Maven project.
 
                                                                $ sdk install mcs
 --------------------------------------------------------------------------------
-Micronaut (3.8.8)                                           http://micronaut.io/
+Micronaut (3.8.9)                                           http://micronaut.io/
 
 Micronaut is an open source microservice framework for the JVM
 
@@ -397,7 +397,7 @@ this candidate provides the migrate command for managing database migrations
 
                                                            $ sdk install mybatis
 --------------------------------------------------------------------------------
-Neo4j-Migrations (2.2.2)                https://neo4j.com/labs/neo4j-migrations/
+Neo4j-Migrations (2.2.3)                https://neo4j.com/labs/neo4j-migrations/
 
 Neo4j-Migrations is a database migration and refactoring tool that allows
 running Cypher scripts and programmatic refactorings in a controlled and

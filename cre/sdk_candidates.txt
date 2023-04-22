@@ -32,7 +32,7 @@ tasks.
 
                                                                $ sdk install ant
 --------------------------------------------------------------------------------
-AsciidoctorJ (2.5.7)                                     http://asciidoctor.org/
+AsciidoctorJ (2.5.8)                                     http://asciidoctor.org/
 
 AsciidoctorJ is the official library for running Asciidoctor on the JVM. Using
 AsciidoctorJ, you can convert AsciiDoc content or analyze the structure of a
@@ -46,6 +46,14 @@ Open source programming language and platform for cloud-era application
 programmers to easily write software that just works.
 
                                                          $ sdk install ballerina
+--------------------------------------------------------------------------------
+Bld (1.6.0)                                                https://rife2.com/bld
+
+bld is a build system that allows you to write your build logic in pure Java.
+bld was created because we're not really interested in build tools. We use them
+because we have to, but we'd rather just get on with coding the real stuff.
+
+                                                               $ sdk install bld
 --------------------------------------------------------------------------------
 Bpipe (0.9.11)                                                  http://bpipe.org
 
@@ -125,7 +133,7 @@ Gaiden is a tool that makes it easy to create documentation with Markdown.
 
                                                             $ sdk install gaiden
 --------------------------------------------------------------------------------
-Gradle (8.1)                                                  http://gradle.org/
+Gradle (8.1.1)                                                http://gradle.org/
 
 Gradle is a build automation tool that builds upon the concepts of Apache Ant
 and Apache Maven and introduces a Groovy-based domain-specific language (DSL)
@@ -210,7 +218,7 @@ manifest, manifest entries, bytecode versions, declarative services, and more.
 
                                                             $ sdk install jarviz
 --------------------------------------------------------------------------------
-Java (17.0.6-tem)        https://projects.eclipse.org/projects/adoptium.temurin/
+Java (17.0.7-tem)        https://projects.eclipse.org/projects/adoptium.temurin/
 
 Java Platform, Standard Edition (or Java SE) is a widely used platform for
 development and deployment of portable code for desktop and server environments.
@@ -228,7 +236,7 @@ and designers.
 
                                                              $ sdk install jbake
 --------------------------------------------------------------------------------
-JBang (0.106.1)                             http://github.com/maxandersen/jbang/
+JBang (0.106.3)                             http://github.com/maxandersen/jbang/
 
 JBang makes it easy to use Java for scripting. It lets you use a single file for
 code and dependency management and allows you to run it directly.
@@ -367,7 +375,7 @@ Maven project.
 
                                                                $ sdk install mcs
 --------------------------------------------------------------------------------
-Micronaut (3.8.9)                                           http://micronaut.io/
+Micronaut (3.9.0)                                           http://micronaut.io/
 
 Micronaut is an open source microservice framework for the JVM
 
@@ -397,7 +405,7 @@ this candidate provides the migrate command for managing database migrations
 
                                                            $ sdk install mybatis
 --------------------------------------------------------------------------------
-Neo4j-Migrations (2.2.3)                https://neo4j.com/labs/neo4j-migrations/
+Neo4j-Migrations (2.3.0)                https://neo4j.com/labs/neo4j-migrations/
 
 Neo4j-Migrations is a database migration and refactoring tool that allows
 running Cypher scripts and programmatic refactorings in a controlled and
@@ -490,7 +498,7 @@ fault-tolerance.
 
                                                              $ sdk install spark
 --------------------------------------------------------------------------------
-Spring Boot (3.0.4)                       http://projects.spring.io/spring-boot/
+Spring Boot (3.0.6)                       http://projects.spring.io/spring-boot/
 
 Spring Boot takes an opinionated view of building production-ready Spring
 applications. It favors convention over configuration and is designed to get you

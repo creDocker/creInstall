@@ -7,6 +7,6 @@ creBuild 	 2023.04
   Python3 	 Python 3.10.6
  creNode 	 16
   ldd 	 ldd (Ubuntu GLIBC 2.35-0ubuntu3.1) 2.35
-  node 	 v16.19.1
-  npm 	 8.19.3
+  node 	 v16.20.0
+  npm 	 8.19.4
   sdk 	 5.18.1

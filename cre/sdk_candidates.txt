@@ -47,7 +47,7 @@ programmers to easily write software that just works.
 
                                                          $ sdk install ballerina
 --------------------------------------------------------------------------------
-Bld (1.6.1)                                                https://rife2.com/bld
+Bld (1.6.2)                                                https://rife2.com/bld
 
 bld is a build system that allows you to write your build logic in pure Java.
 bld was created because we're not really interested in build tools. We use them
@@ -276,7 +276,7 @@ program analysis.
 
                                                              $ sdk install joern
 --------------------------------------------------------------------------------
-JReleaser (1.5.1)                                          https://jreleaser.org
+JReleaser (1.6.0)                                          https://jreleaser.org
 
 JReleaser is a release automation tool for Java projects. Its goal is to
 simplify creating releases and publishing artifacts to multiple package managers
@@ -324,7 +324,7 @@ Machine and can also be compiled to JavaScript source code.
 
                                                             $ sdk install kotlin
 --------------------------------------------------------------------------------
-kscript (4.2.1)                          https://github.com/holgerbrandl/kscript
+kscript (4.2.2)                          https://github.com/holgerbrandl/kscript
 
 Enhanced scripting support for Kotlin on *nix-based systems. kscript provides an
 easy-to-use, very flexible, and almost zero-overhead solution to write
@@ -340,7 +340,7 @@ any other command line utility.
 
                                                                $ sdk install ktx
 --------------------------------------------------------------------------------
-Layrry (1.0.0.Alpha2)                        https://github.com/moditect/layrry/
+Layrry (1.0.0.Final)                         https://github.com/moditect/layrry/
 
 Layrry - A Launcher and API for Modularized Java Applications. It allows to
 assemble modularized applications based on Maven artifact coordinates of the
@@ -367,7 +367,7 @@ reporting and documentation from a central piece of information.
 
                                                              $ sdk install maven
 --------------------------------------------------------------------------------
-MCS (0.3.2)                                    https://github.com/mthmulders/mcs
+MCS (0.3.3)                                    https://github.com/mthmulders/mcs
 
 Search the Maven Central Repository from your command line! Using mcs, you can
 find artifacts and generate the required pom.xml snippet to use directly in your
@@ -375,7 +375,7 @@ Maven project.
 
                                                                $ sdk install mcs
 --------------------------------------------------------------------------------
-Micronaut (3.9.0)                                           http://micronaut.io/
+Micronaut (3.9.1)                                           http://micronaut.io/
 
 Micronaut is an open source microservice framework for the JVM
 
@@ -426,7 +426,7 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.0.1.Final)                                      http://quarkus.io
+Quarkus CLI (3.0.2.Final)                                      http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
@@ -521,7 +521,7 @@ discover and map data based on it's meaning, rather than the name of a field.
 
                                                               $ sdk install taxi
 --------------------------------------------------------------------------------
-Apache Tomcat (10.1.7)                                https://tomcat.apache.org/
+Apache Tomcat (10.1.8)                                https://tomcat.apache.org/
 
 The Apache Tomcat® software is an open source implementation of the Java
 Servlet, JavaServer Pages, Java Expression Language and Java WebSocket
@@ -542,7 +542,7 @@ Vert.x is a tool-kit for building reactive applications on the JVM.
 
                                                              $ sdk install vertx
 --------------------------------------------------------------------------------
-VisualVM (2.1.5)                                     https://visualvm.github.io/
+VisualVM (2.1.6)                                     https://visualvm.github.io/
 
 VisualVM is a tool that provides a visual interface for viewing detailed
 information about Java applications while they are running on a Java Virtual
@@ -550,7 +550,7 @@ Machine.
 
                                                           $ sdk install visualvm
 --------------------------------------------------------------------------------
-Webtau (1.51)                     https://github.com/testingisdocumenting/webtau
+Webtau (1.53)                     https://github.com/testingisdocumenting/webtau
 
 Webtau (short for web test automation) is a testing API, command line tool and a
 framework to write unit, integration and end-to-end tests. Tests can span

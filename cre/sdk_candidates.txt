@@ -236,7 +236,7 @@ and designers.
 
                                                              $ sdk install jbake
 --------------------------------------------------------------------------------
-JBang (0.106.3)                             http://github.com/maxandersen/jbang/
+JBang (0.107.0)                             http://github.com/maxandersen/jbang/
 
 JBang makes it easy to use Java for scripting. It lets you use a single file for
 code and dependency management and allows you to run it directly.
@@ -411,7 +411,7 @@ this candidate provides the migrate command for managing database migrations
 
                                                            $ sdk install mybatis
 --------------------------------------------------------------------------------
-Neo4j-Migrations (2.3.0)                https://neo4j.com/labs/neo4j-migrations/
+Neo4j-Migrations (2.3.1)                https://neo4j.com/labs/neo4j-migrations/
 
 Neo4j-Migrations is a database migration and refactoring tool that allows
 running Cypher scripts and programmatic refactorings in a controlled and
@@ -504,7 +504,7 @@ fault-tolerance.
 
                                                              $ sdk install spark
 --------------------------------------------------------------------------------
-Spring Boot (3.0.6)                       http://projects.spring.io/spring-boot/
+Spring Boot (3.1.0)                       http://projects.spring.io/spring-boot/
 
 Spring Boot takes an opinionated view of building production-ready Spring
 applications. It favors convention over configuration and is designed to get you
@@ -535,7 +535,7 @@ technologies.
 
                                                             $ sdk install tomcat
 --------------------------------------------------------------------------------
-ToolKit (0.6.6)                    https://github.com/IoT-Technology/IoT-Toolkit
+ToolKit (0.6.7)                    https://github.com/IoT-Technology/IoT-Toolkit
 
 Toolkit is a client command line tool that supports multiple IoT protocols like
 MQTT and COAP. It provides a command line client tool for IoT development.

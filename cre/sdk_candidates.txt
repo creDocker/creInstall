@@ -381,7 +381,7 @@ Maven project.
 
                                                                $ sdk install mcs
 --------------------------------------------------------------------------------
-Micronaut (3.9.1)                                           http://micronaut.io/
+Micronaut (3.9.2)                                           http://micronaut.io/
 
 Micronaut is an open source microservice framework for the JVM
 
@@ -411,7 +411,7 @@ this candidate provides the migrate command for managing database migrations
 
                                                            $ sdk install mybatis
 --------------------------------------------------------------------------------
-Neo4j-Migrations (2.3.1)                https://neo4j.com/labs/neo4j-migrations/
+Neo4j-Migrations (2.3.2)                https://neo4j.com/labs/neo4j-migrations/
 
 Neo4j-Migrations is a database migration and refactoring tool that allows
 running Cypher scripts and programmatic refactorings in a controlled and
@@ -432,7 +432,7 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.0.3.Final)                                      http://quarkus.io
+Quarkus CLI (3.0.4.Final)                                      http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
@@ -469,7 +469,7 @@ strings, and no checked exceptions.
 
                                                              $ sdk install scala
 --------------------------------------------------------------------------------
-Scala CLI (1.0.0-RC2)                            https://scala-cli.virtuslab.org
+Scala CLI (1.0.0)                                https://scala-cli.virtuslab.org
 
 Scala CLI is a command-line tool to interact with the Scala language. It lets
 you compile, run, test, and package your Scala code (and more!)
@@ -527,7 +527,7 @@ discover and map data based on it's meaning, rather than the name of a field.
 
                                                               $ sdk install taxi
 --------------------------------------------------------------------------------
-Apache Tomcat (10.1.8)                                https://tomcat.apache.org/
+Apache Tomcat (10.1.9)                                https://tomcat.apache.org/
 
 The Apache Tomcat® software is an open source implementation of the Java
 Servlet, JavaServer Pages, Java Expression Language and Java WebSocket

@@ -32,7 +32,7 @@ tasks.
 
                                                                $ sdk install ant
 --------------------------------------------------------------------------------
-AsciidoctorJ (2.5.8)                                     http://asciidoctor.org/
+AsciidoctorJ (2.5.9)                                     http://asciidoctor.org/
 
 AsciidoctorJ is the official library for running Asciidoctor on the JVM. Using
 AsciidoctorJ, you can convert AsciiDoc content or analyze the structure of a
@@ -108,6 +108,12 @@ can speak a variety of protocols such as SOAP, XML/HTTP, RESTful HTTP, or CORBA
 and work over a variety of transports such as HTTP, JMS or JBI.
 
                                                                $ sdk install cxf
+--------------------------------------------------------------------------------
+Detekt (1.22.0)                                              https://detekt.dev/
+
+A static code analysis tool for the Kotlin programming language
+
+                                                            $ sdk install detekt
 --------------------------------------------------------------------------------
 docToolchain (2.2.1)                https://doctoolchain.github.io/docToolchain/
 
@@ -411,7 +417,7 @@ this candidate provides the migrate command for managing database migrations
 
                                                            $ sdk install mybatis
 --------------------------------------------------------------------------------
-Neo4j-Migrations (2.3.2)                https://neo4j.com/labs/neo4j-migrations/
+Neo4j-Migrations (2.4.0)                https://neo4j.com/labs/neo4j-migrations/
 
 Neo4j-Migrations is a database migration and refactoring tool that allows
 running Cypher scripts and programmatic refactorings in a controlled and
@@ -432,14 +438,14 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.0.4.Final)                                      http://quarkus.io
+Quarkus CLI (3.1.0.Final)                                      http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
 
                                                            $ sdk install quarkus
 --------------------------------------------------------------------------------
-sbt (1.8.3)                                            http://www.scala-sbt.org/
+sbt (1.9.0)                                            http://www.scala-sbt.org/
 
 SBT is an open source build tool for Scala and Java projects, similar to Java's
 Maven or Ant. Its main features are: native support for compiling Scala code and
@@ -451,7 +457,7 @@ Java/Scala projects
 
                                                                $ sdk install sbt
 --------------------------------------------------------------------------------
-Scala (3.2.2)                                         http://www.scala-lang.org/
+Scala (3.3.0)                                         http://www.scala-lang.org/
 
 Scala is a programming language for general software applications. Scala has
 full support for functional programming and a very strong static type system.

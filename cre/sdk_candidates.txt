@@ -139,6 +139,16 @@ Gaiden is a tool that makes it easy to create documentation with Markdown.
 
                                                             $ sdk install gaiden
 --------------------------------------------------------------------------------
+Graal Cloud Native (3.8.5)                          https://www.graal.cloud/gcn/
+
+Graal Cloud Native (GCN) is a curated set of Micronaut(tm) framework modules
+designed from the ground up to be compiled ahead-of-time with GraalVM Native
+image resulting in native executables ideal for microservices.With GCN, You can
+build portable cloud-native Java microservices that start instantly and use
+fewer resources to reduce compute costs.
+
+                                                               $ sdk install gcn
+--------------------------------------------------------------------------------
 Gradle (8.1.1)                                                http://gradle.org/
 
 Gradle is a build automation tool that builds upon the concepts of Apache Ant
@@ -242,7 +252,7 @@ and designers.
 
                                                              $ sdk install jbake
 --------------------------------------------------------------------------------
-JBang (0.107.0)                             http://github.com/maxandersen/jbang/
+JBang (0.108.0)                             http://github.com/maxandersen/jbang/
 
 JBang makes it easy to use Java for scripting. It lets you use a single file for
 code and dependency management and allows you to run it directly.
@@ -438,7 +448,7 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.1.1.Final)                                      http://quarkus.io
+Quarkus CLI (3.1.2.Final)                                      http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
@@ -533,7 +543,7 @@ discover and map data based on it's meaning, rather than the name of a field.
 
                                                               $ sdk install taxi
 --------------------------------------------------------------------------------
-Apache Tomcat (10.1.9)                                https://tomcat.apache.org/
+Apache Tomcat (10.1.10)                               https://tomcat.apache.org/
 
 The Apache Tomcat® software is an open source implementation of the Java
 Servlet, JavaServer Pages, Java Expression Language and Java WebSocket

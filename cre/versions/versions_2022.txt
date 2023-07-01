@@ -9,4 +9,4 @@ creBuild 	 2023.04
   ldd 	 ldd (Ubuntu GLIBC 2.35-0ubuntu3.1) 2.35
   node 	 v16.20.1
   npm 	 8.19.4
-  sdk 	 5.18.1
+  sdk 	 5.18.2

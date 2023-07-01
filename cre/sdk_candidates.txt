@@ -149,7 +149,7 @@ fewer resources to reduce compute costs.
 
                                                                $ sdk install gcn
 --------------------------------------------------------------------------------
-Gradle (8.1.1)                                                http://gradle.org/
+Gradle (8.2)                                                  http://gradle.org/
 
 Gradle is a build automation tool that builds upon the concepts of Apache Ant
 and Apache Maven and introduces a Groovy-based domain-specific language (DSL)
@@ -159,7 +159,7 @@ can be run.
 
                                                             $ sdk install gradle
 --------------------------------------------------------------------------------
-Gradle profiler (0.19.0)               https://github.com/gradle/gradle-profiler
+Gradle profiler (0.20.0)               https://github.com/gradle/gradle-profiler
 
 A tool for gathering profiling and benchmarking information for Gradle builds
 
@@ -176,7 +176,7 @@ meta-programming and Asynchronous programming.
 
                                                             $ sdk install grails
 --------------------------------------------------------------------------------
-Groovy (4.0.12)                                      http://www.groovy-lang.org/
+Groovy (4.0.13)                                      http://www.groovy-lang.org/
 
 Groovy is a powerful, optionally typed and dynamic language, with static-typing
 and static compilation capabilities, for the Java platform aimed at multiplying
@@ -271,7 +271,7 @@ locally or deployed in production environments.
 
                                                                $ sdk install jmc
 --------------------------------------------------------------------------------
-Apache JMeter (5.5)                                   https://jmeter.apache.org/
+Apache JMeter (5.6)                                   https://jmeter.apache.org/
 
  The Apache JMeter™ application is open source software, a 100% pure Java
 application designed to load test functional behavior and measure performance.
@@ -292,7 +292,7 @@ program analysis.
 
                                                              $ sdk install joern
 --------------------------------------------------------------------------------
-JReleaser (1.6.0)                                          https://jreleaser.org
+JReleaser (1.7.0)                                          https://jreleaser.org
 
 JReleaser is a release automation tool for Java projects. Its goal is to
 simplify creating releases and publishing artifacts to multiple package managers
@@ -381,7 +381,7 @@ your code.
 
                                                          $ sdk install leiningen
 --------------------------------------------------------------------------------
-Maven (3.9.2)                                          https://maven.apache.org/
+Maven (3.9.3)                                          https://maven.apache.org/
 
 Apache Maven is a software project management and comprehension tool. Based on
 the concept of a project object model (POM), Maven can manage a project's build,
@@ -397,7 +397,7 @@ Maven project.
 
                                                                $ sdk install mcs
 --------------------------------------------------------------------------------
-Micronaut (3.9.3)                                           http://micronaut.io/
+Micronaut (3.9.4)                                           http://micronaut.io/
 
 Micronaut is an open source microservice framework for the JVM
 
@@ -448,14 +448,14 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.1.2.Final)                                      http://quarkus.io
+Quarkus CLI (3.1.3.Final)                                      http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
 
                                                            $ sdk install quarkus
 --------------------------------------------------------------------------------
-sbt (1.9.0)                                            http://www.scala-sbt.org/
+sbt (1.9.1)                                            http://www.scala-sbt.org/
 
 SBT is an open source build tool for Scala and Java projects, similar to Java's
 Maven or Ant. Its main features are: native support for compiling Scala code and

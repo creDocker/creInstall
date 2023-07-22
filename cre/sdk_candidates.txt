@@ -234,7 +234,7 @@ manifest, manifest entries, bytecode versions, declarative services, and more.
 
                                                             $ sdk install jarviz
 --------------------------------------------------------------------------------
-Java (17.0.7-tem)        https://projects.eclipse.org/projects/adoptium.temurin/
+Java (17.0.8-tem)        https://projects.eclipse.org/projects/adoptium.temurin/
 
 Java Platform, Standard Edition (or Java SE) is a widely used platform for
 development and deployment of portable code for desktop and server environments.
@@ -410,7 +410,7 @@ graph and diagrams for your Mule configurations.
 
                                                             $ sdk install mulefd
 --------------------------------------------------------------------------------
-Maven Daemon (1.0-m6-m39)                   https://github.com/apache/maven-mvnd
+Maven Daemon (1.0-m7-m39)                   https://github.com/apache/maven-mvnd
 
 The mvnd project aims to provide a daemon infrastructure for maven based builds.
 It borrows techniques from Gradle and Takari to provide a simple and efficient
@@ -435,7 +435,7 @@ repeatable fashion against one or more Neo4j database.
 
                                                    $ sdk install neo4jmigrations
 --------------------------------------------------------------------------------
-Pierrot (0.10.7)                           https://agorapulse.github.io/pierrot/
+Pierrot (1.0.0)                            https://agorapulse.github.io/pierrot/
 
 Pierrot helps you to manage many GitHub repositories with a single command.
 
@@ -448,7 +448,7 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.2.0.Final)                                      http://quarkus.io
+Quarkus CLI (3.2.1.Final)                                      http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
@@ -520,7 +520,7 @@ fault-tolerance.
 
                                                              $ sdk install spark
 --------------------------------------------------------------------------------
-Spring Boot (3.1.1)                       http://projects.spring.io/spring-boot/
+Spring Boot (3.1.2)                       http://projects.spring.io/spring-boot/
 
 Spring Boot takes an opinionated view of building production-ready Spring
 applications. It favors convention over configuration and is designed to get you
@@ -551,7 +551,7 @@ technologies.
 
                                                             $ sdk install tomcat
 --------------------------------------------------------------------------------
-ToolKit (0.6.7)                    https://github.com/IoT-Technology/IoT-Toolkit
+ToolKit (0.6.8)                    https://github.com/IoT-Technology/IoT-Toolkit
 
 Toolkit is a client command line tool that supports multiple IoT protocols like
 MQTT and COAP. It provides a command line client tool for IoT development.

@@ -165,7 +165,7 @@ A tool for gathering profiling and benchmarking information for Gradle builds
 
                                                     $ sdk install gradleprofiler
 --------------------------------------------------------------------------------
-Grails (5.3.3)                                               https://grails.org/
+Grails (6.0.0)                                               https://grails.org/
 
 Grails is a powerful web framework, for the Java platform aimed at multiplying
 developers productivity thanks to a Convention-over-Configuration, sensible
@@ -252,7 +252,7 @@ and designers.
 
                                                              $ sdk install jbake
 --------------------------------------------------------------------------------
-JBang (0.109.0)                             http://github.com/maxandersen/jbang/
+JBang (0.110.0)                             http://github.com/maxandersen/jbang/
 
 JBang makes it easy to use Java for scripting. It lets you use a single file for
 code and dependency management and allows you to run it directly.
@@ -340,7 +340,7 @@ Machine and can also be compiled to JavaScript source code.
 
                                                             $ sdk install kotlin
 --------------------------------------------------------------------------------
-kscript (4.2.2)                          https://github.com/holgerbrandl/kscript
+kscript (4.2.3)                          https://github.com/holgerbrandl/kscript
 
 Enhanced scripting support for Kotlin on *nix-based systems. kscript provides an
 easy-to-use, very flexible, and almost zero-overhead solution to write
@@ -397,7 +397,7 @@ Maven project.
 
                                                                $ sdk install mcs
 --------------------------------------------------------------------------------
-Micronaut (4.0.0)                                           http://micronaut.io/
+Micronaut (4.0.1)                                           http://micronaut.io/
 
 Micronaut is an open source microservice framework for the JVM
 
@@ -448,14 +448,14 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.2.1.Final)                                      http://quarkus.io
+Quarkus CLI (3.2.2.Final)                                      http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
 
                                                            $ sdk install quarkus
 --------------------------------------------------------------------------------
-sbt (1.9.2)                                            http://www.scala-sbt.org/
+sbt (1.9.3)                                            http://www.scala-sbt.org/
 
 SBT is an open source build tool for Scala and Java projects, similar to Java's
 Maven or Ant. Its main features are: native support for compiling Scala code and
@@ -492,7 +492,7 @@ you compile, run, test, and package your Scala code (and more!)
 
                                                           $ sdk install scalacli
 --------------------------------------------------------------------------------
-SchemaCrawler (16.19.7)                            https://www.schemacrawler.com
+SchemaCrawler (16.20.4)                            https://www.schemacrawler.com
 
 SchemaCrawler is a free database schema discovery and comprehension tool.
 SchemaCrawler has a good mix of useful features for data governance. You can

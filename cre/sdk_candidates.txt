@@ -310,7 +310,7 @@ much more.
 
                                                              $ sdk install karaf
 --------------------------------------------------------------------------------
-kcctl (1.0.0.Beta3)                               https://github.com/kcctl/kcctl
+kcctl (1.0.0.CR1)                                 https://github.com/kcctl/kcctl
 
 A modern and intuitive command-line client for Kafka Connect. Relying on the
 idioms and semantics of kubectl, it allows you to register and examine
@@ -381,7 +381,7 @@ your code.
 
                                                          $ sdk install leiningen
 --------------------------------------------------------------------------------
-Maven (3.9.3)                                          https://maven.apache.org/
+Maven (3.9.4)                                          https://maven.apache.org/
 
 Apache Maven is a software project management and comprehension tool. Based on
 the concept of a project object model (POM), Maven can manage a project's build,
@@ -397,7 +397,7 @@ Maven project.
 
                                                                $ sdk install mcs
 --------------------------------------------------------------------------------
-Micronaut (4.0.1)                                           http://micronaut.io/
+Micronaut (4.0.3)                                           http://micronaut.io/
 
 Micronaut is an open source microservice framework for the JVM
 
@@ -448,7 +448,7 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.2.2.Final)                                      http://quarkus.io
+Quarkus CLI (3.2.3.Final)                                      http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
@@ -535,7 +535,7 @@ servers through SSH.
 
                                                            $ sdk install sshoogr
 --------------------------------------------------------------------------------
-Taxi (1.35.0)                                               https://taxilang.org
+Taxi (1.40.0)                                               https://taxilang.org
 
 Taxi is a language for documenting data - such as data models - and the
 contracts of APIs. It describes data semantically, allowing powerful tooling to

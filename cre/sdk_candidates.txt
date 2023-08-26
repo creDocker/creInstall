@@ -47,7 +47,7 @@ programmers to easily write software that just works.
 
                                                          $ sdk install ballerina
 --------------------------------------------------------------------------------
-Bld (1.7.1)                                                https://rife2.com/bld
+Bld (1.7.2)                                                https://rife2.com/bld
 
 bld is a build system that allows you to write your build logic in pure Java.
 bld was created because we're not really interested in build tools. We use them
@@ -176,7 +176,7 @@ meta-programming and Asynchronous programming.
 
                                                             $ sdk install grails
 --------------------------------------------------------------------------------
-Groovy (4.0.13)                                      http://www.groovy-lang.org/
+Groovy (4.0.14)                                      http://www.groovy-lang.org/
 
 Groovy is a powerful, optionally typed and dynamic language, with static-typing
 and static compilation capabilities, for the Java platform aimed at multiplying
@@ -397,7 +397,7 @@ Maven project.
 
                                                                $ sdk install mcs
 --------------------------------------------------------------------------------
-Micronaut (4.0.4)                                           http://micronaut.io/
+Micronaut (4.0.5)                                           http://micronaut.io/
 
 Micronaut is an open source microservice framework for the JVM
 
@@ -427,7 +427,7 @@ this candidate provides the migrate command for managing database migrations
 
                                                            $ sdk install mybatis
 --------------------------------------------------------------------------------
-Neo4j-Migrations (2.5.2)                https://neo4j.com/labs/neo4j-migrations/
+Neo4j-Migrations (2.5.3)                https://neo4j.com/labs/neo4j-migrations/
 
 Neo4j-Migrations is a database migration and refactoring tool that allows
 running Cypher scripts and programmatic refactorings in a controlled and
@@ -448,14 +448,14 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.2.4.Final)                                      http://quarkus.io
+Quarkus CLI (3.3.0)                                            http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
 
                                                            $ sdk install quarkus
 --------------------------------------------------------------------------------
-sbt (1.9.3)                                            http://www.scala-sbt.org/
+sbt (1.9.4)                                            http://www.scala-sbt.org/
 
 SBT is an open source build tool for Scala and Java projects, similar to Java's
 Maven or Ant. Its main features are: native support for compiling Scala code and
@@ -520,7 +520,7 @@ fault-tolerance.
 
                                                              $ sdk install spark
 --------------------------------------------------------------------------------
-Spring Boot (3.1.2)                       http://projects.spring.io/spring-boot/
+Spring Boot (3.1.3)                       http://projects.spring.io/spring-boot/
 
 Spring Boot takes an opinionated view of building production-ready Spring
 applications. It favors convention over configuration and is designed to get you
@@ -543,7 +543,7 @@ discover and map data based on it's meaning, rather than the name of a field.
 
                                                               $ sdk install taxi
 --------------------------------------------------------------------------------
-Apache Tomcat (10.1.10)                               https://tomcat.apache.org/
+Apache Tomcat (10.1.12)                               https://tomcat.apache.org/
 
 The Apache Tomcat® software is an open source implementation of the Java
 Servlet, JavaServer Pages, Java Expression Language and Java WebSocket
@@ -572,7 +572,7 @@ Machine.
 
                                                           $ sdk install visualvm
 --------------------------------------------------------------------------------
-Webtau (1.53)                     https://github.com/testingisdocumenting/webtau
+Webtau (2.1)                      https://github.com/testingisdocumenting/webtau
 
 Webtau (short for web test automation) is a testing API, command line tool and a
 framework to write unit, integration and end-to-end tests. Tests can span

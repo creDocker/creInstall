@@ -206,7 +206,7 @@ of machines, each offering local computation and storage.
 
                                                             $ sdk install hadoop
 --------------------------------------------------------------------------------
-Helidon CLI (Coming soon!)                                    https://helidon.io
+Helidon CLI (3.0.6)                                           https://helidon.io
 
 The Helidon CLI lets you easily create a Helidon project by picking from a set
 of archetypes. It also supports a developer loop that performs continuous
@@ -234,7 +234,7 @@ manifest, manifest entries, bytecode versions, declarative services, and more.
 
                                                             $ sdk install jarviz
 --------------------------------------------------------------------------------
-Java (17.0.8-tem)        https://projects.eclipse.org/projects/adoptium.temurin/
+Java (17.0.8.1-tem)      https://projects.eclipse.org/projects/adoptium.temurin/
 
 Java Platform, Standard Edition (or Java SE) is a widely used platform for
 development and deployment of portable code for desktop and server environments.
@@ -292,7 +292,7 @@ program analysis.
 
                                                              $ sdk install joern
 --------------------------------------------------------------------------------
-JReleaser (1.7.0)                                          https://jreleaser.org
+JReleaser (1.8.0)                                          https://jreleaser.org
 
 JReleaser is a release automation tool for Java projects. Its goal is to
 simplify creating releases and publishing artifacts to multiple package managers
@@ -397,7 +397,7 @@ Maven project.
 
                                                                $ sdk install mcs
 --------------------------------------------------------------------------------
-Micronaut (4.0.5)                                           http://micronaut.io/
+Micronaut (4.1.0)                                           http://micronaut.io/
 
 Micronaut is an open source microservice framework for the JVM
 
@@ -448,7 +448,7 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.3.0)                                            http://quarkus.io
+Quarkus CLI (3.3.1)                                            http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.

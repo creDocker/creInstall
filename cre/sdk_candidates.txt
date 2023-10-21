@@ -47,7 +47,7 @@ programmers to easily write software that just works.
 
                                                          $ sdk install ballerina
 --------------------------------------------------------------------------------
-Bld (1.7.4)                                                https://rife2.com/bld
+Bld (1.7.5)                                                https://rife2.com/bld
 
 bld is a build system that allows you to write your build logic in pure Java.
 bld was created because we're not really interested in build tools. We use them
@@ -139,7 +139,7 @@ Gaiden is a tool that makes it easy to create documentation with Markdown.
 
                                                             $ sdk install gaiden
 --------------------------------------------------------------------------------
-Graal Cloud Native (4.0.3)                          https://www.graal.cloud/gcn/
+Graal Cloud Native (4.0.7)                          https://www.graal.cloud/gcn/
 
 Graal Cloud Native (GCN) is a curated set of Micronaut(tm) framework modules
 designed from the ground up to be compiled ahead-of-time with GraalVM Native
@@ -259,7 +259,7 @@ code and dependency management and allows you to run it directly.
 
                                                              $ sdk install jbang
 --------------------------------------------------------------------------------
-Jikkou (Coming soon!)                   https://streamthoughts.github.io/jikkou/
+Jikkou (0.30.0)                         https://streamthoughts.github.io/jikkou/
 
 Jikkou is a command-line client for efficient management, automation and
 provisioning of resources for Kafka, Schema Registry, etc. Inspired by kubectl
@@ -406,7 +406,7 @@ Maven project.
 
                                                                $ sdk install mcs
 --------------------------------------------------------------------------------
-Micronaut (4.1.4)                                           http://micronaut.io/
+Micronaut (4.1.5)                                           http://micronaut.io/
 
 Micronaut is an open source microservice framework for the JVM
 
@@ -529,7 +529,7 @@ fault-tolerance.
 
                                                              $ sdk install spark
 --------------------------------------------------------------------------------
-Spring Boot (3.1.4)                       http://projects.spring.io/spring-boot/
+Spring Boot (3.1.5)                       http://projects.spring.io/spring-boot/
 
 Spring Boot takes an opinionated view of building production-ready Spring
 applications. It favors convention over configuration and is designed to get you
@@ -544,7 +544,7 @@ servers through SSH.
 
                                                            $ sdk install sshoogr
 --------------------------------------------------------------------------------
-Taxi (1.42.0)                                               https://taxilang.org
+Taxi (1.43.0)                                               https://taxilang.org
 
 Taxi is a language for documenting data - such as data models - and the
 contracts of APIs. It describes data semantically, allowing powerful tooling to
@@ -552,7 +552,7 @@ discover and map data based on it's meaning, rather than the name of a field.
 
                                                               $ sdk install taxi
 --------------------------------------------------------------------------------
-Apache Tomcat (10.1.12)                               https://tomcat.apache.org/
+Apache Tomcat (10.1.14)                               https://tomcat.apache.org/
 
 The Apache Tomcat® software is an open source implementation of the Java
 Servlet, JavaServer Pages, Java Expression Language and Java WebSocket

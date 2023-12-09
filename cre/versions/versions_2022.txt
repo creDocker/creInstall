@@ -7,7 +7,7 @@ creBuild 	 2023.12
   Python3 	 Python 3.10.12
    Flask 	 
  creNode 	 16
-  ldd 	 ldd (Ubuntu GLIBC 2.35-0ubuntu3.4) 2.35
+  ldd 	 ldd (Ubuntu GLIBC 2.35-0ubuntu3.5) 2.35
   node 	 v16.20.2
   npm 	 8.19.4
   sdk 	 5.18.2

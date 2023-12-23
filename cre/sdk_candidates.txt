@@ -32,7 +32,7 @@ tasks.
 
                                                                $ sdk install ant
 --------------------------------------------------------------------------------
-AsciidoctorJ (2.5.10)                                    http://asciidoctor.org/
+AsciidoctorJ (2.5.11)                                    http://asciidoctor.org/
 
 AsciidoctorJ is the official library for running Asciidoctor on the JVM. Using
 AsciidoctorJ, you can convert AsciiDoc content or analyze the structure of a
@@ -165,7 +165,7 @@ A tool for gathering profiling and benchmarking information for Gradle builds
 
                                                     $ sdk install gradleprofiler
 --------------------------------------------------------------------------------
-Grails (6.1.0)                                               https://grails.org/
+Grails (6.1.1)                                               https://grails.org/
 
 Grails is a powerful web framework, for the Java platform aimed at multiplying
 developers productivity thanks to a Convention-over-Configuration, sensible
@@ -176,7 +176,7 @@ meta-programming and Asynchronous programming.
 
                                                             $ sdk install grails
 --------------------------------------------------------------------------------
-Groovy (4.0.16)                                      http://www.groovy-lang.org/
+Groovy (4.0.17)                                      http://www.groovy-lang.org/
 
 Groovy is a powerful, optionally typed and dynamic language, with static-typing
 and static compilation capabilities, for the Java platform aimed at multiplying
@@ -436,7 +436,7 @@ this candidate provides the migrate command for managing database migrations
 
                                                            $ sdk install mybatis
 --------------------------------------------------------------------------------
-Neo4j-Migrations (2.8.0)                https://neo4j.com/labs/neo4j-migrations/
+Neo4j-Migrations (2.8.1)                https://neo4j.com/labs/neo4j-migrations/
 
 Neo4j-Migrations is a database migration and refactoring tool that allows
 running Cypher scripts and programmatic refactorings in a controlled and
@@ -457,7 +457,7 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.6.3)                                            http://quarkus.io
+Quarkus CLI (3.6.4)                                            http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
@@ -501,7 +501,7 @@ you compile, run, test, and package your Scala code (and more!)
 
                                                           $ sdk install scalacli
 --------------------------------------------------------------------------------
-SchemaCrawler (16.20.6)                            https://www.schemacrawler.com
+SchemaCrawler (16.20.7)                            https://www.schemacrawler.com
 
 SchemaCrawler is a free database schema discovery and comprehension tool.
 SchemaCrawler has a good mix of useful features for data governance. You can
@@ -529,7 +529,7 @@ fault-tolerance.
 
                                                              $ sdk install spark
 --------------------------------------------------------------------------------
-Spring Boot (3.2.0)                       http://projects.spring.io/spring-boot/
+Spring Boot (3.2.1)                       http://projects.spring.io/spring-boot/
 
 Spring Boot takes an opinionated view of building production-ready Spring
 applications. It favors convention over configuration and is designed to get you
@@ -560,7 +560,7 @@ technologies.
 
                                                             $ sdk install tomcat
 --------------------------------------------------------------------------------
-ToolKit (0.7.1)                    https://github.com/IoT-Technology/IoT-Toolkit
+ToolKit (0.7.2)                    https://github.com/IoT-Technology/IoT-Toolkit
 
 Toolkit is a client command line tool that supports multiple IoT protocols like
 MQTT and COAP. It provides a command line client tool for IoT development.

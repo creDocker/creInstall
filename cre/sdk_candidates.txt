@@ -215,7 +215,7 @@ changes.
 
                                                            $ sdk install helidon
 --------------------------------------------------------------------------------
-http4k (5.0.0.0)                                              http://http4k.org/
+http4k (5.12.0.0)                                             http://http4k.org/
 
 http4k is the Functional toolkit for building HTTP applications in Kotlin
 
@@ -398,7 +398,7 @@ reporting and documentation from a central piece of information.
 
                                                              $ sdk install maven
 --------------------------------------------------------------------------------
-MCS (0.5.3)                                    https://github.com/mthmulders/mcs
+MCS (0.6.0)                                    https://github.com/mthmulders/mcs
 
 Search the Maven Central Repository from your command line! Using mcs, you can
 find artifacts and generate the required pom.xml snippet to use directly in your

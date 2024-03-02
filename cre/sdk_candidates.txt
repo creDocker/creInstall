@@ -47,7 +47,7 @@ programmers to easily write software that just works.
 
                                                          $ sdk install ballerina
 --------------------------------------------------------------------------------
-Bld (1.8.0)                                                https://rife2.com/bld
+Bld (1.9.0)                                                https://rife2.com/bld
 
 bld is a build system that allows you to write your build logic in pure Java.
 bld was created because we're not really interested in build tools. We use them
@@ -139,7 +139,7 @@ Gaiden is a tool that makes it easy to create documentation with Markdown.
 
                                                             $ sdk install gaiden
 --------------------------------------------------------------------------------
-Graal Cloud Native (4.2.1)                          https://www.graal.cloud/gcn/
+Graal Cloud Native (4.2.1-2)                        https://www.graal.cloud/gcn/
 
 Graal Cloud Native (GCN) is a curated set of Micronaut(tm) framework modules
 designed from the ground up to be compiled ahead-of-time with GraalVM Native
@@ -149,7 +149,7 @@ fewer resources to reduce compute costs.
 
                                                                $ sdk install gcn
 --------------------------------------------------------------------------------
-Grace Framework (2022.1.0)                            https://graceframework.org
+Grace Framework (2022.1.2)                            https://graceframework.org
 
 Grace is a powerful open-source, One-Person web application Framework to help
 developers build Spring Boot applications rapidly using the Groovy programming
@@ -184,7 +184,7 @@ meta-programming and Asynchronous programming.
 
                                                             $ sdk install grails
 --------------------------------------------------------------------------------
-Groovy (4.0.18)                                      http://www.groovy-lang.org/
+Groovy (4.0.19)                                      http://www.groovy-lang.org/
 
 Groovy is a powerful, optionally typed and dynamic language, with static-typing
 and static compilation capabilities, for the Java platform aimed at multiplying
@@ -309,7 +309,7 @@ program analysis.
 
                                                              $ sdk install joern
 --------------------------------------------------------------------------------
-JReleaser (1.10.0)                                         https://jreleaser.org
+JReleaser (1.11.0)                                         https://jreleaser.org
 
 JReleaser is a release automation tool for Java projects. Its goal is to
 simplify creating releases and publishing artifacts to multiple package managers
@@ -414,7 +414,7 @@ Maven project.
 
                                                                $ sdk install mcs
 --------------------------------------------------------------------------------
-Micronaut (4.3.3)                                           http://micronaut.io/
+Micronaut (4.3.4)                                           http://micronaut.io/
 
 Micronaut is an open source microservice framework for the JVM
 
@@ -465,7 +465,7 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.7.4)                                            http://quarkus.io
+Quarkus CLI (3.8.1)                                            http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
@@ -484,7 +484,7 @@ Java/Scala projects
 
                                                                $ sdk install sbt
 --------------------------------------------------------------------------------
-Scala (3.3.1)                                         http://www.scala-lang.org/
+Scala (3.3.3)                                         http://www.scala-lang.org/
 
 Scala is a programming language for general software applications. Scala has
 full support for functional programming and a very strong static type system.
@@ -552,7 +552,7 @@ servers through SSH.
 
                                                            $ sdk install sshoogr
 --------------------------------------------------------------------------------
-Taxi (1.49.0)                                               https://taxilang.org
+Taxi (1.50.1)                                               https://taxilang.org
 
 Taxi is a language for documenting data - such as data models - and the
 contracts of APIs. It describes data semantically, allowing powerful tooling to

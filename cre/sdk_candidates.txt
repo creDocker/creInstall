@@ -149,7 +149,7 @@ fewer resources to reduce compute costs.
 
                                                                $ sdk install gcn
 --------------------------------------------------------------------------------
-Grace Framework (2022.1.6)                            https://graceframework.org
+Grace Framework (2022.2.3)                            https://graceframework.org
 
 Grace is a powerful open-source, One-Person web application Framework to help
 developers build Spring Boot applications rapidly using the Groovy programming
@@ -398,7 +398,7 @@ your code.
 
                                                          $ sdk install leiningen
 --------------------------------------------------------------------------------
-Liquibase (4.26.0)                                        https://liquibase.com/
+Liquibase (4.27.0)                                        https://liquibase.com/
 
 Liquibase is an open-source database-independent library for tracking, managing
 and applying database schema changes.
@@ -413,7 +413,7 @@ reporting and documentation from a central piece of information.
 
                                                              $ sdk install maven
 --------------------------------------------------------------------------------
-MCS (0.6.1)                                    https://github.com/mthmulders/mcs
+MCS (0.6.2)                                    https://github.com/mthmulders/mcs
 
 Search the Maven Central Repository from your command line! Using mcs, you can
 find artifacts and generate the required pom.xml snippet to use directly in your
@@ -465,14 +465,14 @@ Pierrot helps you to manage many GitHub repositories with a single command.
 
                                                            $ sdk install pierrot
 --------------------------------------------------------------------------------
-Pomchecker (1.10.0)                       https://github.com/kordamp/pomchecker/
+Pomchecker (1.11.0)                       https://github.com/kordamp/pomchecker/
 
 Pomchecker - Checks that POM files comply with the minimum rules required for
 publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.8.3)                                            http://quarkus.io
+Quarkus CLI (3.9.1)                                            http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
@@ -491,7 +491,7 @@ Java/Scala projects
 
                                                                $ sdk install sbt
 --------------------------------------------------------------------------------
-Scala (3.3.3)                                         http://www.scala-lang.org/
+Scala (3.4.1)                                         http://www.scala-lang.org/
 
 Scala is a programming language for general software applications. Scala has
 full support for functional programming and a very strong static type system.
@@ -509,7 +509,7 @@ strings, and no checked exceptions.
 
                                                              $ sdk install scala
 --------------------------------------------------------------------------------
-Scala CLI (1.2.0)                                https://scala-cli.virtuslab.org
+Scala CLI (1.2.1)                                https://scala-cli.virtuslab.org
 
 Scala CLI is a command-line tool to interact with the Scala language. It lets
 you compile, run, test, and package your Scala code (and more!)
@@ -582,13 +582,13 @@ MQTT and COAP. It provides a command line client tool for IoT development.
 
                                                            $ sdk install toolkit
 --------------------------------------------------------------------------------
-Vert.x (4.5.6)                                                  http://vertx.io/
+Vert.x (4.5.7)                                                  http://vertx.io/
 
 Vert.x is a tool-kit for building reactive applications on the JVM.
 
                                                              $ sdk install vertx
 --------------------------------------------------------------------------------
-VisualVM (2.1.7)                                     https://visualvm.github.io/
+VisualVM (2.1.8)                                     https://visualvm.github.io/
 
 VisualVM is a tool that provides a visual interface for viewing detailed
 information about Java applications while they are running on a Java Virtual

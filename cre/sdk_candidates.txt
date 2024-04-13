@@ -173,7 +173,7 @@ A tool for gathering profiling and benchmarking information for Gradle builds
 
                                                     $ sdk install gradleprofiler
 --------------------------------------------------------------------------------
-Grails (6.1.1)                                               https://grails.org/
+Grails (6.2.0)                                               https://grails.org/
 
 Grails is a powerful web framework, for the Java platform aimed at multiplying
 developers productivity thanks to a Convention-over-Configuration, sensible
@@ -184,7 +184,7 @@ meta-programming and Asynchronous programming.
 
                                                             $ sdk install grails
 --------------------------------------------------------------------------------
-Groovy (4.0.20)                                      http://www.groovy-lang.org/
+Groovy (4.0.21)                                      http://www.groovy-lang.org/
 
 Groovy is a powerful, optionally typed and dynamic language, with static-typing
 and static compilation capabilities, for the Java platform aimed at multiplying
@@ -421,7 +421,7 @@ Maven project.
 
                                                                $ sdk install mcs
 --------------------------------------------------------------------------------
-Micronaut (4.3.7)                                           http://micronaut.io/
+Micronaut (4.3.8)                                           http://micronaut.io/
 
 Micronaut is an open source microservice framework for the JVM
 
@@ -472,7 +472,7 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.9.2)                                            http://quarkus.io
+Quarkus CLI (3.9.3)                                            http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
@@ -509,7 +509,7 @@ strings, and no checked exceptions.
 
                                                              $ sdk install scala
 --------------------------------------------------------------------------------
-Scala CLI (1.2.1)                                https://scala-cli.virtuslab.org
+Scala CLI (1.2.2)                                https://scala-cli.virtuslab.org
 
 Scala CLI is a command-line tool to interact with the Scala language. It lets
 you compile, run, test, and package your Scala code (and more!)
@@ -607,7 +607,7 @@ significantly cut down failure investigation time.
 
                                                             $ sdk install webtau
 --------------------------------------------------------------------------------
-Znai (1.51.1)                       https://github.com/testingisdocumenting/znai
+Znai (1.68)                         https://github.com/testingisdocumenting/znai
 
 Build functional, maintainable, beautiful User Guides with znai. Instant pages
 navigation. Local search. Multiple integrations to work with Python, Java,

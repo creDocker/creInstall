@@ -47,7 +47,7 @@ programmers to easily write software that just works.
 
                                                          $ sdk install ballerina
 --------------------------------------------------------------------------------
-Bld (1.9.0)                                                https://rife2.com/bld
+Bld (1.9.1)                                                https://rife2.com/bld
 
 bld is a build system that allows you to write your build logic in pure Java.
 bld was created because we're not really interested in build tools. We use them
@@ -267,7 +267,7 @@ code and dependency management and allows you to run it directly.
 
                                                              $ sdk install jbang
 --------------------------------------------------------------------------------
-Jikkou (0.33.3)                         https://streamthoughts.github.io/jikkou/
+Jikkou (0.34.0)                         https://streamthoughts.github.io/jikkou/
 
 Jikkou is a command-line client for efficient management, automation and
 provisioning of resources for Kafka, Schema Registry, etc. Inspired by kubectl
@@ -309,7 +309,7 @@ program analysis.
 
                                                              $ sdk install joern
 --------------------------------------------------------------------------------
-JReleaser (1.11.0)                                         https://jreleaser.org
+JReleaser (1.12.0)                                         https://jreleaser.org
 
 JReleaser is a release automation tool for Java projects. Its goal is to
 simplify creating releases and publishing artifacts to multiple package managers
@@ -413,7 +413,7 @@ reporting and documentation from a central piece of information.
 
                                                              $ sdk install maven
 --------------------------------------------------------------------------------
-MCS (0.6.3)                                    https://github.com/mthmulders/mcs
+MCS (0.6.4)                                    https://github.com/mthmulders/mcs
 
 Search the Maven Central Repository from your command line! Using mcs, you can
 find artifacts and generate the required pom.xml snippet to use directly in your
@@ -421,7 +421,7 @@ Maven project.
 
                                                                $ sdk install mcs
 --------------------------------------------------------------------------------
-Micronaut (4.4.1)                                           http://micronaut.io/
+Micronaut (4.4.2)                                           http://micronaut.io/
 
 Micronaut is an open source microservice framework for the JVM
 
@@ -472,7 +472,7 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.9.4)                                            http://quarkus.io
+Quarkus CLI (3.10.0)                                           http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.

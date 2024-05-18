@@ -472,7 +472,7 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.10.0)                                           http://quarkus.io
+Quarkus CLI (3.10.1)                                           http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
@@ -491,7 +491,7 @@ Java/Scala projects
 
                                                                $ sdk install sbt
 --------------------------------------------------------------------------------
-Scala (3.4.1)                                         http://www.scala-lang.org/
+Scala (3.4.2)                                         http://www.scala-lang.org/
 
 Scala is a programming language for general software applications. Scala has
 full support for functional programming and a very strong static type system.
@@ -559,7 +559,7 @@ servers through SSH.
 
                                                            $ sdk install sshoogr
 --------------------------------------------------------------------------------
-Taxi (1.53.0)                                               https://taxilang.org
+Taxi (1.54.0)                                               https://taxilang.org
 
 Taxi is a language for documenting data - such as data models - and the
 contracts of APIs. It describes data semantically, allowing powerful tooling to
@@ -607,7 +607,7 @@ significantly cut down failure investigation time.
 
                                                             $ sdk install webtau
 --------------------------------------------------------------------------------
-Znai (1.68)                         https://github.com/testingisdocumenting/znai
+Znai (1.69)                         https://github.com/testingisdocumenting/znai
 
 Build functional, maintainable, beautiful User Guides with znai. Instant pages
 navigation. Local search. Multiple integrations to work with Python, Java,

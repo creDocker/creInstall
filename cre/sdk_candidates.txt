@@ -32,7 +32,7 @@ tasks.
 
                                                                $ sdk install ant
 --------------------------------------------------------------------------------
-AsciidoctorJ (2.5.12)                                    http://asciidoctor.org/
+AsciidoctorJ (2.5.13)                                    http://asciidoctor.org/
 
 AsciidoctorJ is the official library for running Asciidoctor on the JVM. Using
 AsciidoctorJ, you can convert AsciiDoc content or analyze the structure of a
@@ -149,7 +149,7 @@ fewer resources to reduce compute costs.
 
                                                                $ sdk install gcn
 --------------------------------------------------------------------------------
-Grace Framework (2022.2.4)                            https://graceframework.org
+Grace Framework (2022.1.8)                            https://graceframework.org
 
 Grace is a powerful open-source, One-Person web application Framework to help
 developers build Spring Boot applications rapidly using the Groovy programming
@@ -350,7 +350,7 @@ The CLI provides commands to help setup and manage your project.
 
                                                             $ sdk install kobweb
 --------------------------------------------------------------------------------
-Kotlin (1.9.24)                                          https://kotlinlang.org/
+Kotlin (2.0.0)                                           https://kotlinlang.org/
 
 Kotlin is a statically-typed programming language that runs on the Java Virtual
 Machine and can also be compiled to JavaScript source code.
@@ -398,7 +398,7 @@ your code.
 
                                                          $ sdk install leiningen
 --------------------------------------------------------------------------------
-Liquibase (4.27.0)                                        https://liquibase.com/
+Liquibase (4.28.0)                                        https://liquibase.com/
 
 Liquibase is an open-source database-independent library for tracking, managing
 and applying database schema changes.
@@ -472,7 +472,7 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.10.1)                                           http://quarkus.io
+Quarkus CLI (3.10.2)                                           http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
@@ -509,7 +509,7 @@ strings, and no checked exceptions.
 
                                                              $ sdk install scala
 --------------------------------------------------------------------------------
-Scala CLI (1.3.1)                                https://scala-cli.virtuslab.org
+Scala CLI (1.3.2)                                https://scala-cli.virtuslab.org
 
 Scala CLI is a command-line tool to interact with the Scala language. It lets
 you compile, run, test, and package your Scala code (and more!)
@@ -544,7 +544,7 @@ fault-tolerance.
 
                                                              $ sdk install spark
 --------------------------------------------------------------------------------
-Spring Boot (3.2.4)                       http://projects.spring.io/spring-boot/
+Spring Boot (3.3.0)                       http://projects.spring.io/spring-boot/
 
 Spring Boot takes an opinionated view of building production-ready Spring
 applications. It favors convention over configuration and is designed to get you
@@ -582,7 +582,7 @@ MQTT and COAP. It provides a command line client tool for IoT development.
 
                                                            $ sdk install toolkit
 --------------------------------------------------------------------------------
-Vert.x (4.5.7)                                                  http://vertx.io/
+Vert.x (4.5.8)                                                  http://vertx.io/
 
 Vert.x is a tool-kit for building reactive applications on the JVM.
 

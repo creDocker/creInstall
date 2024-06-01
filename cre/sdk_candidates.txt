@@ -109,7 +109,7 @@ and work over a variety of transports such as HTTP, JMS or JBI.
 
                                                                $ sdk install cxf
 --------------------------------------------------------------------------------
-Detekt (1.23.5)                                              https://detekt.dev/
+Detekt (1.23.6)                                              https://detekt.dev/
 
 A static code analysis tool for the Kotlin programming language
 
@@ -157,7 +157,7 @@ language. Grace is a fork of Grails 5 that started development in early 2022.
 
                                                              $ sdk install grace
 --------------------------------------------------------------------------------
-Gradle (8.7)                                                  http://gradle.org/
+Gradle (8.8)                                                  http://gradle.org/
 
 Gradle is a build automation tool that builds upon the concepts of Apache Ant
 and Apache Maven and introduces a Groovy-based domain-specific language (DSL)
@@ -267,6 +267,13 @@ code and dependency management and allows you to run it directly.
 
                                                              $ sdk install jbang
 --------------------------------------------------------------------------------
+Eclipse Jetty (12.0.9)                                        https://jetty.org/
+
+Eclipse Jetty provides a highly scalable and memory-efficient web server and
+servlet container, supporting many protocols such as HTTP/3,2,1 and WebSocket
+
+                                                             $ sdk install jetty
+--------------------------------------------------------------------------------
 Jikkou (0.34.0)                         https://streamthoughts.github.io/jikkou/
 
 Jikkou is a command-line client for efficient management, automation and
@@ -365,12 +372,6 @@ self-contained mini-applications with Kotlin.
 
                                                            $ sdk install kscript
 --------------------------------------------------------------------------------
-ktlint (Coming soon!)                        https://github.com/pinterest/ktlint
-
-Ktlint is an anti-bikeshedding Kotlin linter with built-in formatter.
-
-                                                            $ sdk install ktlint
---------------------------------------------------------------------------------
 ktx (0.1.2)                                      https://github.com/mpetuska/ktx
 
 npx for kotlin and the JVM!
@@ -405,7 +406,7 @@ and applying database schema changes.
 
                                                          $ sdk install liquibase
 --------------------------------------------------------------------------------
-Maven (3.9.6)                                          https://maven.apache.org/
+Maven (3.9.7)                                          https://maven.apache.org/
 
 Apache Maven is a software project management and comprehension tool. Based on
 the concept of a project object model (POM), Maven can manage a project's build,
@@ -421,7 +422,7 @@ Maven project.
 
                                                                $ sdk install mcs
 --------------------------------------------------------------------------------
-Micronaut (4.4.2)                                           http://micronaut.io/
+Micronaut (4.4.3)                                           http://micronaut.io/
 
 Micronaut is an open source microservice framework for the JVM
 
@@ -472,7 +473,7 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.10.2)                                           http://quarkus.io
+Quarkus CLI (3.11.0)                                           http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.

@@ -184,7 +184,7 @@ meta-programming and Asynchronous programming.
 
                                                             $ sdk install grails
 --------------------------------------------------------------------------------
-Groovy (4.0.21)                                      http://www.groovy-lang.org/
+Groovy (4.0.22)                                      http://www.groovy-lang.org/
 
 Groovy is a powerful, optionally typed and dynamic language, with static-typing
 and static compilation capabilities, for the Java platform aimed at multiplying
@@ -316,7 +316,7 @@ program analysis.
 
                                                              $ sdk install joern
 --------------------------------------------------------------------------------
-JReleaser (1.12.0)                                         https://jreleaser.org
+JReleaser (1.13.1)                                         https://jreleaser.org
 
 JReleaser is a release automation tool for Java projects. Its goal is to
 simplify creating releases and publishing artifacts to multiple package managers
@@ -473,7 +473,7 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.12.0)                                           http://quarkus.io
+Quarkus CLI (3.12.1)                                           http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.

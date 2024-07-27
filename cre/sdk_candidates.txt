@@ -399,7 +399,7 @@ your code.
 
                                                          $ sdk install leiningen
 --------------------------------------------------------------------------------
-Liquibase (4.28.0)                                        https://liquibase.com/
+Liquibase (4.29.0)                                        https://liquibase.com/
 
 Liquibase is an open-source database-independent library for tracking, managing
 and applying database schema changes.
@@ -422,7 +422,7 @@ Maven project.
 
                                                                $ sdk install mcs
 --------------------------------------------------------------------------------
-Micronaut (4.5.0)                                           http://micronaut.io/
+Micronaut (4.5.1)                                           http://micronaut.io/
 
 Micronaut is an open source microservice framework for the JVM
 
@@ -452,7 +452,7 @@ this candidate provides the migrate command for managing database migrations
 
                                                            $ sdk install mybatis
 --------------------------------------------------------------------------------
-Neo4j-Migrations (2.10.3)               https://neo4j.com/labs/neo4j-migrations/
+Neo4j-Migrations (2.10.4)               https://neo4j.com/labs/neo4j-migrations/
 
 Neo4j-Migrations is a database migration and refactoring tool that allows
 running Cypher scripts and programmatic refactorings in a controlled and
@@ -560,7 +560,7 @@ servers through SSH.
 
                                                            $ sdk install sshoogr
 --------------------------------------------------------------------------------
-Taxi (1.54.0)                                               https://taxilang.org
+Taxi (1.55.2)                                               https://taxilang.org
 
 Taxi is a language for documenting data - such as data models - and the
 contracts of APIs. It describes data semantically, allowing powerful tooling to

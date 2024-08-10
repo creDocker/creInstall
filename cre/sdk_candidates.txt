@@ -124,7 +124,7 @@ together with the arc42 template for software architecture.
 
                                                       $ sdk install doctoolchain
 --------------------------------------------------------------------------------
-Flink (1.18.0)                                         https://flink.apache.org/
+Flink (1.19.0)                                         https://flink.apache.org/
 
 Apache Flink is an open-source, unified stream-processing and batch-processing
 framework.It's a distributed processing engine for stateful computations over
@@ -357,7 +357,7 @@ The CLI provides commands to help setup and manage your project.
 
                                                             $ sdk install kobweb
 --------------------------------------------------------------------------------
-Kotlin (2.0.0)                                           https://kotlinlang.org/
+Kotlin (2.0.10)                                          https://kotlinlang.org/
 
 Kotlin is a statically-typed programming language that runs on the Java Virtual
 Machine and can also be compiled to JavaScript source code.
@@ -414,7 +414,7 @@ reporting and documentation from a central piece of information.
 
                                                              $ sdk install maven
 --------------------------------------------------------------------------------
-MCS (0.7.0)                                    https://github.com/mthmulders/mcs
+MCS (0.7.1)                                    https://github.com/mthmulders/mcs
 
 Search the Maven Central Repository from your command line! Using mcs, you can
 find artifacts and generate the required pom.xml snippet to use directly in your
@@ -473,7 +473,7 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.13.0)                                           http://quarkus.io
+Quarkus CLI (3.13.2)                                           http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
@@ -510,14 +510,14 @@ strings, and no checked exceptions.
 
                                                              $ sdk install scala
 --------------------------------------------------------------------------------
-Scala CLI (1.4.2)                                https://scala-cli.virtuslab.org
+Scala CLI (1.4.3)                                https://scala-cli.virtuslab.org
 
 Scala CLI is a command-line tool to interact with the Scala language. It lets
 you compile, run, test, and package your Scala code (and more!)
 
                                                           $ sdk install scalacli
 --------------------------------------------------------------------------------
-SchemaCrawler (16.22.1)                            https://www.schemacrawler.com
+SchemaCrawler (16.22.2)                            https://www.schemacrawler.com
 
 SchemaCrawler is a free database schema discovery and comprehension tool.
 SchemaCrawler has a good mix of useful features for data governance. You can

@@ -149,7 +149,7 @@ fewer resources to reduce compute costs.
 
                                                                $ sdk install gcn
 --------------------------------------------------------------------------------
-Grace Framework (2022.2.6)                            https://graceframework.org
+Grace Framework (2022.2.8)                            https://graceframework.org
 
 Grace is a powerful open-source, One-Person web application Framework to help
 developers build Spring Boot applications rapidly using the Groovy programming
@@ -157,7 +157,7 @@ language. Grace is a fork of Grails 5 that started development in early 2022.
 
                                                              $ sdk install grace
 --------------------------------------------------------------------------------
-Gradle (8.9)                                                  http://gradle.org/
+Gradle (8.10)                                                 http://gradle.org/
 
 Gradle is a build automation tool that builds upon the concepts of Apache Ant
 and Apache Maven and introduces a Groovy-based domain-specific language (DSL)
@@ -274,7 +274,14 @@ servlet container, supporting many protocols such as HTTP/3,2,1 and WebSocket
 
                                                              $ sdk install jetty
 --------------------------------------------------------------------------------
-Jikkou (0.35.1)                         https://streamthoughts.github.io/jikkou/
+Jextract (Coming soon!)                           https://jdk.java.net/jextract/
+
+Jextract mechanically generates Java bindings from native library headers. This
+is an early access build from OpenJDK Jextract which is part of Code Tools
+
+                                                          $ sdk install jextract
+--------------------------------------------------------------------------------
+Jikkou (0.35.2)                         https://streamthoughts.github.io/jikkou/
 
 Jikkou is a command-line client for efficient management, automation and
 provisioning of resources for Kafka, Schema Registry, etc. Inspired by kubectl

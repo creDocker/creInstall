@@ -109,7 +109,7 @@ and work over a variety of transports such as HTTP, JMS or JBI.
 
                                                                $ sdk install cxf
 --------------------------------------------------------------------------------
-Detekt (1.23.6)                                              https://detekt.dev/
+Detekt (1.23.7)                                              https://detekt.dev/
 
 A static code analysis tool for the Kotlin programming language
 
@@ -149,7 +149,7 @@ fewer resources to reduce compute costs.
 
                                                                $ sdk install gcn
 --------------------------------------------------------------------------------
-Grace Framework (2023.0.0)                            https://graceframework.org
+Grace Framework (2023.0.1)                            https://graceframework.org
 
 Grace is a powerful open-source, One-Person web application Framework to help
 developers build Spring Boot applications rapidly using the Groovy programming
@@ -157,7 +157,7 @@ language. Grace is a fork of Grails 5 that started development in early 2022.
 
                                                              $ sdk install grace
 --------------------------------------------------------------------------------
-Gradle (8.10)                                                 http://gradle.org/
+Gradle (8.10.1)                                               http://gradle.org/
 
 Gradle is a build automation tool that builds upon the concepts of Apache Ant
 and Apache Maven and introduces a Groovy-based domain-specific language (DSL)
@@ -184,7 +184,7 @@ meta-programming and Asynchronous programming.
 
                                                             $ sdk install grails
 --------------------------------------------------------------------------------
-Groovy (4.0.22)                                      http://www.groovy-lang.org/
+Groovy (4.0.23)                                      http://www.groovy-lang.org/
 
 Groovy is a powerful, optionally typed and dynamic language, with static-typing
 and static compilation capabilities, for the Java platform aimed at multiplying
@@ -260,7 +260,7 @@ and designers.
 
                                                              $ sdk install jbake
 --------------------------------------------------------------------------------
-JBang (0.117.1)                             http://github.com/maxandersen/jbang/
+JBang (0.118.0)                             http://github.com/maxandersen/jbang/
 
 JBang makes it easy to use Java for scripting. It lets you use a single file for
 code and dependency management and allows you to run it directly.
@@ -357,7 +357,7 @@ dependencies.
 
                                                                 $ sdk install ki
 --------------------------------------------------------------------------------
-Kobweb (0.9.15)                                      https://kobweb.varabyte.com
+Kobweb (0.9.16)                                      https://kobweb.varabyte.com
 
 Kobweb is an opinionated Kotlin web framework built on top of Compose for Web.
 The CLI provides commands to help setup and manage your project.
@@ -429,7 +429,7 @@ Maven project.
 
                                                                $ sdk install mcs
 --------------------------------------------------------------------------------
-Micronaut (4.6.1)                                           http://micronaut.io/
+Micronaut (4.6.2)                                           http://micronaut.io/
 
 Micronaut is an open source microservice framework for the JVM
 
@@ -480,7 +480,7 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.14.2)                                           http://quarkus.io
+Quarkus CLI (3.14.3)                                           http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.

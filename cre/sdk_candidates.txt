@@ -364,7 +364,7 @@ The CLI provides commands to help setup and manage your project.
 
                                                             $ sdk install kobweb
 --------------------------------------------------------------------------------
-Kotlin (2.0.20)                                          https://kotlinlang.org/
+Kotlin (2.0.21)                                          https://kotlinlang.org/
 
 Kotlin is a statically-typed programming language that runs on the Java Virtual
 Machine and can also be compiled to JavaScript source code.
@@ -429,7 +429,7 @@ Maven project.
 
                                                                $ sdk install mcs
 --------------------------------------------------------------------------------
-Micronaut (4.6.2)                                           http://micronaut.io/
+Micronaut (4.6.3)                                           http://micronaut.io/
 
 Micronaut is an open source microservice framework for the JVM
 
@@ -459,7 +459,7 @@ this candidate provides the migrate command for managing database migrations
 
                                                            $ sdk install mybatis
 --------------------------------------------------------------------------------
-Neo4j-Migrations (2.13.1)               https://neo4j.com/labs/neo4j-migrations/
+Neo4j-Migrations (2.13.2)               https://neo4j.com/labs/neo4j-migrations/
 
 Neo4j-Migrations is a database migration and refactoring tool that allows
 running Cypher scripts and programmatic refactorings in a controlled and
@@ -567,7 +567,7 @@ servers through SSH.
 
                                                            $ sdk install sshoogr
 --------------------------------------------------------------------------------
-Taxi (1.56.0)                                               https://taxilang.org
+Taxi (1.55.4)                                               https://taxilang.org
 
 Taxi is a language for documenting data - such as data models - and the
 contracts of APIs. It describes data semantically, allowing powerful tooling to

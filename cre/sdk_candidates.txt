@@ -139,7 +139,7 @@ Gaiden is a tool that makes it easy to create documentation with Markdown.
 
                                                             $ sdk install gaiden
 --------------------------------------------------------------------------------
-Graal Cloud Native (4.6.0.1)                        https://www.graal.cloud/gcn/
+Graal Cloud Native (4.6.0.3)                        https://www.graal.cloud/gcn/
 
 Graal Cloud Native (GCN) is a curated set of Micronaut(tm) framework modules
 designed from the ground up to be compiled ahead-of-time with GraalVM Native
@@ -167,7 +167,7 @@ can be run.
 
                                                             $ sdk install gradle
 --------------------------------------------------------------------------------
-Gradle profiler (0.20.0)               https://github.com/gradle/gradle-profiler
+Gradle profiler (0.21.0)               https://github.com/gradle/gradle-profiler
 
 A tool for gathering profiling and benchmarking information for Gradle builds
 
@@ -242,7 +242,7 @@ manifest, manifest entries, bytecode versions, declarative services, and more.
 
                                                             $ sdk install jarviz
 --------------------------------------------------------------------------------
-Java (21.0.4-tem)        https://projects.eclipse.org/projects/adoptium.temurin/
+Java (21.0.5-tem)        https://projects.eclipse.org/projects/adoptium.temurin/
 
 Java Platform, Standard Edition (or Java SE) is a widely used platform for
 development and deployment of portable code for desktop and server environments.
@@ -281,7 +281,7 @@ is an early access build from OpenJDK Jextract which is part of Code Tools
 
                                                           $ sdk install jextract
 --------------------------------------------------------------------------------
-Jikkou (0.35.2)                         https://streamthoughts.github.io/jikkou/
+Jikkou (0.35.3)                         https://streamthoughts.github.io/jikkou/
 
 Jikkou is a command-line client for efficient management, automation and
 provisioning of resources for Kafka, Schema Registry, etc. Inspired by kubectl

@@ -149,7 +149,7 @@ fewer resources to reduce compute costs.
 
                                                                $ sdk install gcn
 --------------------------------------------------------------------------------
-Grace Framework (2023.0.2)                            https://graceframework.org
+Grace Framework (2023.0.3)                            https://graceframework.org
 
 Grace is a powerful open-source, One-Person web application Framework to help
 developers build Spring Boot applications rapidly using the Groovy programming
@@ -357,7 +357,7 @@ dependencies.
 
                                                                 $ sdk install ki
 --------------------------------------------------------------------------------
-Kobweb (0.9.16)                                      https://kobweb.varabyte.com
+Kobweb (0.9.17)                                      https://kobweb.varabyte.com
 
 Kobweb is an opinionated Kotlin web framework built on top of Compose for Web.
 The CLI provides commands to help setup and manage your project.
@@ -459,7 +459,7 @@ this candidate provides the migrate command for managing database migrations
 
                                                            $ sdk install mybatis
 --------------------------------------------------------------------------------
-Neo4j-Migrations (2.13.2)               https://neo4j.com/labs/neo4j-migrations/
+Neo4j-Migrations (2.13.3)               https://neo4j.com/labs/neo4j-migrations/
 
 Neo4j-Migrations is a database migration and refactoring tool that allows
 running Cypher scripts and programmatic refactorings in a controlled and
@@ -473,7 +473,7 @@ Pierrot helps you to manage many GitHub repositories with a single command.
 
                                                            $ sdk install pierrot
 --------------------------------------------------------------------------------
-Pomchecker (1.13.0)                       https://github.com/kordamp/pomchecker/
+Pomchecker (1.14.0)                       https://github.com/kordamp/pomchecker/
 
 Pomchecker - Checks that POM files comply with the minimum rules required for
 publication to Maven Central. It can also check if a POM is a valid BOM file.
@@ -487,7 +487,7 @@ GraalVM, crafted from best-of-breed Java libraries and standards.
 
                                                            $ sdk install quarkus
 --------------------------------------------------------------------------------
-sbt (1.10.2)                                           http://www.scala-sbt.org/
+sbt (1.10.3)                                           http://www.scala-sbt.org/
 
 SBT is an open source build tool for Scala and Java projects, similar to Java's
 Maven or Ant. Its main features are: native support for compiling Scala code and
@@ -499,7 +499,7 @@ Java/Scala projects
 
                                                                $ sdk install sbt
 --------------------------------------------------------------------------------
-Scala (3.5.1)                                         http://www.scala-lang.org/
+Scala (3.5.2)                                         http://www.scala-lang.org/
 
 Scala is a programming language for general software applications. Scala has
 full support for functional programming and a very strong static type system.
@@ -552,7 +552,7 @@ fault-tolerance.
 
                                                              $ sdk install spark
 --------------------------------------------------------------------------------
-Spring Boot (3.3.4)                       http://projects.spring.io/spring-boot/
+Spring Boot (3.3.5)                       http://projects.spring.io/spring-boot/
 
 Spring Boot takes an opinionated view of building production-ready Spring
 applications. It favors convention over configuration and is designed to get you
@@ -567,7 +567,7 @@ servers through SSH.
 
                                                            $ sdk install sshoogr
 --------------------------------------------------------------------------------
-Taxi (1.55.4)                                               https://taxilang.org
+Taxi (1.57.0)                                               https://taxilang.org
 
 Taxi is a language for documenting data - such as data models - and the
 contracts of APIs. It describes data semantically, allowing powerful tooling to

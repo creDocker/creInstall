@@ -184,7 +184,7 @@ meta-programming and Asynchronous programming.
 
                                                             $ sdk install grails
 --------------------------------------------------------------------------------
-Groovy (4.0.23)                                      http://www.groovy-lang.org/
+Groovy (4.0.24)                                      http://www.groovy-lang.org/
 
 Groovy is a powerful, optionally typed and dynamic language, with static-typing
 and static compilation capabilities, for the Java platform aimed at multiplying
@@ -274,7 +274,7 @@ servlet container, supporting many protocols such as HTTP/3,2,1 and WebSocket
 
                                                              $ sdk install jetty
 --------------------------------------------------------------------------------
-Jextract (Coming soon!)                           https://jdk.java.net/jextract/
+Jextract (22.ea.6)                                https://jdk.java.net/jextract/
 
 Jextract mechanically generates Java bindings from native library headers. This
 is an early access build from OpenJDK Jextract which is part of Code Tools
@@ -406,7 +406,7 @@ your code.
 
                                                          $ sdk install leiningen
 --------------------------------------------------------------------------------
-Liquibase (4.29.2)                                        https://liquibase.com/
+Liquibase (4.30.0)                                        https://liquibase.com/
 
 Liquibase is an open-source database-independent library for tracking, managing
 and applying database schema changes.
@@ -480,14 +480,14 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.16.1)                                           http://quarkus.io
+Quarkus CLI (3.16.2)                                           http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
 
                                                            $ sdk install quarkus
 --------------------------------------------------------------------------------
-sbt (1.10.4)                                           http://www.scala-sbt.org/
+sbt (1.10.5)                                           http://www.scala-sbt.org/
 
 SBT is an open source build tool for Scala and Java projects, similar to Java's
 Maven or Ant. Its main features are: native support for compiling Scala code and
@@ -524,7 +524,7 @@ you compile, run, test, and package your Scala code (and more!)
 
                                                           $ sdk install scalacli
 --------------------------------------------------------------------------------
-SchemaCrawler (16.22.2)                            https://www.schemacrawler.com
+SchemaCrawler (16.22.3)                            https://www.schemacrawler.com
 
 SchemaCrawler is a free database schema discovery and comprehension tool.
 SchemaCrawler has a good mix of useful features for data governance. You can

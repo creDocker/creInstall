@@ -341,7 +341,7 @@ much more.
 
                                                              $ sdk install karaf
 --------------------------------------------------------------------------------
-kcctl (1.0.0.CR3)                                 https://github.com/kcctl/kcctl
+kcctl (1.0.0.CR4)                                 https://github.com/kcctl/kcctl
 
 A modern and intuitive command-line client for Kafka Connect. Relying on the
 idioms and semantics of kubectl, it allows you to register and examine

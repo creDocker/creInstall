@@ -364,7 +364,7 @@ The CLI provides commands to help setup and manage your project.
 
                                                             $ sdk install kobweb
 --------------------------------------------------------------------------------
-Kotlin (2.0.21)                                          https://kotlinlang.org/
+Kotlin (2.1.0)                                           https://kotlinlang.org/
 
 Kotlin is a statically-typed programming language that runs on the Java Virtual
 Machine and can also be compiled to JavaScript source code.
@@ -459,7 +459,7 @@ this candidate provides the migrate command for managing database migrations
 
                                                            $ sdk install mybatis
 --------------------------------------------------------------------------------
-Neo4j-Migrations (2.13.4)               https://neo4j.com/labs/neo4j-migrations/
+Neo4j-Migrations (2.14.0)               https://neo4j.com/labs/neo4j-migrations/
 
 Neo4j-Migrations is a database migration and refactoring tool that allows
 running Cypher scripts and programmatic refactorings in a controlled and
@@ -480,7 +480,7 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.16.4)                                           http://quarkus.io
+Quarkus CLI (3.17.2)                                           http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
@@ -524,7 +524,7 @@ you compile, run, test, and package your Scala code (and more!)
 
                                                           $ sdk install scalacli
 --------------------------------------------------------------------------------
-SchemaCrawler (16.22.3)                            https://www.schemacrawler.com
+SchemaCrawler (16.23.2)                            https://www.schemacrawler.com
 
 SchemaCrawler is a free database schema discovery and comprehension tool.
 SchemaCrawler has a good mix of useful features for data governance. You can
@@ -575,7 +575,7 @@ discover and map data based on it's meaning, rather than the name of a field.
 
                                                               $ sdk install taxi
 --------------------------------------------------------------------------------
-Apache Tomcat (10.1.30)                               https://tomcat.apache.org/
+Apache Tomcat (11.0.0)                                https://tomcat.apache.org/
 
 The Apache Tomcat® software is an open source implementation of the Java
 Servlet, JavaServer Pages, Java Expression Language and Java WebSocket

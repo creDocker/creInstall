@@ -47,7 +47,7 @@ programmers to easily write software that just works.
 
                                                          $ sdk install ballerina
 --------------------------------------------------------------------------------
-Bld (2.1.0)                                                https://rife2.com/bld
+Bld (2.2.0)                                                https://rife2.com/bld
 
 bld is a build system that allows you to write your build logic in pure Java.
 bld was created because we're not really interested in build tools. We use them

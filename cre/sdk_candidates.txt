@@ -139,7 +139,7 @@ Gaiden is a tool that makes it easy to create documentation with Markdown.
 
                                                             $ sdk install gaiden
 --------------------------------------------------------------------------------
-Graal Cloud Native (4.6.0.6)                        https://www.graal.cloud/gcn/
+Graal Cloud Native (4.7.3.1)                        https://www.graal.cloud/gcn/
 
 Graal Cloud Native (GCN) is a curated set of Micronaut(tm) framework modules
 designed from the ground up to be compiled ahead-of-time with GraalVM Native
@@ -429,7 +429,7 @@ Maven project.
 
                                                                $ sdk install mcs
 --------------------------------------------------------------------------------
-Micronaut (4.7.4)                                           http://micronaut.io/
+Micronaut (4.7.5)                                           http://micronaut.io/
 
 Micronaut is an open source microservice framework for the JVM
 
@@ -480,7 +480,7 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.18.1)                                           http://quarkus.io
+Quarkus CLI (3.18.2)                                           http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.

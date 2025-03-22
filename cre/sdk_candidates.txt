@@ -167,7 +167,7 @@ can be run.
 
                                                             $ sdk install gradle
 --------------------------------------------------------------------------------
-Gradle profiler (0.21.0)               https://github.com/gradle/gradle-profiler
+Gradle profiler (0.22.0)               https://github.com/gradle/gradle-profiler
 
 A tool for gathering profiling and benchmarking information for Gradle builds
 
@@ -268,7 +268,7 @@ and designers.
 
                                                              $ sdk install jbake
 --------------------------------------------------------------------------------
-JBang (0.124.0)                             http://github.com/maxandersen/jbang/
+JBang (0.125.1)                             http://github.com/maxandersen/jbang/
 
 JBang makes it easy to use Java for scripting. It lets you use a single file for
 code and dependency management and allows you to run it directly.
@@ -331,7 +331,7 @@ program analysis.
 
                                                              $ sdk install joern
 --------------------------------------------------------------------------------
-jQAssistant (Coming soon!)                               https://jqassistant.org
+jQAssistant (2.6.0)                                      https://jqassistant.org
 
 jQAssistant is an open-source tool for software analytics, enabling you to gain
 insights into your systems, verify design implementation, and create living
@@ -382,7 +382,7 @@ The CLI provides commands to help setup and manage your project.
 
                                                             $ sdk install kobweb
 --------------------------------------------------------------------------------
-Kotlin (2.1.10)                                          https://kotlinlang.org/
+Kotlin (2.1.20)                                          https://kotlinlang.org/
 
 Kotlin is a statically-typed programming language that runs on the Java Virtual
 Machine and can also be compiled to JavaScript source code.
@@ -498,14 +498,14 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.19.3)                                           http://quarkus.io
+Quarkus CLI (3.19.4)                                           http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
 
                                                            $ sdk install quarkus
 --------------------------------------------------------------------------------
-sbt (1.10.10)                                          http://www.scala-sbt.org/
+sbt (1.10.11)                                          http://www.scala-sbt.org/
 
 SBT is an open source build tool for Scala and Java projects, similar to Java's
 Maven or Ant. Its main features are: native support for compiling Scala code and
@@ -535,7 +535,7 @@ strings, and no checked exceptions.
 
                                                              $ sdk install scala
 --------------------------------------------------------------------------------
-Scala CLI (1.7.0)                                https://scala-cli.virtuslab.org
+Scala CLI (1.7.1)                                https://scala-cli.virtuslab.org
 
 Scala CLI is a command-line tool to interact with the Scala language. It lets
 you compile, run, test, and package your Scala code (and more!)
@@ -570,7 +570,7 @@ fault-tolerance.
 
                                                              $ sdk install spark
 --------------------------------------------------------------------------------
-Spring Boot (3.4.3)                       http://projects.spring.io/spring-boot/
+Spring Boot (3.4.4)                       http://projects.spring.io/spring-boot/
 
 Spring Boot takes an opinionated view of building production-ready Spring
 applications. It favors convention over configuration and is designed to get you

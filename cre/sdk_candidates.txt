@@ -447,7 +447,7 @@ Maven project.
 
                                                                $ sdk install mcs
 --------------------------------------------------------------------------------
-Micronaut (4.7.6)                                           http://micronaut.io/
+Micronaut (4.8.0)                                           http://micronaut.io/
 
 Micronaut is an open source microservice framework for the JVM
 
@@ -477,7 +477,7 @@ this candidate provides the migrate command for managing database migrations
 
                                                            $ sdk install mybatis
 --------------------------------------------------------------------------------
-Neo4j-Migrations (2.17.0)               https://neo4j.com/labs/neo4j-migrations/
+Neo4j-Migrations (2.17.1)               https://neo4j.com/labs/neo4j-migrations/
 
 Neo4j-Migrations is a database migration and refactoring tool that allows
 running Cypher scripts and programmatic refactorings in a controlled and
@@ -498,7 +498,7 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.21.0)                                           http://quarkus.io
+Quarkus CLI (3.21.1)                                           http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
@@ -608,7 +608,7 @@ MQTT and COAP. It provides a command line client tool for IoT development.
 
                                                            $ sdk install toolkit
 --------------------------------------------------------------------------------
-Vert.x (4.5.13)                                                 http://vertx.io/
+Vert.x (4.5.14)                                                 http://vertx.io/
 
 Vert.x is a tool-kit for building reactive applications on the JVM.
 

@@ -139,7 +139,7 @@ Gaiden is a tool that makes it easy to create documentation with Markdown.
 
                                                             $ sdk install gaiden
 --------------------------------------------------------------------------------
-Graal Cloud Native (4.7.3.2)                        https://www.graal.cloud/gcn/
+Graal Cloud Native (4.7.3.4)                        https://www.graal.cloud/gcn/
 
 Graal Cloud Native (GCN) is a curated set of Micronaut(tm) framework modules
 designed from the ground up to be compiled ahead-of-time with GraalVM Native
@@ -223,7 +223,7 @@ changes.
 
                                                            $ sdk install helidon
 --------------------------------------------------------------------------------
-HSC (2.0.0-rc3)                                           https://hsc.aim42.org/
+HSC (2.0.0-rc4)                                           https://hsc.aim42.org/
 
 HSC (HTML Sanity Check) is a fast and lightweight tool for checking HTML, links,
 and accessibility issues. It helps ensure clean, error-free web content and
@@ -250,7 +250,7 @@ manifest, manifest entries, bytecode versions, declarative services, and more.
 
                                                             $ sdk install jarviz
 --------------------------------------------------------------------------------
-Java (21.0.6-tem)        https://projects.eclipse.org/projects/adoptium.temurin/
+Java (21.0.7-tem)        https://projects.eclipse.org/projects/adoptium.temurin/
 
 Java Platform, Standard Edition (or Java SE) is a widely used platform for
 development and deployment of portable code for desktop and server environments.
@@ -447,7 +447,7 @@ Maven project.
 
                                                                $ sdk install mcs
 --------------------------------------------------------------------------------
-Micronaut (4.8.0)                                           http://micronaut.io/
+Micronaut (4.8.2)                                           http://micronaut.io/
 
 Micronaut is an open source microservice framework for the JVM
 

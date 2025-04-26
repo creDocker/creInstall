@@ -157,7 +157,7 @@ language. Grace is a fork of Grails 5 that started development in early 2022.
 
                                                              $ sdk install grace
 --------------------------------------------------------------------------------
-Gradle (8.13)                                                 http://gradle.org/
+Gradle (8.14)                                                 http://gradle.org/
 
 Gradle is a build automation tool that builds upon the concepts of Apache Ant
 and Apache Maven and introduces a Groovy-based domain-specific language (DSL)
@@ -424,7 +424,7 @@ your code.
 
                                                          $ sdk install leiningen
 --------------------------------------------------------------------------------
-Liquibase (4.31.1)                                        https://liquibase.com/
+Liquibase (4.29.2)                                        https://liquibase.com/
 
 Liquibase is an open-source database-independent library for tracking, managing
 and applying database schema changes.
@@ -498,7 +498,7 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.21.2)                                           http://quarkus.io
+Quarkus CLI (3.21.4)                                           http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
@@ -570,7 +570,7 @@ fault-tolerance.
 
                                                              $ sdk install spark
 --------------------------------------------------------------------------------
-Spring Boot (3.4.4)                       http://projects.spring.io/spring-boot/
+Spring Boot (3.4.5)                       http://projects.spring.io/spring-boot/
 
 Spring Boot takes an opinionated view of building production-ready Spring
 applications. It favors convention over configuration and is designed to get you

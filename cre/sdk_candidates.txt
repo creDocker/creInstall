@@ -331,7 +331,7 @@ program analysis.
 
                                                              $ sdk install joern
 --------------------------------------------------------------------------------
-jQAssistant (2.6.0)                                      https://jqassistant.org
+jQAssistant (2.7.0)                                      https://jqassistant.org
 
 jQAssistant is an open-source tool for software analytics, enabling you to gain
 insights into your systems, verify design implementation, and create living
@@ -382,7 +382,7 @@ The CLI provides commands to help setup and manage your project.
 
                                                             $ sdk install kobweb
 --------------------------------------------------------------------------------
-Kotlin (2.1.20)                                          https://kotlinlang.org/
+Kotlin (2.1.21)                                          https://kotlinlang.org/
 
 Kotlin is a statically-typed programming language that runs on the Java Virtual
 Machine and can also be compiled to JavaScript source code.
@@ -585,7 +585,7 @@ servers through SSH.
 
                                                            $ sdk install sshoogr
 --------------------------------------------------------------------------------
-Taxi (1.63.0)                                               https://taxilang.org
+Taxi (1.64.0)                                               https://taxilang.org
 
 Taxi is a language for documenting data - such as data models - and the
 contracts of APIs. It describes data semantically, allowing powerful tooling to

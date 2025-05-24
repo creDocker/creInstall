@@ -157,7 +157,7 @@ language. Grace is a fork of Grails 5 that started development in early 2022.
 
                                                              $ sdk install grace
 --------------------------------------------------------------------------------
-Gradle (8.14)                                                 http://gradle.org/
+Gradle (8.14.1)                                               http://gradle.org/
 
 Gradle is a build automation tool that builds upon the concepts of Apache Ant
 and Apache Maven and introduces a Groovy-based domain-specific language (DSL)
@@ -424,7 +424,7 @@ your code.
 
                                                          $ sdk install leiningen
 --------------------------------------------------------------------------------
-Liquibase (4.29.2)                                        https://liquibase.com/
+Liquibase (4.32.0)                                        https://liquibase.com/
 
 Liquibase is an open-source database-independent library for tracking, managing
 and applying database schema changes.
@@ -542,7 +542,7 @@ you compile, run, test, and package your Scala code (and more!)
 
                                                           $ sdk install scalacli
 --------------------------------------------------------------------------------
-SchemaCrawler (16.25.3)                            https://www.schemacrawler.com
+SchemaCrawler (16.25.4)                            https://www.schemacrawler.com
 
 SchemaCrawler is a free database schema discovery and comprehension tool.
 SchemaCrawler has a good mix of useful features for data governance. You can
@@ -570,7 +570,7 @@ fault-tolerance.
 
                                                              $ sdk install spark
 --------------------------------------------------------------------------------
-Spring Boot (3.4.5)                       http://projects.spring.io/spring-boot/
+Spring Boot (3.5.0)                       http://projects.spring.io/spring-boot/
 
 Spring Boot takes an opinionated view of building production-ready Spring
 applications. It favors convention over configuration and is designed to get you
@@ -608,7 +608,7 @@ MQTT and COAP. It provides a command line client tool for IoT development.
 
                                                            $ sdk install toolkit
 --------------------------------------------------------------------------------
-Vert.x (4.5.14)                                                 http://vertx.io/
+Vert.x (4.5.15)                                                 http://vertx.io/
 
 Vert.x is a tool-kit for building reactive applications on the JVM.
 

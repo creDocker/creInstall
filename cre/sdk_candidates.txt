@@ -157,7 +157,7 @@ language. Grace is a fork of Grails 5 that started development in early 2022.
 
                                                              $ sdk install grace
 --------------------------------------------------------------------------------
-Gradle (8.14.1)                                               http://gradle.org/
+Gradle (8.14.2)                                               http://gradle.org/
 
 Gradle is a build automation tool that builds upon the concepts of Apache Ant
 and Apache Maven and introduces a Groovy-based domain-specific language (DSL)
@@ -498,14 +498,14 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.23.0)                                           http://quarkus.io
+Quarkus CLI (3.23.2)                                           http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
 
                                                            $ sdk install quarkus
 --------------------------------------------------------------------------------
-sbt (1.11.0)                                           http://www.scala-sbt.org/
+sbt (1.11.1)                                           http://www.scala-sbt.org/
 
 SBT is an open source build tool for Scala and Java projects, similar to Java's
 Maven or Ant. Its main features are: native support for compiling Scala code and
@@ -517,7 +517,7 @@ Java/Scala projects
 
                                                                $ sdk install sbt
 --------------------------------------------------------------------------------
-Scala (3.7.0)                                         http://www.scala-lang.org/
+Scala (3.7.1)                                         http://www.scala-lang.org/
 
 Scala is a programming language for general software applications. Scala has
 full support for functional programming and a very strong static type system.
@@ -535,14 +535,14 @@ strings, and no checked exceptions.
 
                                                              $ sdk install scala
 --------------------------------------------------------------------------------
-Scala CLI (1.8.0)                                https://scala-cli.virtuslab.org
+Scala CLI (1.8.1)                                https://scala-cli.virtuslab.org
 
 Scala CLI is a command-line tool to interact with the Scala language. It lets
 you compile, run, test, and package your Scala code (and more!)
 
                                                           $ sdk install scalacli
 --------------------------------------------------------------------------------
-SchemaCrawler (16.25.5)                            https://www.schemacrawler.com
+SchemaCrawler (16.26.1)                            https://www.schemacrawler.com
 
 SchemaCrawler is a free database schema discovery and comprehension tool.
 SchemaCrawler has a good mix of useful features for data governance. You can

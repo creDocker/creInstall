@@ -47,7 +47,7 @@ programmers to easily write software that just works.
 
                                                          $ sdk install ballerina
 --------------------------------------------------------------------------------
-Bld (2.2.1)                                                https://rife2.com/bld
+Bld (2.3.0)                                                https://rife2.com/bld
 
 bld is a build system that allows you to write your build logic in pure Java.
 bld was created because we're not really interested in build tools. We use them
@@ -515,7 +515,7 @@ GraalVM, crafted from best-of-breed Java libraries and standards.
 
                                                            $ sdk install quarkus
 --------------------------------------------------------------------------------
-sbt (1.11.2)                                           http://www.scala-sbt.org/
+sbt (1.11.3)                                           http://www.scala-sbt.org/
 
 SBT is an open source build tool for Scala and Java projects, similar to Java's
 Maven or Ant. Its main features are: native support for compiling Scala code and

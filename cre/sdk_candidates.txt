@@ -157,7 +157,7 @@ language. Grace is a fork of Grails 5 that started development in early 2022.
 
                                                              $ sdk install grace
 --------------------------------------------------------------------------------
-Gradle (8.14.2)                                               http://gradle.org/
+Gradle (9.0.0)                                                http://gradle.org/
 
 Gradle is a build automation tool that builds upon the concepts of Apache Ant
 and Apache Maven and introduces a Groovy-based domain-specific language (DSL)
@@ -268,7 +268,7 @@ and designers.
 
                                                              $ sdk install jbake
 --------------------------------------------------------------------------------
-JBang (0.127.18)                            http://github.com/maxandersen/jbang/
+JBang (0.128.7)                             http://github.com/maxandersen/jbang/
 
 JBang makes it easy to use Java for scripting. It lets you use a single file for
 code and dependency management and allows you to run it directly.
@@ -385,7 +385,7 @@ dependencies.
 
                                                                 $ sdk install ki
 --------------------------------------------------------------------------------
-Kobweb (0.9.18)                                      https://kobweb.varabyte.com
+Kobweb (0.9.20)                                      https://kobweb.varabyte.com
 
 Kobweb is an opinionated Kotlin web framework built on top of Compose for Web.
 The CLI provides commands to help setup and manage your project.
@@ -457,7 +457,7 @@ Maven project.
 
                                                                $ sdk install mcs
 --------------------------------------------------------------------------------
-Micronaut (4.9.1)                                           http://micronaut.io/
+Micronaut (4.9.2)                                           http://micronaut.io/
 
 Micronaut is an open source microservice framework for the JVM
 
@@ -508,7 +508,7 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.24.5)                                           http://quarkus.io
+Quarkus CLI (3.25.0)                                           http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
@@ -527,7 +527,7 @@ Java/Scala projects
 
                                                                $ sdk install sbt
 --------------------------------------------------------------------------------
-Scala (3.7.1)                                         http://www.scala-lang.org/
+Scala (3.7.2)                                         http://www.scala-lang.org/
 
 Scala is a programming language for general software applications. Scala has
 full support for functional programming and a very strong static type system.

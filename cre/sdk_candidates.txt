@@ -139,7 +139,7 @@ Gaiden is a tool that makes it easy to create documentation with Markdown.
 
                                                             $ sdk install gaiden
 --------------------------------------------------------------------------------
-Graal Cloud Native (4.7.3.5)                        https://www.graal.cloud/gcn/
+Graal Cloud Native (4.9.1.1)                        https://www.graal.cloud/gcn/
 
 Graal Cloud Native (GCN) is a curated set of Micronaut(tm) framework modules
 designed from the ground up to be compiled ahead-of-time with GraalVM Native
@@ -173,7 +173,7 @@ A tool for gathering profiling and benchmarking information for Gradle builds
 
                                                     $ sdk install gradleprofiler
 --------------------------------------------------------------------------------
-Grails (6.2.3)                                               https://grails.org/
+Grails (7.0.0-RC1)                                           https://grails.org/
 
 Grails is a powerful web framework, for the Java platform aimed at multiplying
 developers productivity thanks to a Convention-over-Configuration, sensible
@@ -385,14 +385,14 @@ dependencies.
 
                                                                 $ sdk install ki
 --------------------------------------------------------------------------------
-Kobweb (0.9.20)                                      https://kobweb.varabyte.com
+Kobweb (0.9.21)                                      https://kobweb.varabyte.com
 
 Kobweb is an opinionated Kotlin web framework built on top of Compose for Web.
 The CLI provides commands to help setup and manage your project.
 
                                                             $ sdk install kobweb
 --------------------------------------------------------------------------------
-Kotlin (2.2.0)                                           https://kotlinlang.org/
+Kotlin (2.2.10)                                          https://kotlinlang.org/
 
 Kotlin is a statically-typed programming language that runs on the Java Virtual
 Machine and can also be compiled to JavaScript source code.
@@ -508,7 +508,7 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.25.2)                                           http://quarkus.io
+Quarkus CLI (3.25.3)                                           http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
@@ -595,7 +595,7 @@ servers through SSH.
 
                                                            $ sdk install sshoogr
 --------------------------------------------------------------------------------
-Taxi (1.66.0)                                               https://taxilang.org
+Taxi (1.67.1)                                               https://taxilang.org
 
 Taxi is a language for documenting data - such as data models - and the
 contracts of APIs. It describes data semantically, allowing powerful tooling to

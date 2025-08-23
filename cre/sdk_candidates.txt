@@ -487,7 +487,7 @@ this candidate provides the migrate command for managing database migrations
 
                                                            $ sdk install mybatis
 --------------------------------------------------------------------------------
-Neo4j-Migrations (2.18.1)               https://neo4j.com/labs/neo4j-migrations/
+Neo4j-Migrations (2.18.2)               https://neo4j.com/labs/neo4j-migrations/
 
 Neo4j-Migrations is a database migration and refactoring tool that allows
 running Cypher scripts and programmatic refactorings in a controlled and
@@ -508,7 +508,7 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.25.3)                                           http://quarkus.io
+Quarkus CLI (3.25.4)                                           http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
@@ -552,7 +552,7 @@ you compile, run, test, and package your Scala code (and more!)
 
                                                           $ sdk install scalacli
 --------------------------------------------------------------------------------
-SchemaCrawler (16.26.3)                            https://www.schemacrawler.com
+SchemaCrawler (16.27.1)                            https://www.schemacrawler.com
 
 SchemaCrawler is a free database schema discovery and comprehension tool.
 SchemaCrawler has a good mix of useful features for data governance. You can
@@ -580,7 +580,7 @@ fault-tolerance.
 
                                                              $ sdk install spark
 --------------------------------------------------------------------------------
-Spring Boot (3.5.4)                       http://projects.spring.io/spring-boot/
+Spring Boot (3.5.5)                       http://projects.spring.io/spring-boot/
 
 Spring Boot takes an opinionated view of building production-ready Spring
 applications. It favors convention over configuration and is designed to get you

@@ -184,7 +184,7 @@ meta-programming and Asynchronous programming.
 
                                                             $ sdk install grails
 --------------------------------------------------------------------------------
-Groovy (4.0.28)                                      http://www.groovy-lang.org/
+Groovy (5.0.0)                                       http://www.groovy-lang.org/
 
 Groovy is a powerful, optionally typed and dynamic language, with static-typing
 and static compilation capabilities, for the Java platform aimed at multiplying
@@ -299,7 +299,7 @@ is an early access build from OpenJDK Jextract which is part of Code Tools
 
                                                           $ sdk install jextract
 --------------------------------------------------------------------------------
-Jikkou (0.35.7)                         https://streamthoughts.github.io/jikkou/
+Jikkou (0.36.0)                         https://streamthoughts.github.io/jikkou/
 
 Jikkou is a command-line client for efficient management, automation and
 provisioning of resources for Kafka, Schema Registry, etc. Inspired by kubectl
@@ -449,7 +449,7 @@ reporting and documentation from a central piece of information.
 
                                                              $ sdk install maven
 --------------------------------------------------------------------------------
-MCS (0.7.6)                                    https://github.com/mthmulders/mcs
+MCS (0.8.0)                                    https://github.com/mthmulders/mcs
 
 Search the Maven Central Repository from your command line! Using mcs, you can
 find artifacts and generate the required pom.xml snippet to use directly in your
@@ -457,7 +457,7 @@ Maven project.
 
                                                                $ sdk install mcs
 --------------------------------------------------------------------------------
-Micronaut (4.9.2)                                           http://micronaut.io/
+Micronaut (4.9.3)                                           http://micronaut.io/
 
 Micronaut is an open source microservice framework for the JVM
 
@@ -508,14 +508,14 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.25.4)                                           http://quarkus.io
+Quarkus CLI (3.26.1)                                           http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
 
                                                            $ sdk install quarkus
 --------------------------------------------------------------------------------
-sbt (1.11.4)                                           http://www.scala-sbt.org/
+sbt (1.11.5)                                           http://www.scala-sbt.org/
 
 SBT is an open source build tool for Scala and Java projects, similar to Java's
 Maven or Ant. Its main features are: native support for compiling Scala code and

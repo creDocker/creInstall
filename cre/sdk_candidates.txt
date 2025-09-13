@@ -173,7 +173,7 @@ A tool for gathering profiling and benchmarking information for Gradle builds
 
                                                     $ sdk install gradleprofiler
 --------------------------------------------------------------------------------
-Grails (7.0.0-RC1)                                           https://grails.org/
+Grails (7.0.0-RC2)                                           https://grails.org/
 
 Grails is a powerful web framework, for the Java platform aimed at multiplying
 developers productivity thanks to a Convention-over-Configuration, sensible
@@ -184,7 +184,7 @@ meta-programming and Asynchronous programming.
 
                                                             $ sdk install grails
 --------------------------------------------------------------------------------
-Groovy (5.0.0)                                       http://www.groovy-lang.org/
+Groovy (5.0.1)                                       http://www.groovy-lang.org/
 
 Groovy is a powerful, optionally typed and dynamic language, with static-typing
 and static compilation capabilities, for the Java platform aimed at multiplying
@@ -268,7 +268,7 @@ and designers.
 
                                                              $ sdk install jbake
 --------------------------------------------------------------------------------
-JBang (0.129.0)                             http://github.com/maxandersen/jbang/
+JBang (0.130.0)                             http://github.com/maxandersen/jbang/
 
 JBang makes it easy to use Java for scripting. It lets you use a single file for
 code and dependency management and allows you to run it directly.
@@ -392,7 +392,7 @@ The CLI provides commands to help setup and manage your project.
 
                                                             $ sdk install kobweb
 --------------------------------------------------------------------------------
-Kotlin (2.2.10)                                          https://kotlinlang.org/
+Kotlin (2.2.20)                                          https://kotlinlang.org/
 
 Kotlin is a statically-typed programming language that runs on the Java Virtual
 Machine and can also be compiled to JavaScript source code.
@@ -487,7 +487,7 @@ this candidate provides the migrate command for managing database migrations
 
                                                            $ sdk install mybatis
 --------------------------------------------------------------------------------
-Neo4j-Migrations (2.18.2)               https://neo4j.com/labs/neo4j-migrations/
+Neo4j-Migrations (2.19.0)               https://neo4j.com/labs/neo4j-migrations/
 
 Neo4j-Migrations is a database migration and refactoring tool that allows
 running Cypher scripts and programmatic refactorings in a controlled and
@@ -508,7 +508,7 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.26.2)                                           http://quarkus.io
+Quarkus CLI (3.26.3)                                           http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
@@ -527,7 +527,7 @@ Java/Scala projects
 
                                                                $ sdk install sbt
 --------------------------------------------------------------------------------
-Scala (3.7.2)                                         http://www.scala-lang.org/
+Scala (3.7.3)                                         http://www.scala-lang.org/
 
 Scala is a programming language for general software applications. Scala has
 full support for functional programming and a very strong static type system.

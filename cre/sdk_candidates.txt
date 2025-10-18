@@ -167,7 +167,7 @@ can be run.
 
                                                             $ sdk install gradle
 --------------------------------------------------------------------------------
-Gradle profiler (0.22.0)               https://github.com/gradle/gradle-profiler
+Gradle profiler (0.23.0)               https://github.com/gradle/gradle-profiler
 
 A tool for gathering profiling and benchmarking information for Gradle builds
 
@@ -184,7 +184,7 @@ meta-programming and Asynchronous programming.
 
                                                             $ sdk install grails
 --------------------------------------------------------------------------------
-Groovy (5.0.1)                                       http://www.groovy-lang.org/
+Groovy (5.0.2)                                       http://www.groovy-lang.org/
 
 Groovy is a powerful, optionally typed and dynamic language, with static-typing
 and static compilation capabilities, for the Java platform aimed at multiplying
@@ -449,7 +449,7 @@ reporting and documentation from a central piece of information.
 
                                                              $ sdk install maven
 --------------------------------------------------------------------------------
-MCS (0.9.0)                                    https://github.com/mthmulders/mcs
+MCS (0.9.1)                                    https://github.com/mthmulders/mcs
 
 Search the Maven Central Repository from your command line! Using mcs, you can
 find artifacts and generate the required pom.xml snippet to use directly in your
@@ -508,7 +508,7 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.28.3)                                           http://quarkus.io
+Quarkus CLI (3.28.4)                                           http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.

@@ -46,8 +46,14 @@ RUN npm install -g freeze-deps
 ## npm set init.author.name "example_user"
 ## npm config set init.author.url http://iamsim.me/
 
-RUN npm set init.version "${CRE_VERSION}.0"
-RUN npm set init.license "Apache-2.0"
+#RUN npm set init.version "${CRE_VERSION}.0"
+#RUN npm set init.license "Apache-2.0"
+
+RUN npm config set init-version "${CRE_VERSION}.0"
+RUN npm config set init-license "Apache-2.0"
+RUN npm config set init-author-name "kmicha"
+RUN npm config set init-author-email "your-email@example.com"
+RUN npm config set init-author-url  "https://github.com/creDocker/creInstall"
 
 # npm set init.author.email "example-user@example.com" 
 # npm set init.author.name "example_user" 

@@ -32,7 +32,7 @@ tasks.
 
                                                                $ sdk install ant
 --------------------------------------------------------------------------------
-AsciidoctorJ (3.0.0)                                     http://asciidoctor.org/
+AsciidoctorJ (3.0.1)                                     http://asciidoctor.org/
 
 AsciidoctorJ is the official library for running Asciidoctor on the JVM. Using
 AsciidoctorJ, you can convert AsciiDoc content or analyze the structure of a
@@ -173,7 +173,7 @@ A tool for gathering profiling and benchmarking information for Gradle builds
 
                                                     $ sdk install gradleprofiler
 --------------------------------------------------------------------------------
-Grails (7.0.2)                                               https://grails.org/
+Grails (7.0.3)                                               https://grails.org/
 
 Grails is a powerful web framework, for the Java platform aimed at multiplying
 developers productivity thanks to a Convention-over-Configuration, sensible
@@ -268,7 +268,7 @@ and designers.
 
                                                              $ sdk install jbake
 --------------------------------------------------------------------------------
-JBang (0.132.1)                             http://github.com/maxandersen/jbang/
+JBang (0.134.3)                             http://github.com/maxandersen/jbang/
 
 JBang makes it easy to use Java for scripting. It lets you use a single file for
 code and dependency management and allows you to run it directly.
@@ -441,7 +441,7 @@ and applying database schema changes.
 
                                                          $ sdk install liquibase
 --------------------------------------------------------------------------------
-Maven (4.0.0-rc-5)                                     https://maven.apache.org/
+Maven (3.9.11)                                         https://maven.apache.org/
 
 Apache Maven is a software project management and comprehension tool. Based on
 the concept of a project object model (POM), Maven can manage a project's build,
@@ -508,7 +508,7 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.29.4)                                           http://quarkus.io
+Quarkus CLI (3.30.1)                                           http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
@@ -565,7 +565,7 @@ design issues with lint.
 
                                                      $ sdk install schemacrawler
 --------------------------------------------------------------------------------
-Skeletal (0.19.0)                           https://github.com/cbmarcum/skeletal
+Skeletal (1.0.0)                            https://github.com/cbmarcum/skeletal
 
 Skeletal is a tool that allows you to create a new project structure for any
 framework or library for which the tool has a template.

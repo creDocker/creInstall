@@ -392,7 +392,7 @@ The CLI provides commands to help setup and manage your project.
 
                                                             $ sdk install kobweb
 --------------------------------------------------------------------------------
-Kotlin (2.2.21)                                          https://kotlinlang.org/
+Kotlin (2.3.0)                                           https://kotlinlang.org/
 
 Kotlin is a statically-typed programming language that runs on the Java Virtual
 Machine and can also be compiled to JavaScript source code.
@@ -441,7 +441,7 @@ and applying database schema changes.
 
                                                          $ sdk install liquibase
 --------------------------------------------------------------------------------
-Maven (3.9.11)                                         https://maven.apache.org/
+Maven (3.9.12)                                         https://maven.apache.org/
 
 Apache Maven is a software project management and comprehension tool. Based on
 the concept of a project object model (POM), Maven can manage a project's build,
@@ -449,7 +449,7 @@ reporting and documentation from a central piece of information.
 
                                                              $ sdk install maven
 --------------------------------------------------------------------------------
-MCS (0.9.2)                                    https://github.com/mthmulders/mcs
+MCS (0.9.3)                                    https://github.com/mthmulders/mcs
 
 Search the Maven Central Repository from your command line! Using mcs, you can
 find artifacts and generate the required pom.xml snippet to use directly in your
@@ -457,7 +457,7 @@ Maven project.
 
                                                                $ sdk install mcs
 --------------------------------------------------------------------------------
-Micronaut (4.10.4)                                          http://micronaut.io/
+Micronaut (4.10.5)                                          http://micronaut.io/
 
 Micronaut is an open source microservice framework for the JVM
 
@@ -508,7 +508,7 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.30.3)                                           http://quarkus.io
+Quarkus CLI (3.30.4)                                           http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
@@ -580,7 +580,7 @@ fault-tolerance.
 
                                                              $ sdk install spark
 --------------------------------------------------------------------------------
-Spring Boot (4.0.0)                       http://projects.spring.io/spring-boot/
+Spring Boot (4.0.1)                       http://projects.spring.io/spring-boot/
 
 Spring Boot takes an opinionated view of building production-ready Spring
 applications. It favors convention over configuration and is designed to get you
@@ -618,7 +618,7 @@ MQTT and COAP. It provides a command line client tool for IoT development.
 
                                                            $ sdk install toolkit
 --------------------------------------------------------------------------------
-TornadoVM (Coming soon!)                              https://www.tornadovm.org/
+TornadoVM (2.2.0-opencl)                              https://www.tornadovm.org/
 
 TornadoVM is a plug-in to OpenJDK and GraalVM that allows Java programmers to
 automatically run on heterogeneous hardware (GPUs, FPGAs, multi-core CPUs).

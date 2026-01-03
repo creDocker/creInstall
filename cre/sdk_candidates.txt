@@ -261,7 +261,7 @@ Language Specification and the Java Virtual Machine Specification.
 
                                                               $ sdk install java
 --------------------------------------------------------------------------------
-JBake (2.6.7)                                                  http://jbake.org/
+JBake (2.7.0)                                                  http://jbake.org/
 
 JBake is a Java based, open source, static site/blog generator for developers
 and designers.
@@ -275,7 +275,7 @@ code and dependency management and allows you to run it directly.
 
                                                              $ sdk install jbang
 --------------------------------------------------------------------------------
-JeKa (0.11.57)                                                  https://jeka.dev
+JeKa (0.11.58)                                                  https://jeka.dev
 
 JeKa is a modern build tool for Java, designed to simplify and streamline your
 development experience.
@@ -351,7 +351,7 @@ implementation.
 
                                                        $ sdk install jqassistant
 --------------------------------------------------------------------------------
-JReleaser (1.21.0)                                         https://jreleaser.org
+JReleaser (1.22.0)                                         https://jreleaser.org
 
 JReleaser is a release automation tool for Java projects. Its goal is to
 simplify creating releases and publishing artifacts to multiple package managers
@@ -552,7 +552,7 @@ you compile, run, test, and package your Scala code (and more!)
 
                                                           $ sdk install scalacli
 --------------------------------------------------------------------------------
-SchemaCrawler (17.1.7)                             https://www.schemacrawler.com
+SchemaCrawler (17.3.0)                             https://www.schemacrawler.com
 
 SchemaCrawler is a free database schema discovery and comprehension tool.
 SchemaCrawler has a good mix of useful features for data governance. You can

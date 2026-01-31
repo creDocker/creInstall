@@ -173,7 +173,7 @@ A tool for gathering profiling and benchmarking information for Gradle builds
 
                                                     $ sdk install gradleprofiler
 --------------------------------------------------------------------------------
-Grails (7.0.5)                                               https://grails.org/
+Grails (7.0.6)                                               https://grails.org/
 
 Grails is a powerful web framework, for the Java platform aimed at multiplying
 developers productivity thanks to a Convention-over-Configuration, sensible
@@ -341,7 +341,7 @@ program analysis.
 
                                                              $ sdk install joern
 --------------------------------------------------------------------------------
-jQAssistant (2.8.0)                                      https://jqassistant.org
+jQAssistant (2.9.0)                                      https://jqassistant.org
 
 jQAssistant is an open-source tool for software analytics, enabling you to gain
 insights into your systems, verify design implementation, and create living
@@ -508,14 +508,14 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.30.8)                                           http://quarkus.io
+Quarkus CLI (3.31.1)                                           http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
 
                                                            $ sdk install quarkus
 --------------------------------------------------------------------------------
-sbt (1.12.0)                                           http://www.scala-sbt.org/
+sbt (1.12.1)                                           http://www.scala-sbt.org/
 
 SBT is an open source build tool for Scala and Java projects, similar to Java's
 Maven or Ant. Its main features are: native support for compiling Scala code and
@@ -545,14 +545,14 @@ strings, and no checked exceptions.
 
                                                              $ sdk install scala
 --------------------------------------------------------------------------------
-Scala CLI (1.12.0)                               https://scala-cli.virtuslab.org
+Scala CLI (1.12.1)                               https://scala-cli.virtuslab.org
 
 Scala CLI is a command-line tool to interact with the Scala language. It lets
 you compile, run, test, and package your Scala code (and more!)
 
                                                           $ sdk install scalacli
 --------------------------------------------------------------------------------
-SchemaCrawler (17.5.0)                             https://www.schemacrawler.com
+SchemaCrawler (17.6.0)                             https://www.schemacrawler.com
 
 SchemaCrawler is a free database schema discovery and comprehension tool.
 SchemaCrawler has a good mix of useful features for data governance. You can

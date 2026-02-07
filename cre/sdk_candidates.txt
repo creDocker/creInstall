@@ -268,7 +268,7 @@ and designers.
 
                                                              $ sdk install jbake
 --------------------------------------------------------------------------------
-JBang (0.135.1)                             http://github.com/maxandersen/jbang/
+JBang (0.136.0)                             http://github.com/maxandersen/jbang/
 
 JBang makes it easy to use Java for scripting. It lets you use a single file for
 code and dependency management and allows you to run it directly.
@@ -392,7 +392,7 @@ The CLI provides commands to help setup and manage your project.
 
                                                             $ sdk install kobweb
 --------------------------------------------------------------------------------
-Kotlin (2.3.0)                                           https://kotlinlang.org/
+Kotlin (2.3.10)                                          https://kotlinlang.org/
 
 Kotlin is a statically-typed programming language that runs on the Java Virtual
 Machine and can also be compiled to JavaScript source code.
@@ -487,7 +487,7 @@ this candidate provides the migrate command for managing database migrations
 
                                                            $ sdk install mybatis
 --------------------------------------------------------------------------------
-Neo4j-Migrations (3.2.0)                https://neo4j.com/labs/neo4j-migrations/
+Neo4j-Migrations (3.2.1)                https://neo4j.com/labs/neo4j-migrations/
 
 Neo4j-Migrations is a database migration and refactoring tool that allows
 running Cypher scripts and programmatic refactorings in a controlled and
@@ -508,14 +508,14 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.31.1)                                           http://quarkus.io
+Quarkus CLI (3.31.2)                                           http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
 
                                                            $ sdk install quarkus
 --------------------------------------------------------------------------------
-sbt (1.12.1)                                           http://www.scala-sbt.org/
+sbt (1.12.2)                                           http://www.scala-sbt.org/
 
 SBT is an open source build tool for Scala and Java projects, similar to Java's
 Maven or Ant. Its main features are: native support for compiling Scala code and
@@ -545,7 +545,7 @@ strings, and no checked exceptions.
 
                                                              $ sdk install scala
 --------------------------------------------------------------------------------
-Scala CLI (1.12.1)                               https://scala-cli.virtuslab.org
+Scala CLI (1.12.2)                               https://scala-cli.virtuslab.org
 
 Scala CLI is a command-line tool to interact with the Scala language. It lets
 you compile, run, test, and package your Scala code (and more!)

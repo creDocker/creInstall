@@ -457,7 +457,7 @@ Maven project.
 
                                                                $ sdk install mcs
 --------------------------------------------------------------------------------
-Micronaut (4.10.8)                                          http://micronaut.io/
+Micronaut (4.10.9)                                          http://micronaut.io/
 
 Micronaut is an open source microservice framework for the JVM
 
@@ -501,21 +501,21 @@ Pierrot helps you to manage many GitHub repositories with a single command.
 
                                                            $ sdk install pierrot
 --------------------------------------------------------------------------------
-Pomchecker (1.14.0)                       https://github.com/kordamp/pomchecker/
+Pomchecker (1.15.0)                       https://github.com/kordamp/pomchecker/
 
 Pomchecker - Checks that POM files comply with the minimum rules required for
 publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.31.4)                                           http://quarkus.io
+Quarkus CLI (3.32.1)                                           http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
 
                                                            $ sdk install quarkus
 --------------------------------------------------------------------------------
-sbt (1.12.3)                                           http://www.scala-sbt.org/
+sbt (1.12.4)                                           http://www.scala-sbt.org/
 
 SBT is an open source build tool for Scala and Java projects, similar to Java's
 Maven or Ant. Its main features are: native support for compiling Scala code and
@@ -527,7 +527,7 @@ Java/Scala projects
 
                                                                $ sdk install sbt
 --------------------------------------------------------------------------------
-Scala (3.8.1)                                         http://www.scala-lang.org/
+Scala (3.8.2)                                         http://www.scala-lang.org/
 
 Scala is a programming language for general software applications. Scala has
 full support for functional programming and a very strong static type system.
@@ -545,7 +545,7 @@ strings, and no checked exceptions.
 
                                                              $ sdk install scala
 --------------------------------------------------------------------------------
-Scala CLI (1.12.2)                               https://scala-cli.virtuslab.org
+Scala CLI (1.12.3)                               https://scala-cli.virtuslab.org
 
 Scala CLI is a command-line tool to interact with the Scala language. It lets
 you compile, run, test, and package your Scala code (and more!)
@@ -618,7 +618,7 @@ MQTT and COAP. It provides a command line client tool for IoT development.
 
                                                            $ sdk install toolkit
 --------------------------------------------------------------------------------
-TornadoVM (2.2.0-opencl)                              https://www.tornadovm.org/
+TornadoVM (3.0.0-opencl)                              https://www.tornadovm.org/
 
 TornadoVM is a plug-in to OpenJDK and GraalVM that allows Java programmers to
 automatically run on heterogeneous hardware (GPUs, FPGAs, multi-core CPUs).
@@ -631,7 +631,7 @@ Vert.x is a tool-kit for building reactive applications on the JVM.
 
                                                              $ sdk install vertx
 --------------------------------------------------------------------------------
-VisualVM (2.2)                                       https://visualvm.github.io/
+VisualVM (2.2.1)                                     https://visualvm.github.io/
 
 VisualVM is a tool that provides a visual interface for viewing detailed
 information about Java applications while they are running on a Java Virtual

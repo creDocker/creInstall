@@ -351,7 +351,7 @@ implementation.
 
                                                        $ sdk install jqassistant
 --------------------------------------------------------------------------------
-JReleaser (1.22.0)                                         https://jreleaser.org
+JReleaser (1.23.0)                                         https://jreleaser.org
 
 JReleaser is a release automation tool for Java projects. Its goal is to
 simplify creating releases and publishing artifacts to multiple package managers

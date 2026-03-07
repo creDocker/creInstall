@@ -157,7 +157,7 @@ language. Grace is a fork of Grails 5 that started development in early 2022.
 
                                                              $ sdk install grace
 --------------------------------------------------------------------------------
-Gradle (9.3.1)                                                http://gradle.org/
+Gradle (9.4.0)                                                http://gradle.org/
 
 Gradle is a build automation tool that builds upon the concepts of Apache Ant
 and Apache Maven and introduces a Groovy-based domain-specific language (DSL)
@@ -167,7 +167,7 @@ can be run.
 
                                                             $ sdk install gradle
 --------------------------------------------------------------------------------
-Gradle profiler (0.23.0)               https://github.com/gradle/gradle-profiler
+Gradle profiler (0.24.0)               https://github.com/gradle/gradle-profiler
 
 A tool for gathering profiling and benchmarking information for Gradle builds
 
@@ -434,14 +434,14 @@ your code.
 
                                                          $ sdk install leiningen
 --------------------------------------------------------------------------------
-Liquibase (5.0.1)                                         https://liquibase.com/
+Liquibase (5.0.2)                                         https://liquibase.com/
 
 Liquibase is an open-source database-independent library for tracking, managing
 and applying database schema changes.
 
                                                          $ sdk install liquibase
 --------------------------------------------------------------------------------
-Maven (3.9.12)                                         https://maven.apache.org/
+Maven (3.9.13)                                         https://maven.apache.org/
 
 Apache Maven is a software project management and comprehension tool. Based on
 the concept of a project object model (POM), Maven can manage a project's build,
@@ -508,14 +508,14 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.32.1)                                           http://quarkus.io
+Quarkus CLI (3.32.2)                                           http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
 
                                                            $ sdk install quarkus
 --------------------------------------------------------------------------------
-sbt (1.12.4)                                           http://www.scala-sbt.org/
+sbt (1.12.5)                                           http://www.scala-sbt.org/
 
 SBT is an open source build tool for Scala and Java projects, similar to Java's
 Maven or Ant. Its main features are: native support for compiling Scala code and
@@ -545,14 +545,14 @@ strings, and no checked exceptions.
 
                                                              $ sdk install scala
 --------------------------------------------------------------------------------
-Scala CLI (1.12.3)                               https://scala-cli.virtuslab.org
+Scala CLI (1.12.4)                               https://scala-cli.virtuslab.org
 
 Scala CLI is a command-line tool to interact with the Scala language. It lets
 you compile, run, test, and package your Scala code (and more!)
 
                                                           $ sdk install scalacli
 --------------------------------------------------------------------------------
-SchemaCrawler (17.6.3)                             https://www.schemacrawler.com
+SchemaCrawler (17.7.0)                             https://www.schemacrawler.com
 
 SchemaCrawler is a free database schema discovery and comprehension tool.
 SchemaCrawler has a good mix of useful features for data governance. You can
@@ -595,7 +595,7 @@ servers through SSH.
 
                                                            $ sdk install sshoogr
 --------------------------------------------------------------------------------
-Taxi (1.69.1)                                               https://taxilang.org
+Taxi (1.69.2)                                               https://taxilang.org
 
 Taxi is a language for documenting data - such as data models - and the
 contracts of APIs. It describes data semantically, allowing powerful tooling to

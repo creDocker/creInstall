@@ -157,7 +157,7 @@ language. Grace is a fork of Grails 5 that started development in early 2022.
 
                                                              $ sdk install grace
 --------------------------------------------------------------------------------
-Gradle (9.4.0)                                                http://gradle.org/
+Gradle (9.4.1)                                                http://gradle.org/
 
 Gradle is a build automation tool that builds upon the concepts of Apache Ant
 and Apache Maven and introduces a Groovy-based domain-specific language (DSL)
@@ -173,7 +173,7 @@ A tool for gathering profiling and benchmarking information for Gradle builds
 
                                                     $ sdk install gradleprofiler
 --------------------------------------------------------------------------------
-Grails (7.0.8)                                               https://grails.org/
+Grails (7.0.9)                                               https://grails.org/
 
 Grails is a powerful web framework, for the Java platform aimed at multiplying
 developers productivity thanks to a Convention-over-Configuration, sensible
@@ -275,7 +275,7 @@ code and dependency management and allows you to run it directly.
 
                                                              $ sdk install jbang
 --------------------------------------------------------------------------------
-JeKa (0.11.62)                                                  https://jeka.dev
+JeKa (0.11.63)                                                  https://jeka.dev
 
 JeKa is a modern build tool for Java, designed to simplify and streamline your
 development experience.
@@ -299,7 +299,7 @@ is an early access build from OpenJDK Jextract which is part of Code Tools
 
                                                           $ sdk install jextract
 --------------------------------------------------------------------------------
-Jikkou (0.37.2)                         https://streamthoughts.github.io/jikkou/
+Jikkou (0.37.3)                         https://streamthoughts.github.io/jikkou/
 
 Jikkou is a command-line client for efficient management, automation and
 provisioning of resources for Kafka, Schema Registry, etc. Inspired by kubectl
@@ -392,7 +392,7 @@ The CLI provides commands to help setup and manage your project.
 
                                                             $ sdk install kobweb
 --------------------------------------------------------------------------------
-Kotlin (2.3.10)                                          https://kotlinlang.org/
+Kotlin (2.3.20)                                          https://kotlinlang.org/
 
 Kotlin is a statically-typed programming language that runs on the Java Virtual
 Machine and can also be compiled to JavaScript source code.
@@ -449,7 +449,7 @@ reporting and documentation from a central piece of information.
 
                                                              $ sdk install maven
 --------------------------------------------------------------------------------
-MCS (0.9.5)                                    https://github.com/mthmulders/mcs
+MCS (0.9.7)                                    https://github.com/mthmulders/mcs
 
 Search the Maven Central Repository from your command line! Using mcs, you can
 find artifacts and generate the required pom.xml snippet to use directly in your
@@ -457,7 +457,7 @@ Maven project.
 
                                                                $ sdk install mcs
 --------------------------------------------------------------------------------
-Micronaut (4.10.9)                                          http://micronaut.io/
+Micronaut (4.10.10)                                         http://micronaut.io/
 
 Micronaut is an open source microservice framework for the JVM
 
@@ -470,7 +470,7 @@ graph and diagrams for your Mule configurations.
 
                                                             $ sdk install mulefd
 --------------------------------------------------------------------------------
-Maven Daemon (1.0.3)                        https://github.com/apache/maven-mvnd
+Maven Daemon (1.0.4)                        https://github.com/apache/maven-mvnd
 
 The mvnd project aims to provide a daemon infrastructure for maven based builds.
 It borrows techniques from Gradle and Takari to provide a simple and efficient
@@ -508,14 +508,14 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.32.3)                                           http://quarkus.io
+Quarkus CLI (3.32.4)                                           http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
 
                                                            $ sdk install quarkus
 --------------------------------------------------------------------------------
-sbt (1.12.5)                                           http://www.scala-sbt.org/
+sbt (1.12.6)                                           http://www.scala-sbt.org/
 
 SBT is an open source build tool for Scala and Java projects, similar to Java's
 Maven or Ant. Its main features are: native support for compiling Scala code and
@@ -545,14 +545,14 @@ strings, and no checked exceptions.
 
                                                              $ sdk install scala
 --------------------------------------------------------------------------------
-Scala CLI (1.12.4)                               https://scala-cli.virtuslab.org
+Scala CLI (1.12.5)                               https://scala-cli.virtuslab.org
 
 Scala CLI is a command-line tool to interact with the Scala language. It lets
 you compile, run, test, and package your Scala code (and more!)
 
                                                           $ sdk install scalacli
 --------------------------------------------------------------------------------
-SchemaCrawler (17.8.0)                             https://www.schemacrawler.com
+SchemaCrawler (17.8.1)                             https://www.schemacrawler.com
 
 SchemaCrawler is a free database schema discovery and comprehension tool.
 SchemaCrawler has a good mix of useful features for data governance. You can
@@ -580,7 +580,7 @@ fault-tolerance.
 
                                                              $ sdk install spark
 --------------------------------------------------------------------------------
-Spring Boot (4.0.3)                       http://projects.spring.io/spring-boot/
+Spring Boot (4.0.4)                       http://projects.spring.io/spring-boot/
 
 Spring Boot takes an opinionated view of building production-ready Spring
 applications. It favors convention over configuration and is designed to get you

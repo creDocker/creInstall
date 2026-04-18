@@ -19,7 +19,7 @@ ActiveMQ offers the power and flexibility to support any messaging use-case.
 
                                                           $ sdk install activemq
 --------------------------------------------------------------------------------
-Ant (1.10.15)                                            https://ant.apache.org/
+Ant (1.10.17)                                            https://ant.apache.org/
 
 Apache Ant is a Java library and command-line tool whose mission is to drive
 processes described in build files as targets and extension points dependent
@@ -39,6 +39,14 @@ AsciidoctorJ, you can convert AsciiDoc content or analyze the structure of a
 parsed AsciiDoc document from Java and other JVM languages.
 
                                                       $ sdk install asciidoctorj
+--------------------------------------------------------------------------------
+Atmosphere (4.0.38)                     https://github.com/Atmosphere/atmosphere
+
+Real-time transport layer for Java AI agents. Build once with @Agent — deliver
+over WebTransport/HTTP3, WebSocket, SSE, gRPC, MCP, A2A, AG-UI, or any
+transport.
+
+                                                        $ sdk install atmosphere
 --------------------------------------------------------------------------------
 Ballerina (swan-lake-p3)                                   https://ballerina.io/
 
@@ -173,7 +181,7 @@ A tool for gathering profiling and benchmarking information for Gradle builds
 
                                                     $ sdk install gradleprofiler
 --------------------------------------------------------------------------------
-Grails (7.0.10)                                              https://grails.org/
+Grails (7.1.0)                                               https://grails.org/
 
 Grails is a powerful web framework, for the Java platform aimed at multiplying
 developers productivity thanks to a Convention-over-Configuration, sensible
@@ -268,14 +276,14 @@ and designers.
 
                                                              $ sdk install jbake
 --------------------------------------------------------------------------------
-JBang (0.137.0)                             http://github.com/maxandersen/jbang/
+JBang (0.138.0)                             http://github.com/maxandersen/jbang/
 
 JBang makes it easy to use Java for scripting. It lets you use a single file for
 code and dependency management and allows you to run it directly.
 
                                                              $ sdk install jbang
 --------------------------------------------------------------------------------
-JeKa (0.11.66)                                                  https://jeka.dev
+JeKa (0.11.67)                                                  https://jeka.dev
 
 JeKa is a modern build tool for Java, designed to simplify and streamline your
 development experience.
@@ -441,7 +449,7 @@ and applying database schema changes.
 
                                                          $ sdk install liquibase
 --------------------------------------------------------------------------------
-Maven (3.9.14)                                         https://maven.apache.org/
+Maven (3.9.15)                                         https://maven.apache.org/
 
 Apache Maven is a software project management and comprehension tool. Based on
 the concept of a project object model (POM), Maven can manage a project's build,
@@ -457,7 +465,7 @@ Maven project.
 
                                                                $ sdk install mcs
 --------------------------------------------------------------------------------
-Micronaut (4.10.11)                                         http://micronaut.io/
+Micronaut (4.10.12)                                         http://micronaut.io/
 
 Micronaut is an open source microservice framework for the JVM
 
@@ -487,7 +495,7 @@ this candidate provides the migrate command for managing database migrations
 
                                                            $ sdk install mybatis
 --------------------------------------------------------------------------------
-Neo4j-Migrations (3.3.1)                https://neo4j.com/labs/neo4j-migrations/
+Neo4j-Migrations (4.0.0)                https://neo4j.com/labs/neo4j-migrations/
 
 Neo4j-Migrations is a database migration and refactoring tool that allows
 running Cypher scripts and programmatic refactorings in a controlled and
@@ -508,7 +516,7 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.34.3)                                           http://quarkus.io
+Quarkus CLI (3.34.5)                                           http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
@@ -545,14 +553,14 @@ strings, and no checked exceptions.
 
                                                              $ sdk install scala
 --------------------------------------------------------------------------------
-Scala CLI (1.12.5)                               https://scala-cli.virtuslab.org
+Scala CLI (1.13.0)                               https://scala-cli.virtuslab.org
 
 Scala CLI is a command-line tool to interact with the Scala language. It lets
 you compile, run, test, and package your Scala code (and more!)
 
                                                           $ sdk install scalacli
 --------------------------------------------------------------------------------
-SchemaCrawler (17.10.0)                            https://www.schemacrawler.com
+SchemaCrawler (17.10.1)                            https://www.schemacrawler.com
 
 SchemaCrawler is a free database schema discovery and comprehension tool.
 SchemaCrawler has a good mix of useful features for data governance. You can
@@ -603,7 +611,7 @@ discover and map data based on it's meaning, rather than the name of a field.
 
                                                               $ sdk install taxi
 --------------------------------------------------------------------------------
-Apache Tomcat (11.0.20)                               https://tomcat.apache.org/
+Apache Tomcat (11.0.21)                               https://tomcat.apache.org/
 
 The Apache Tomcat® software is an open source implementation of the Java
 Servlet, JavaServer Pages, Java Expression Language and Java WebSocket

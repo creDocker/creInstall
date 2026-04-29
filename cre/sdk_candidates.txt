@@ -165,7 +165,7 @@ language. Grace is a fork of Grails 5 that started development in early 2022.
 
                                                              $ sdk install grace
 --------------------------------------------------------------------------------
-Gradle (9.4.1)                                                http://gradle.org/
+Gradle (9.5.0)                                                http://gradle.org/
 
 A highly scalable build automation tool supporting Java, Kotlin, Scala, Android,
 Groovy, C++, and Swift with both Groovy and Kotlin DSL. Designed for
@@ -413,6 +413,12 @@ self-contained mini-applications with Kotlin.
 
                                                            $ sdk install kscript
 --------------------------------------------------------------------------------
+ksrc (Coming soon!)                          https://github.com/respawn-app/ksrc
+
+Let your AI agents search and read 3rd-party Kotlin dependency sources
+
+                                                              $ sdk install ksrc
+--------------------------------------------------------------------------------
 ktx (0.1.2)                                      https://github.com/mpetuska/ktx
 
 npx for kotlin and the JVM!
@@ -463,7 +469,7 @@ Maven project.
 
                                                                $ sdk install mcs
 --------------------------------------------------------------------------------
-Micronaut (4.10.12)                                         http://micronaut.io/
+Micronaut (4.10.13)                                         http://micronaut.io/
 
 Micronaut is an open source microservice framework for the JVM
 
@@ -521,7 +527,7 @@ GraalVM, crafted from best-of-breed Java libraries and standards.
 
                                                            $ sdk install quarkus
 --------------------------------------------------------------------------------
-sbt (1.12.9)                                           http://www.scala-sbt.org/
+sbt (1.12.10)                                          http://www.scala-sbt.org/
 
 SBT is an open source build tool for Scala and Java projects, similar to Java's
 Maven or Ant. Its main features are: native support for compiling Scala code and

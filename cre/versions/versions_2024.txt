@@ -7,11 +7,11 @@ creBuild 	 2026.05
   Python3 	 Python 3.12.3
    uv 	 
    uv2 	 
-   numpy 	 2.4.4
-   pandas 	 3.0.2
+   numpy 	 2.4.5
+   pandas 	 3.0.3
    Flask 	 
  creNode 	 16
   ldd 	 ldd (Ubuntu GLIBC 2.39-0ubuntu8.7) 2.39
   node 	 v16.20.2
   npm 	 8.19.4
-  sdk 	 5.22.5
+  sdk 	 5.23.0

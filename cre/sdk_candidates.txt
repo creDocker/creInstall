@@ -165,7 +165,7 @@ language. Grace is a fork of Grails 5 that started development in early 2022.
 
                                                              $ sdk install grace
 --------------------------------------------------------------------------------
-Gradle (9.5.0)                                                http://gradle.org/
+Gradle (9.5.1)                                                http://gradle.org/
 
 A highly scalable build automation tool supporting Java, Kotlin, Scala, Android,
 Groovy, C++, and Swift with both Groovy and Kotlin DSL. Designed for
@@ -405,6 +405,16 @@ Machine and can also be compiled to JavaScript source code.
 
                                                             $ sdk install kotlin
 --------------------------------------------------------------------------------
+Kotlin Toolchain (Coming soon!)                     https://kotlin-toolchain.org
+
+The Kotlin Toolchain is a unified entry point into Kotlin with a focus on user
+experience and IDE support. It includes build tooling functionality as one of
+its core components. It can build plain JVM console applications, Android and
+iOS mobile applications, server-side application like Spring or Ktor,
+multiplatform projects that share business logic and/or UI, and more.
+
+                                                   $ sdk install kotlintoolchain
+--------------------------------------------------------------------------------
 kscript (4.2.3)                          https://github.com/holgerbrandl/kscript
 
 Enhanced scripting support for Kotlin on *nix-based systems. kscript provides an
@@ -453,7 +463,7 @@ and applying database schema changes.
 
                                                          $ sdk install liquibase
 --------------------------------------------------------------------------------
-Maven (3.9.15)                                         https://maven.apache.org/
+Maven (3.9.16)                                         https://maven.apache.org/
 
 Apache Maven is a software project management and comprehension tool. Based on
 the concept of a project object model (POM), Maven can manage a project's build,
@@ -469,7 +479,7 @@ Maven project.
 
                                                                $ sdk install mcs
 --------------------------------------------------------------------------------
-Micronaut (4.10.13)                                         http://micronaut.io/
+Micronaut (4.10.14)                                         http://micronaut.io/
 
 Micronaut is an open source microservice framework for the JVM
 
@@ -520,7 +530,7 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.35.2)                                           http://quarkus.io
+Quarkus CLI (3.35.3)                                           http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
@@ -557,7 +567,7 @@ strings, and no checked exceptions.
 
                                                              $ sdk install scala
 --------------------------------------------------------------------------------
-Scala CLI (1.13.0)                               https://scala-cli.virtuslab.org
+Scala CLI (1.14.0)                               https://scala-cli.virtuslab.org
 
 Scala CLI is a command-line tool to interact with the Scala language. It lets
 you compile, run, test, and package your Scala code (and more!)
@@ -630,7 +640,7 @@ MQTT and COAP. It provides a command line client tool for IoT development.
 
                                                            $ sdk install toolkit
 --------------------------------------------------------------------------------
-TornadoVM (4.0.0-jdk21-opencl)                        https://www.tornadovm.org/
+TornadoVM (4.0.1-jdk21-opencl)                        https://www.tornadovm.org/
 
 TornadoVM is a plug-in to OpenJDK and GraalVM that allows Java programmers to
 automatically run on heterogeneous hardware (GPUs, FPGAs, multi-core CPUs).

@@ -147,7 +147,7 @@ Gaiden is a tool that makes it easy to create documentation with Markdown.
 
                                                             $ sdk install gaiden
 --------------------------------------------------------------------------------
-Graal Cloud Native (4.10.13)                        https://www.graal.cloud/gcn/
+Graal Cloud Native (4.10.14)                        https://www.graal.cloud/gcn/
 
 Graal Cloud Native (GCN) is a curated set of Micronaut(tm) framework modules
 designed from the ground up to be compiled ahead-of-time with GraalVM Native
@@ -291,6 +291,15 @@ yet powerful solutions.
 
                                                               $ sdk install jeka
 --------------------------------------------------------------------------------
+Jenesis (Coming soon!)                                     https://jenesis.build
+
+A Java-native, Java-module-focused build tool.
+Builds are incremental and
+cache-friendly,
+configured in plain Java.
+
+                                                           $ sdk install jenesis
+--------------------------------------------------------------------------------
 Eclipse Jetty (12.1.8)                                        https://jetty.org/
 
 Eclipse Jetty provides a highly scalable and memory-efficient web server and
@@ -405,7 +414,7 @@ Machine and can also be compiled to JavaScript source code.
 
                                                             $ sdk install kotlin
 --------------------------------------------------------------------------------
-Kotlin Toolchain (Coming soon!)                     https://kotlin-toolchain.org
+Kotlin Toolchain (0.11.0)                           https://kotlin-toolchain.org
 
 The Kotlin Toolchain is a unified entry point into Kotlin with a focus on user
 experience and IDE support. It includes build tooling functionality as one of
@@ -479,7 +488,7 @@ Maven project.
 
                                                                $ sdk install mcs
 --------------------------------------------------------------------------------
-Micronaut (4.10.14)                                         http://micronaut.io/
+Micronaut (5.0.0)                                           http://micronaut.io/
 
 Micronaut is an open source microservice framework for the JVM
 
@@ -509,7 +518,7 @@ this candidate provides the migrate command for managing database migrations
 
                                                            $ sdk install mybatis
 --------------------------------------------------------------------------------
-Neo4j-Migrations (4.0.1)                https://neo4j.com/labs/neo4j-migrations/
+Neo4j-Migrations (4.0.2)                https://neo4j.com/labs/neo4j-migrations/
 
 Neo4j-Migrations is a database migration and refactoring tool that allows
 running Cypher scripts and programmatic refactorings in a controlled and
@@ -530,7 +539,7 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.35.3)                                           http://quarkus.io
+Quarkus CLI (3.35.4)                                           http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.

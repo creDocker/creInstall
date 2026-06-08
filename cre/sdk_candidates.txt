@@ -69,7 +69,7 @@ Bpipe is a framework for running computational pipelines and workflows
 
                                                              $ sdk install bpipe
 --------------------------------------------------------------------------------
-BTrace (2.2.0)                                https://github.com/btraceio/btrace
+BTrace (2.2.6)                                https://github.com/btraceio/btrace
 
 BTrace is a safe, dynamic tracing tool for the Java platform. BTrace can be used
 to dynamically trace a running Java program (similar to DTrace for OpenSolaris
@@ -147,7 +147,7 @@ Gaiden is a tool that makes it easy to create documentation with Markdown.
 
                                                             $ sdk install gaiden
 --------------------------------------------------------------------------------
-Graal Cloud Native (4.10.14)                        https://www.graal.cloud/gcn/
+Graal Cloud Native (4.10.15)                        https://www.graal.cloud/gcn/
 
 Graal Cloud Native (GCN) is a curated set of Micronaut(tm) framework modules
 designed from the ground up to be compiled ahead-of-time with GraalVM Native
@@ -291,7 +291,7 @@ yet powerful solutions.
 
                                                               $ sdk install jeka
 --------------------------------------------------------------------------------
-Jenesis (0.2.0)                                            https://jenesis.build
+Jenesis (0.5.0)                                            https://jenesis.build
 
 A Java-native, Java-module-focused build tool.
 Builds are incremental and
@@ -300,7 +300,7 @@ configured in plain Java.
 
                                                            $ sdk install jenesis
 --------------------------------------------------------------------------------
-Eclipse Jetty (12.1.8)                                        https://jetty.org/
+Eclipse Jetty (12.1.10)                                       https://jetty.org/
 
 Eclipse Jetty provides a highly scalable and memory-efficient web server and
 servlet container, supporting many protocols such as HTTP/3,2,1 and WebSocket
@@ -314,7 +314,7 @@ is an early access build from OpenJDK Jextract which is part of Code Tools
 
                                                           $ sdk install jextract
 --------------------------------------------------------------------------------
-Jikkou (1.0.0)                          https://streamthoughts.github.io/jikkou/
+Jikkou (1.0.1)                          https://streamthoughts.github.io/jikkou/
 
 Jikkou is a command-line client for efficient management, automation and
 provisioning of resources for Kafka, Schema Registry, etc. Inspired by kubectl
@@ -407,7 +407,7 @@ The CLI provides commands to help setup and manage your project.
 
                                                             $ sdk install kobweb
 --------------------------------------------------------------------------------
-Kotlin (2.3.21)                                          https://kotlinlang.org/
+Kotlin (2.4.0)                                           https://kotlinlang.org/
 
 Kotlin is a statically-typed programming language that runs on the Java Virtual
 Machine and can also be compiled to JavaScript source code.
@@ -445,6 +445,14 @@ Install and execute jars or kotlin scripts just like
 any other command line utility.
 
                                                                $ sdk install ktx
+--------------------------------------------------------------------------------
+kUML (Coming soon!)                                             https://kuml.dev
+
+kUML is a Kotlin-native DSL for UML 2, SysML 2, and C4 architecture modelling
+that compiles type-safe Kotlin sources to SVG diagrams through a configurable
+renderer pipeline.
+
+                                                              $ sdk install kuml
 --------------------------------------------------------------------------------
 Layrry (1.0.0.Final)                         https://github.com/moditect/layrry/
 
@@ -488,7 +496,7 @@ Maven project.
 
                                                                $ sdk install mcs
 --------------------------------------------------------------------------------
-Micronaut (5.0.0)                                           http://micronaut.io/
+Micronaut (5.0.2)                                           http://micronaut.io/
 
 Micronaut is an open source microservice framework for the JVM
 
@@ -518,7 +526,7 @@ this candidate provides the migrate command for managing database migrations
 
                                                            $ sdk install mybatis
 --------------------------------------------------------------------------------
-Neo4j-Migrations (4.0.2)                https://neo4j.com/labs/neo4j-migrations/
+Neo4j-Migrations (4.1.0)                https://neo4j.com/labs/neo4j-migrations/
 
 Neo4j-Migrations is a database migration and refactoring tool that allows
 running Cypher scripts and programmatic refactorings in a controlled and
@@ -539,7 +547,7 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.36.0)                                           http://quarkus.io
+Quarkus CLI (3.36.1)                                           http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
@@ -558,7 +566,7 @@ Java/Scala projects
 
                                                                $ sdk install sbt
 --------------------------------------------------------------------------------
-Scala (3.8.3)                                         http://www.scala-lang.org/
+Scala (3.8.4)                                         http://www.scala-lang.org/
 
 Scala is a programming language for general software applications. Scala has
 full support for functional programming and a very strong static type system.
@@ -603,7 +611,7 @@ framework or library for which the tool has a template.
 
                                                           $ sdk install skeletal
 --------------------------------------------------------------------------------
-Spark (3.5.3)                                          https://spark.apache.org/
+Spark (4.1.1)                                          https://spark.apache.org/
 
 Apache Spark is an open-source cluster-computing framework. Spark provides an
 interface for programming entire clusters with implicit data parallelism and
@@ -634,7 +642,7 @@ discover and map data based on it's meaning, rather than the name of a field.
 
                                                               $ sdk install taxi
 --------------------------------------------------------------------------------
-Apache Tomcat (11.0.21)                               https://tomcat.apache.org/
+Apache Tomcat (11.0.22)                               https://tomcat.apache.org/
 
 The Apache Tomcat® software is an open source implementation of the Java
 Servlet, JavaServer Pages, Java Expression Language and Java WebSocket

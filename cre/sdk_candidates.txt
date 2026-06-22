@@ -147,7 +147,7 @@ Gaiden is a tool that makes it easy to create documentation with Markdown.
 
                                                             $ sdk install gaiden
 --------------------------------------------------------------------------------
-Graal Cloud Native (4.10.16)                        https://www.graal.cloud/gcn/
+Graal Cloud Native (5.0.2)                          https://www.graal.cloud/gcn/
 
 Graal Cloud Native (GCN) is a curated set of Micronaut(tm) framework modules
 designed from the ground up to be compiled ahead-of-time with GraalVM Native
@@ -165,7 +165,7 @@ language. Grace is a fork of Grails 5 that started development in early 2022.
 
                                                              $ sdk install grace
 --------------------------------------------------------------------------------
-Gradle (9.5.1)                                                http://gradle.org/
+Gradle (9.6.0)                                                http://gradle.org/
 
 A highly scalable build automation tool supporting Java, Kotlin, Scala, Android,
 Groovy, C++, and Swift with both Groovy and Kotlin DSL. Designed for
@@ -274,7 +274,7 @@ and designers.
 
                                                              $ sdk install jbake
 --------------------------------------------------------------------------------
-JBang (0.138.0)                             http://github.com/maxandersen/jbang/
+JBang (0.139.3)                             http://github.com/maxandersen/jbang/
 
 JBang makes it easy to use Java for scripting. It lets you use a single file for
 code and dependency management and allows you to run it directly.
@@ -291,7 +291,7 @@ yet powerful solutions.
 
                                                               $ sdk install jeka
 --------------------------------------------------------------------------------
-Jenesis (0.6.1)                                            https://jenesis.build
+Jenesis (0.7.1)                                            https://jenesis.build
 
 A Java-native, Java-module-focused build tool.
 Builds are incremental and
@@ -488,7 +488,7 @@ reporting and documentation from a central piece of information.
 
                                                              $ sdk install maven
 --------------------------------------------------------------------------------
-MCS (0.10.0)                                   https://github.com/mthmulders/mcs
+MCS (0.10.1)                                   https://github.com/mthmulders/mcs
 
 Search the Maven Central Repository from your command line! Using mcs, you can
 find artifacts and generate the required pom.xml snippet to use directly in your
@@ -547,7 +547,7 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.36.2)                                           http://quarkus.io
+Quarkus CLI (3.36.3)                                           http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
@@ -591,7 +591,7 @@ you compile, run, test, and package your Scala code (and more!)
 
                                                           $ sdk install scalacli
 --------------------------------------------------------------------------------
-SchemaCrawler (17.11.2)                            https://www.schemacrawler.com
+SchemaCrawler (17.11.3)                            https://www.schemacrawler.com
 
 SchemaCrawler is a free database schema discovery and comprehension tool.
 SchemaCrawler has a good mix of useful features for data governance. You can

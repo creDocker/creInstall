@@ -157,7 +157,7 @@ fewer resources to reduce compute costs.
 
                                                                $ sdk install gcn
 --------------------------------------------------------------------------------
-Grace Framework (2024.1.0)                            https://graceframework.org
+Grace Framework (2024.1.1)                            https://graceframework.org
 
 Grace is a powerful open-source, One-Person web application Framework to help
 developers build Spring Boot applications rapidly using the Groovy programming
@@ -165,7 +165,7 @@ language. Grace is a fork of Grails 5 that started development in early 2022.
 
                                                              $ sdk install grace
 --------------------------------------------------------------------------------
-Gradle (9.6.0)                                                http://gradle.org/
+Gradle (9.6.1)                                                http://gradle.org/
 
 A highly scalable build automation tool supporting Java, Kotlin, Scala, Android,
 Groovy, C++, and Swift with both Groovy and Kotlin DSL. Designed for
@@ -179,7 +179,7 @@ A tool for gathering profiling and benchmarking information for Gradle builds
 
                                                     $ sdk install gradleprofiler
 --------------------------------------------------------------------------------
-Grails (7.1.1)                                               https://grails.org/
+Grails (7.0.12)                                              https://grails.org/
 
 Grails is a powerful web framework, for the Java platform aimed at multiplying
 developers productivity thanks to a Convention-over-Configuration, sensible
@@ -291,7 +291,7 @@ yet powerful solutions.
 
                                                               $ sdk install jeka
 --------------------------------------------------------------------------------
-Jenesis (0.7.1)                                            https://jenesis.build
+Jenesis (0.8.2)                                            https://jenesis.build
 
 A Java-native, Java-module-focused build tool.
 Builds are incremental and
@@ -526,7 +526,7 @@ this candidate provides the migrate command for managing database migrations
 
                                                            $ sdk install mybatis
 --------------------------------------------------------------------------------
-Neo4j-Migrations (4.1.0)                https://neo4j.com/labs/neo4j-migrations/
+Neo4j-Migrations (4.1.1)                https://neo4j.com/labs/neo4j-migrations/
 
 Neo4j-Migrations is a database migration and refactoring tool that allows
 running Cypher scripts and programmatic refactorings in a controlled and
@@ -547,14 +547,14 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.36.3)                                           http://quarkus.io
+Quarkus CLI (3.37.0)                                           http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
 
                                                            $ sdk install quarkus
 --------------------------------------------------------------------------------
-sbt (2.0.0)                                            http://www.scala-sbt.org/
+sbt (2.0.1)                                            http://www.scala-sbt.org/
 
 SBT is an open source build tool for Scala and Java projects, similar to Java's
 Maven or Ant. Its main features are: native support for compiling Scala code and
@@ -591,7 +591,7 @@ you compile, run, test, and package your Scala code (and more!)
 
                                                           $ sdk install scalacli
 --------------------------------------------------------------------------------
-SchemaCrawler (17.11.3)                            https://www.schemacrawler.com
+SchemaCrawler (17.11.4)                            https://www.schemacrawler.com
 
 SchemaCrawler is a free database schema discovery and comprehension tool.
 SchemaCrawler has a good mix of useful features for data governance. You can

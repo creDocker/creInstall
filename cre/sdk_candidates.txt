@@ -173,7 +173,7 @@ multi-project enterprise builds and quick development tasks.
 
                                                             $ sdk install gradle
 --------------------------------------------------------------------------------
-Gradle profiler (0.24.0)               https://github.com/gradle/gradle-profiler
+Gradle profiler (0.25.2)               https://github.com/gradle/gradle-profiler
 
 A tool for gathering profiling and benchmarking information for Gradle builds
 
@@ -274,7 +274,7 @@ and designers.
 
                                                              $ sdk install jbake
 --------------------------------------------------------------------------------
-JBang (0.139.3)                             http://github.com/maxandersen/jbang/
+JBang (0.140.1)                             http://github.com/maxandersen/jbang/
 
 JBang makes it easy to use Java for scripting. It lets you use a single file for
 code and dependency management and allows you to run it directly.
@@ -446,7 +446,7 @@ any other command line utility.
 
                                                                $ sdk install ktx
 --------------------------------------------------------------------------------
-kUML (Coming soon!)                                             https://kuml.dev
+kUML (0.20.5)                                                   https://kuml.dev
 
 kUML is a Kotlin-native DSL for UML 2, SysML 2, and C4 architecture modelling
 that compiles type-safe Kotlin sources to SVG diagrams through a configurable
@@ -496,7 +496,7 @@ Maven project.
 
                                                                $ sdk install mcs
 --------------------------------------------------------------------------------
-Micronaut (5.0.3)                                           http://micronaut.io/
+Micronaut (5.0.4)                                           http://micronaut.io/
 
 Micronaut is an open source microservice framework for the JVM
 
@@ -547,14 +547,14 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.37.1)                                           http://quarkus.io
+Quarkus CLI (3.37.2)                                           http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
 
                                                            $ sdk install quarkus
 --------------------------------------------------------------------------------
-sbt (2.0.1)                                            http://www.scala-sbt.org/
+sbt (2.0.2)                                            http://www.scala-sbt.org/
 
 SBT is an open source build tool for Scala and Java projects, similar to Java's
 Maven or Ant. Its main features are: native support for compiling Scala code and

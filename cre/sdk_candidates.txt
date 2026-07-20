@@ -147,7 +147,7 @@ Gaiden is a tool that makes it easy to create documentation with Markdown.
 
                                                             $ sdk install gaiden
 --------------------------------------------------------------------------------
-Graal Cloud Native (5.0.2)                          https://www.graal.cloud/gcn/
+Graal Cloud Native (5.0.4)                          https://www.graal.cloud/gcn/
 
 Graal Cloud Native (GCN) is a curated set of Micronaut(tm) framework modules
 designed from the ground up to be compiled ahead-of-time with GraalVM Native
@@ -179,7 +179,7 @@ A tool for gathering profiling and benchmarking information for Gradle builds
 
                                                     $ sdk install gradleprofiler
 --------------------------------------------------------------------------------
-Grails (7.1.3)                                               https://grails.org/
+Grails (7.2.1)                                               https://grails.org/
 
 Grails is a powerful web framework, for the Java platform aimed at multiplying
 developers productivity thanks to a Convention-over-Configuration, sensible
@@ -274,7 +274,7 @@ and designers.
 
                                                              $ sdk install jbake
 --------------------------------------------------------------------------------
-JBang (0.140.1)                             http://github.com/maxandersen/jbang/
+JBang (0.141.0)                             http://github.com/maxandersen/jbang/
 
 JBang makes it easy to use Java for scripting. It lets you use a single file for
 code and dependency management and allows you to run it directly.
@@ -407,7 +407,7 @@ The CLI provides commands to help setup and manage your project.
 
                                                             $ sdk install kobweb
 --------------------------------------------------------------------------------
-Kotlin (2.4.0)                                           https://kotlinlang.org/
+Kotlin (2.4.10)                                          https://kotlinlang.org/
 
 Kotlin is a statically-typed programming language that runs on the Java Virtual
 Machine and can also be compiled to JavaScript source code.
@@ -488,7 +488,7 @@ reporting and documentation from a central piece of information.
 
                                                              $ sdk install maven
 --------------------------------------------------------------------------------
-MCS (0.10.1)                                   https://github.com/mthmulders/mcs
+MCS (0.10.2)                                   https://github.com/mthmulders/mcs
 
 Search the Maven Central Repository from your command line! Using mcs, you can
 find artifacts and generate the required pom.xml snippet to use directly in your
@@ -496,7 +496,7 @@ Maven project.
 
                                                                $ sdk install mcs
 --------------------------------------------------------------------------------
-Micronaut (5.0.4)                                           http://micronaut.io/
+Micronaut (5.0.5)                                           http://micronaut.io/
 
 Micronaut is an open source microservice framework for the JVM
 
@@ -547,14 +547,14 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.37.2)                                           http://quarkus.io
+Quarkus CLI (3.37.3)                                           http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
 
                                                            $ sdk install quarkus
 --------------------------------------------------------------------------------
-sbt (2.0.2)                                            http://www.scala-sbt.org/
+sbt (2.0.3)                                            http://www.scala-sbt.org/
 
 SBT is an open source build tool for Scala and Java projects, similar to Java's
 Maven or Ant. Its main features are: native support for compiling Scala code and
@@ -591,7 +591,7 @@ you compile, run, test, and package your Scala code (and more!)
 
                                                           $ sdk install scalacli
 --------------------------------------------------------------------------------
-SchemaCrawler (17.11.4)                            https://www.schemacrawler.com
+SchemaCrawler (17.12.1)                            https://www.schemacrawler.com
 
 SchemaCrawler is a free database schema discovery and comprehension tool.
 SchemaCrawler has a good mix of useful features for data governance. You can
@@ -657,7 +657,7 @@ MQTT and COAP. It provides a command line client tool for IoT development.
 
                                                            $ sdk install toolkit
 --------------------------------------------------------------------------------
-TornadoVM (4.0.1-jdk21-opencl)                        https://www.tornadovm.org/
+TornadoVM (5.0.0-jdk21-opencl)                        https://www.tornadovm.org/
 
 TornadoVM is a plug-in to OpenJDK and GraalVM that allows Java programmers to
 automatically run on heterogeneous hardware (GPUs, FPGAs, multi-core CPUs).

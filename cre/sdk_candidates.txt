@@ -147,7 +147,7 @@ Gaiden is a tool that makes it easy to create documentation with Markdown.
 
                                                             $ sdk install gaiden
 --------------------------------------------------------------------------------
-Graal Cloud Native (5.0.5)                          https://www.graal.cloud/gcn/
+Graal Cloud Native (5.0.6)                          https://www.graal.cloud/gcn/
 
 Graal Cloud Native (GCN) is a curated set of Micronaut(tm) framework modules
 designed from the ground up to be compiled ahead-of-time with GraalVM Native
@@ -157,7 +157,7 @@ fewer resources to reduce compute costs.
 
                                                                $ sdk install gcn
 --------------------------------------------------------------------------------
-Grace Framework (2024.1.1)                            https://graceframework.org
+Grace Framework (2024.1.2)                            https://graceframework.org
 
 Grace is a powerful open-source, One-Person web application Framework to help
 developers build Spring Boot applications rapidly using the Groovy programming
@@ -190,7 +190,7 @@ meta-programming and Asynchronous programming.
 
                                                             $ sdk install grails
 --------------------------------------------------------------------------------
-Groovy (5.0.7)                                       http://www.groovy-lang.org/
+Groovy (5.0.8)                                       http://www.groovy-lang.org/
 
 Groovy is a powerful, optionally typed and dynamic language, with static-typing
 and static compilation capabilities, for the Java platform aimed at multiplying
@@ -256,7 +256,7 @@ manifest, manifest entries, bytecode versions, declarative services, and more.
 
                                                             $ sdk install jarviz
 --------------------------------------------------------------------------------
-Java (25.0.3-tem)        https://projects.eclipse.org/projects/adoptium.temurin/
+Java (25.0.4-tem)        https://projects.eclipse.org/projects/adoptium.temurin/
 
 Java Platform, Standard Edition (or Java SE) is a widely used platform for
 development and deployment of portable code for desktop and server environments.
@@ -446,7 +446,7 @@ any other command line utility.
 
                                                                $ sdk install ktx
 --------------------------------------------------------------------------------
-kUML (0.20.5)                                                   https://kuml.dev
+kUML (Coming soon!)                                             https://kuml.dev
 
 kUML is a Kotlin-native DSL for UML 2, SysML 2, and C4 architecture modelling
 that compiles type-safe Kotlin sources to SVG diagrams through a configurable
@@ -496,7 +496,7 @@ Maven project.
 
                                                                $ sdk install mcs
 --------------------------------------------------------------------------------
-Micronaut (5.0.6)                                           http://micronaut.io/
+Micronaut (5.1.0)                                           http://micronaut.io/
 
 Micronaut is an open source microservice framework for the JVM
 
@@ -547,7 +547,7 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.37.4)                                           http://quarkus.io
+Quarkus CLI (3.38.0)                                           http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.

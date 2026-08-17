@@ -190,7 +190,7 @@ meta-programming and Asynchronous programming.
 
                                                             $ sdk install grails
 --------------------------------------------------------------------------------
-Groovy (5.0.8)                                       http://www.groovy-lang.org/
+Groovy (5.1.0)                                       http://www.groovy-lang.org/
 
 Groovy is a powerful, optionally typed and dynamic language, with static-typing
 and static compilation capabilities, for the Java platform aimed at multiplying
@@ -291,7 +291,7 @@ yet powerful solutions.
 
                                                               $ sdk install jeka
 --------------------------------------------------------------------------------
-Jenesis (0.10.0)                                           https://jenesis.build
+Jenesis (0.10.3)                                           https://jenesis.build
 
 A Java-native, Java-module-focused build tool.
 Builds are incremental and
@@ -547,7 +547,7 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.38.1)                                           http://quarkus.io
+Quarkus CLI (3.38.2)                                           http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.

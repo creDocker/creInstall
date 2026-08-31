@@ -147,7 +147,7 @@ Gaiden is a tool that makes it easy to create documentation with Markdown.
 
                                                             $ sdk install gaiden
 --------------------------------------------------------------------------------
-Graal Cloud Native (5.1.1)                          https://www.graal.cloud/gcn/
+Graal Cloud Native (5.1.2)                          https://www.graal.cloud/gcn/
 
 Graal Cloud Native (GCN) is a curated set of Micronaut(tm) framework modules
 designed from the ground up to be compiled ahead-of-time with GraalVM Native
@@ -179,7 +179,7 @@ A tool for gathering profiling and benchmarking information for Gradle builds
 
                                                     $ sdk install gradleprofiler
 --------------------------------------------------------------------------------
-Grails (7.1.5)                                               https://grails.org/
+Grails (7.2.3)                                               https://grails.org/
 
 Grails is a powerful web framework, for the Java platform aimed at multiplying
 developers productivity thanks to a Convention-over-Configuration, sensible
@@ -190,7 +190,7 @@ meta-programming and Asynchronous programming.
 
                                                             $ sdk install grails
 --------------------------------------------------------------------------------
-Groovy (5.1.0)                                       http://www.groovy-lang.org/
+Groovy (5.1.1)                                       http://www.groovy-lang.org/
 
 Groovy is a powerful, optionally typed and dynamic language, with static-typing
 and static compilation capabilities, for the Java platform aimed at multiplying
@@ -291,7 +291,7 @@ yet powerful solutions.
 
                                                               $ sdk install jeka
 --------------------------------------------------------------------------------
-Jenesis (0.10.7)                                           https://jenesis.build
+Jenesis (0.10.10)                                          https://jenesis.build
 
 A Java-native, Java-module-focused build tool.
 Builds are incremental and
@@ -366,7 +366,7 @@ implementation.
 
                                                        $ sdk install jqassistant
 --------------------------------------------------------------------------------
-JReleaser (1.25.0)                                         https://jreleaser.org
+JReleaser (1.26.0)                                         https://jreleaser.org
 
 JReleaser is a release automation tool for Java projects. Its goal is to
 simplify creating releases and publishing artifacts to multiple package managers
@@ -414,7 +414,7 @@ Machine and can also be compiled to JavaScript source code.
 
                                                             $ sdk install kotlin
 --------------------------------------------------------------------------------
-Kotlin Toolchain (0.11.1)                           https://kotlin-toolchain.org
+Kotlin Toolchain (0.12.0)                           https://kotlin-toolchain.org
 
 The Kotlin Toolchain is a unified entry point into Kotlin with a focus on user
 experience and IDE support. It includes build tooling functionality as one of
@@ -473,7 +473,7 @@ your code.
 
                                                          $ sdk install leiningen
 --------------------------------------------------------------------------------
-Liquibase (5.0.2)                                         https://liquibase.com/
+Liquibase (5.0.4)                                         https://liquibase.com/
 
 Liquibase is an open-source database-independent library for tracking, managing
 and applying database schema changes.
@@ -496,7 +496,7 @@ Maven project.
 
                                                                $ sdk install mcs
 --------------------------------------------------------------------------------
-Micronaut (5.1.1)                                           http://micronaut.io/
+Micronaut (5.1.2)                                           http://micronaut.io/
 
 Micronaut is an open source microservice framework for the JVM
 
@@ -547,14 +547,14 @@ publication to Maven Central. It can also check if a POM is a valid BOM file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.38.3)                                           http://quarkus.io
+Quarkus CLI (3.39.1)                                           http://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
 
                                                            $ sdk install quarkus
 --------------------------------------------------------------------------------
-sbt (2.0.7)                                            http://www.scala-sbt.org/
+sbt (2.0.8)                                            http://www.scala-sbt.org/
 
 SBT is an open source build tool for Scala and Java projects, similar to Java's
 Maven or Ant. Its main features are: native support for compiling Scala code and
@@ -591,7 +591,7 @@ you compile, run, test, and package your Scala code (and more!)
 
                                                           $ sdk install scalacli
 --------------------------------------------------------------------------------
-SchemaCrawler (17.12.2)                            https://www.schemacrawler.com
+SchemaCrawler (17.14.1)                            https://www.schemacrawler.com
 
 SchemaCrawler is a free database schema discovery and comprehension tool.
 SchemaCrawler has a good mix of useful features for data governance. You can

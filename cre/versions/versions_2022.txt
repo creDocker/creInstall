@@ -12,4 +12,4 @@ creBuild 	 2026.10
   ldd 	 ldd (Ubuntu GLIBC 2.35-0ubuntu3.15) 2.35
   node 	 v16.20.2
   npm 	 8.19.4
-  sdk 	 5.23.1
+  sdk 	 5.23.2

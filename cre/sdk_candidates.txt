@@ -6,33 +6,25 @@ j-down                                  ?-search up
 k-up                                    h-help
 
 --------------------------------------------------------------------------------
-Apache ActiveMQ (Classic) (5.17.1)                  https://activemq.apache.org/
+Apache ActiveMQ Classic (5.17.1)                    https://activemq.apache.org/
 
-Apache ActiveMQ® is a popular open source, multi-protocol, Java-based message
-broker. It supports industry standard protocols so users get the benefits of
-client choices across a broad range of languages and platforms. Connect from
-clients written in JavaScript, C, C++, Python, .Net, and more. Integrate your
-multi-platform applications using the ubiquitous AMQP protocol. Exchange
-messages between your web applications using STOMP over websockets. Manage your
-IoT devices using MQTT. Support your existing JMS infrastructure and beyond.
-ActiveMQ offers the power and flexibility to support any messaging use-case.
+Apache ActiveMQ is a popular open source, multi-protocol, Java-based message
+broker. It supports AMQP, STOMP, MQTT and JMS, so clients written in a broad
+range of languages and platforms can exchange messages over common
+infrastructure.
 
                                                           $ sdk install activemq
 --------------------------------------------------------------------------------
 Ant (1.10.17)                                            https://ant.apache.org/
 
-Apache Ant is a Java library and command-line tool whose mission is to drive
-processes described in build files as targets and extension points dependent
-upon each other. The main known usage of Ant is the build of Java applications.
-Ant supplies a number of built-in tasks allowing to compile, assemble, test and
-run Java applications. Ant can also be used effectively to build non Java
-applications, for instance C or C++ applications. More generally, Ant can be
-used to pilot any type of process which can be described in terms of targets and
-tasks.
+Apache Ant is a Java library and command-line tool that drives processes
+described in build files as targets and extension points. It is best known for
+building Java applications, and ships built-in tasks to compile, assemble, test
+and run them.
 
                                                                $ sdk install ant
 --------------------------------------------------------------------------------
-AsciidoctorJ (3.0.1)                                     http://asciidoctor.org/
+AsciidoctorJ (3.0.1)                                    https://asciidoctor.org/
 
 AsciidoctorJ is the official library for running Asciidoctor on the JVM. Using
 AsciidoctorJ, you can convert AsciiDoc content or analyze the structure of a
@@ -42,9 +34,9 @@ parsed AsciiDoc document from Java and other JVM languages.
 --------------------------------------------------------------------------------
 Atmosphere (4.0.38)                     https://github.com/Atmosphere/atmosphere
 
-Real-time transport layer for Java AI agents. Build once with @Agent — deliver
-over WebTransport/HTTP3, WebSocket, SSE, gRPC, MCP, A2A, AG-UI, or any
-transport.
+Atmosphere is a real-time transport layer for Java AI agents. An agent is
+written once and delivered over WebTransport, WebSocket, server-sent events,
+gRPC or any other supported transport.
 
                                                         $ sdk install atmosphere
 --------------------------------------------------------------------------------
@@ -57,15 +49,16 @@ programmers to easily write software that just works.
 --------------------------------------------------------------------------------
 Bld (3.0.1)                                                https://rife2.com/bld
 
-bld is a build system that allows you to write your build logic in pure Java.
-bld was created because we're not really interested in build tools. We use them
-because we have to, but we'd rather just get on with coding the real stuff.
+bld is a build system that lets you write your build logic in pure Java. Builds
+are plain Java classes, so there is no separate build language or DSL to learn.
 
                                                                $ sdk install bld
 --------------------------------------------------------------------------------
-Bpipe (0.9.14)                                                  http://bpipe.org
+Bpipe (0.9.14)                                 https://github.com/ssadedin/bpipe
 
-Bpipe is a framework for running computational pipelines and workflows
+Bpipe is a framework for running computational pipelines and workflows. It
+defines pipeline stages in a simple declarative language and handles execution,
+logging and recovery.
 
                                                              $ sdk install bpipe
 --------------------------------------------------------------------------------
@@ -88,25 +81,10 @@ systems.
 --------------------------------------------------------------------------------
 ConnOR (1.4.1)                            https://github.com/helpermethod/connor
 
-ConnOR, short for ConnectOffsetReset, is a commandline tool for resetting Kafka
+ConnOR, short for ConnectOffsetReset, is a command-line tool for resetting Kafka
 Connect source connector offsets.
 
                                                             $ sdk install connor
---------------------------------------------------------------------------------
-Coursier (Coming soon!)                                  https://get-coursier.io
-
-Coursier is the Scala application and artifact manager. It can install Scala
-applications and setup your Scala development environment. It can also download
-and cache artifacts from the web.
-
-                                                          $ sdk install coursier
---------------------------------------------------------------------------------
-CUBA CLI (2.2.0)                                       https://cuba-platform.com
-
-CUBA CLI is an open source command line utility that enables you to easily
-create projects based on CUBA Platform
-
-                                                              $ sdk install cuba
 --------------------------------------------------------------------------------
 CXF (3.2.5)                                              https://cxf.apache.org/
 
@@ -119,11 +97,13 @@ and work over a variety of transports such as HTTP, JMS or JBI.
 --------------------------------------------------------------------------------
 Detekt (1.23.7)                                              https://detekt.dev/
 
-A static code analysis tool for the Kotlin programming language
+Detekt is a static code analysis tool for the Kotlin programming language. It
+reports code smells and complexity issues, and is configurable and extensible
+through rule sets.
 
                                                             $ sdk install detekt
 --------------------------------------------------------------------------------
-docToolchain (3.4.0)                https://doctoolchain.github.io/docToolchain/
+docToolchain (3.4.0)                      https://doctoolchain.org/docToolchain/
 
 docToolchain is an implementation of the docs-as-code approach for software
 architecture plus some additional automation. The basis of docToolchain is the
@@ -135,23 +115,25 @@ together with the arc42 template for software architecture.
 Flink (1.19.0)                                         https://flink.apache.org/
 
 Apache Flink is an open-source, unified stream-processing and batch-processing
-framework.It's a distributed processing engine for stateful computations over
-unbounded and bounded data streams.It has been designed to run in all common
+framework. It's a distributed processing engine for stateful computations over
+unbounded and bounded data streams. It has been designed to run in all common
 cluster environments, perform computations at in-memory speed and at any scale.
 
                                                              $ sdk install flink
 --------------------------------------------------------------------------------
-Gaiden (1.3)                                       http://kobo.github.io/gaiden/
+Gaiden (1.3)                                      https://kobo.github.io/gaiden/
 
-Gaiden is a tool that makes it easy to create documentation with Markdown.
+Gaiden is a tool for creating documentation with Markdown. It builds a static,
+navigable documentation site from Markdown sources, with templates and a table
+of contents.
 
                                                             $ sdk install gaiden
 --------------------------------------------------------------------------------
-Graal Cloud Native (5.1.5)                          https://www.graal.cloud/gcn/
+Graal Cloud Native (5.2.2)                          https://www.graal.cloud/gcn/
 
-Graal Cloud Native (GCN) is a curated set of Micronaut(tm) framework modules
+Graal Cloud Native (GCN) is a curated set of Micronaut framework modules
 designed from the ground up to be compiled ahead-of-time with GraalVM Native
-image resulting in native executables ideal for microservices.With GCN, You can
+image resulting in native executables ideal for microservices. With GCN, you can
 build portable cloud-native Java microservices that start instantly and use
 fewer resources to reduce compute costs.
 
@@ -159,13 +141,12 @@ fewer resources to reduce compute costs.
 --------------------------------------------------------------------------------
 Grace Framework (2024.1.4)                            https://graceframework.org
 
-Grace is a powerful open-source, One-Person web application Framework to help
-developers build Spring Boot applications rapidly using the Groovy programming
-language. Grace is a fork of Grails 5 that started development in early 2022.
+Grace is an open source web application framework for building Spring Boot
+applications with the Groovy programming language. It is a fork of Grails 5.
 
                                                              $ sdk install grace
 --------------------------------------------------------------------------------
-Gradle (9.7.0)                                                http://gradle.org/
+Gradle (9.8.1)                                               https://gradle.org/
 
 A highly scalable build automation tool supporting Java, Kotlin, Scala, Android,
 Groovy, C++, and Swift with both Groovy and Kotlin DSL. Designed for
@@ -173,49 +154,46 @@ multi-project enterprise builds and quick development tasks.
 
                                                             $ sdk install gradle
 --------------------------------------------------------------------------------
-Gradle profiler (0.25.2)               https://github.com/gradle/gradle-profiler
+Gradle profiler (0.26.0)               https://github.com/gradle/gradle-profiler
 
-A tool for gathering profiling and benchmarking information for Gradle builds
+Gradle Profiler is a tool for gathering profiling and benchmarking information
+for Gradle builds. It automates repeated build scenarios and can drive profilers
+such as Java Flight Recorder.
 
                                                     $ sdk install gradleprofiler
 --------------------------------------------------------------------------------
-Grails (7.2.4)                                               https://grails.org/
+Grails (8.0.0)                                               https://grails.org/
 
-Grails is a powerful web framework, for the Java platform aimed at multiplying
-developers productivity thanks to a Convention-over-Configuration, sensible
-defaults and opinionated APIs. It integrates smoothly with the JVM, allowing you
-to be immediately productive whilst providing powerful features, including
-integrated ORM, Domain-Specific Languages, runtime and compile-time
-meta-programming and Asynchronous programming.
+Grails is a web framework for the Java platform built on
+convention-over-configuration, sensible defaults and opinionated APIs. It
+integrates with the JVM and provides integrated ORM, domain-specific languages,
+runtime and compile-time meta-programming and asynchronous programming.
 
                                                             $ sdk install grails
 --------------------------------------------------------------------------------
-Groovy (6.0.0)                                       http://www.groovy-lang.org/
+Groovy (6.0.0)                                          https://groovy-lang.org/
 
-Groovy is a powerful, optionally typed and dynamic language, with static-typing
-and static compilation capabilities, for the Java platform aimed at multiplying
-developers' productivity thanks to a concise, familiar and easy to learn syntax.
-It integrates smoothly with any Java program, and immediately delivers to your
-application powerful features, including scripting capabilities, Domain-Specific
-Language authoring, runtime and compile-time meta-programming and functional
-programming.
+Groovy is a powerful, optionally typed and dynamic language for the Java
+platform, with static-typing and static compilation capabilities. It integrates
+smoothly with any Java program and adds scripting, DSL authoring,
+meta-programming and functional programming.
 
                                                             $ sdk install groovy
 --------------------------------------------------------------------------------
-GroovyServ (1.2.0)                            https://kobo.github.io/groovyserv/
+GroovyServ (2.0.0)                            https://kobo.github.io/groovyserv/
 
-GroovyServ reduces startup time of the JVM for runnning Groovy significantly. It
-depends on your environments, but in most cases, it’s 10 to 20 times faster than
+GroovyServ reduces startup time of the JVM for running Groovy significantly. It
+depends on your environments, but in most cases, it's 10 to 20 times faster than
 regular Groovy.
 
                                                         $ sdk install groovyserv
 --------------------------------------------------------------------------------
 hadoop (3.4.1)                                        https://hadoop.apache.org/
 
-Apache™ Hadoop® project develops open-source software for reliable, scalable,
-distributed computing.It's a framework that allows for the distributed
-processing of large data sets across clusters of computersusing simple
-programming models.It is designed to scale up from single servers to thousands
+Apache Hadoop project develops open-source software for reliable, scalable,
+distributed computing. It's a framework that allows for the distributed
+processing of large data sets across clusters of computers using simple
+programming models. It is designed to scale up from single servers to thousands
 of machines, each offering local computation and storage.
 
                                                             $ sdk install hadoop
@@ -237,44 +215,38 @@ integrates seamlessly into CI/CD workflows.
 
                                                                $ sdk install hsc
 --------------------------------------------------------------------------------
-http4k (5.23.0.0_2)                                           http://http4k.org/
+http4k (5.23.0.0_2)                                          https://http4k.org/
 
-http4k is the Functional toolkit for building HTTP applications in Kotlin
+http4k is a functional toolkit for building HTTP applications in Kotlin. Servers
+and clients are modelled as simple functions, so applications can be tested
+without a running container.
 
                                                             $ sdk install http4k
 --------------------------------------------------------------------------------
-Infrastructor (0.3.1)                                   http://infrastructor.io/
-
-Infrastructor is an open source server provisioning tool written in Groovy
-
-                                                     $ sdk install infrastructor
---------------------------------------------------------------------------------
 Jarviz (0.3.0)                                 https://github.com/kordamp/jarviz
 
-Jarviz is a JAR analyzer tool. You can obtaine metadata from a JAR such as its
+Jarviz is a JAR analyzer tool. You can obtain metadata from a JAR such as its
 manifest, manifest entries, bytecode versions, declarative services, and more.
 
                                                             $ sdk install jarviz
 --------------------------------------------------------------------------------
 Java (25.0.4-tem)        https://projects.eclipse.org/projects/adoptium.temurin/
 
-Java Platform, Standard Edition (or Java SE) is a widely used platform for
-development and deployment of portable code for desktop and server environments.
-Java SE uses the object-oriented Java programming language. It is part of the
-Java software-platform family. Java SE defines a wide range of general-purpose
-APIs – such as Java APIs for the Java Class Library – and also includes the Java
-Language Specification and the Java Virtual Machine Specification.
+Java Platform, Standard Edition (Java SE) is a widely used platform for
+developing and deploying portable code for desktop and server environments. It
+defines a broad set of general-purpose APIs, the Java Language Specification and
+the Java Virtual Machine Specification.
 
                                                               $ sdk install java
 --------------------------------------------------------------------------------
-JBake (2.7.0)                                                  http://jbake.org/
+JBake (2.7.0)                                                 https://jbake.org/
 
 JBake is a Java based, open source, static site/blog generator for developers
 and designers.
 
                                                              $ sdk install jbake
 --------------------------------------------------------------------------------
-JBang (0.142.0)                             http://github.com/maxandersen/jbang/
+JBang (0.142.0)                            https://github.com/maxandersen/jbang/
 
 JBang makes it easy to use Java for scripting. It lets you use a single file for
 code and dependency management and allows you to run it directly.
@@ -284,37 +256,35 @@ code and dependency management and allows you to run it directly.
 JeKa (0.11.68)                                                  https://jeka.dev
 
 JeKa is a modern build tool for Java, designed to simplify and streamline your
-development experience.
-It reshapes Java application building for a generation
-of developers seeking lightweight, accessible,
-yet powerful solutions.
+development experience. It reshapes Java application building for a generation
+of developers seeking lightweight, accessible, yet powerful solutions.
 
                                                               $ sdk install jeka
 --------------------------------------------------------------------------------
-Jenesis (0.12.0)                                           https://jenesis.build
+Jenesis (0.15.5)                                           https://jenesis.build
 
-A Java-native, Java-module-focused build tool.
-Builds are incremental and
-cache-friendly,
-configured in plain Java.
+A Java-native, Java-module-focused build tool. Builds are incremental and
+cache-friendly, configured in plain Java.
 
                                                            $ sdk install jenesis
 --------------------------------------------------------------------------------
-Eclipse Jetty (12.1.10)                                       https://jetty.org/
+Eclipse Jetty (12.1.14)                                       https://jetty.org/
 
 Eclipse Jetty provides a highly scalable and memory-efficient web server and
-servlet container, supporting many protocols such as HTTP/3,2,1 and WebSocket
+servlet container, supporting many protocols such as HTTP/3, HTTP/2, HTTP/1 and
+WebSocket.
 
                                                              $ sdk install jetty
 --------------------------------------------------------------------------------
 Jextract (22.ea.6)                                https://jdk.java.net/jextract/
 
-Jextract mechanically generates Java bindings from native library headers. This
-is an early access build from OpenJDK Jextract which is part of Code Tools
+Jextract mechanically generates Java bindings from native library headers. It is
+part of the OpenJDK Code Tools project and targets the Foreign Function and
+Memory API.
 
                                                           $ sdk install jextract
 --------------------------------------------------------------------------------
-Jikkou (1.1.0)                          https://streamthoughts.github.io/jikkou/
+Jikkou (1.1.0)                                            https://www.jikkou.io/
 
 Jikkou is a command-line client for efficient management, automation and
 provisioning of resources for Kafka, Schema Registry, etc. Inspired by kubectl
@@ -325,19 +295,15 @@ user-friendly approach to configuration management.
 --------------------------------------------------------------------------------
 JDK Mission Control (9.1.1.1-zulu)https://www.oracle.com/java/technologies/jdk-mission-control.html
 
-Java Flight Recorder and JDK Mission Control together create a complete tool
-chain to continuously collect low level and detailed runtime information
-enabling after-the-fact incident analysis. JDK Mission Control is an advanced
-set of tools that enables efficient and detailed analysis of the extensive of
-data collected by Java Flight Recorder. The tool chain enables developers and
-administrators to collect and analyze data from Java applications running
-locally or deployed in production environments.
+JDK Mission Control is a tool chain for analysing the low-level runtime data
+collected by Java Flight Recorder. It enables detailed after-the-fact incident
+analysis of Java applications running locally or in production.
 
                                                                $ sdk install jmc
 --------------------------------------------------------------------------------
 Apache JMeter (5.6.3)                                 https://jmeter.apache.org/
 
- The Apache JMeter™ application is open source software, a 100% pure Java
+The Apache JMeter application is open source software, a 100% pure Java
 application designed to load test functional behavior and measure performance.
 It was originally designed for testing Web Applications but has since expanded
 to other test functions.
@@ -346,26 +312,21 @@ to other test functions.
 --------------------------------------------------------------------------------
 Joern (1.1.997)                                                https://joern.io/
 
-Joern is a platform for analyzing source code, bytecode, and binary executables.
-It generates code property graphs (CPGs), a graph representation of code for
-cross-language code analysis. Code property graphs are stored in a custom graph
-database. This allows code to be mined using search queries formulated in a
-Scala-based domain-specific query language. Joern is developed with the goal of
-providing a useful tool for vulnerability discovery and research in static
-program analysis.
+Joern is a platform for analysing source code, bytecode and binary executables.
+It generates code property graphs, stores them in a graph database, and mines
+them with a Scala-based query language, targeting vulnerability discovery and
+static program analysis.
 
                                                              $ sdk install joern
 --------------------------------------------------------------------------------
-JPX (Coming soon!)                                         https://jenesis.build
+JPX (0.15.5)                                               https://jenesis.build
 
-A Java-native, Java-module-focused application runner.
-Name a module (or Maven
-coordinate) and it fetches,
-caches and runs the implied application.
+A Java-native, Java-module-focused application runner. Name a module (or Maven
+coordinate) and it fetches, caches and runs the implied application.
 
                                                                $ sdk install jpx
 --------------------------------------------------------------------------------
-jQAssistant (2.9.1)                                      https://jqassistant.org
+jQAssistant (2.9.1)                               https://github.com/jqassistant
 
 jQAssistant is an open-source tool for software analytics, enabling you to gain
 insights into your systems, verify design implementation, and create living
@@ -416,14 +377,14 @@ The CLI provides commands to help setup and manage your project.
 
                                                             $ sdk install kobweb
 --------------------------------------------------------------------------------
-Kotlin (2.4.20)                                          https://kotlinlang.org/
+Kotlin (2.4.21)                                          https://kotlinlang.org/
 
 Kotlin is a statically-typed programming language that runs on the Java Virtual
 Machine and can also be compiled to JavaScript source code.
 
                                                             $ sdk install kotlin
 --------------------------------------------------------------------------------
-Kotlin Toolchain (0.12.1)                           https://kotlin-toolchain.org
+Kotlin Toolchain (0.13.0)                           https://kotlin-toolchain.org
 
 The Kotlin Toolchain is a unified entry point into Kotlin with a focus on user
 experience and IDE support. It includes build tooling functionality as one of
@@ -435,27 +396,13 @@ multiplatform projects that share business logic and/or UI, and more.
 --------------------------------------------------------------------------------
 kscript (4.2.3)                          https://github.com/holgerbrandl/kscript
 
-Enhanced scripting support for Kotlin on *nix-based systems. kscript provides an
+Enhanced scripting support for Kotlin on Unix-based systems. kscript provides an
 easy-to-use, very flexible, and almost zero-overhead solution to write
 self-contained mini-applications with Kotlin.
 
                                                            $ sdk install kscript
 --------------------------------------------------------------------------------
-ksrc (Coming soon!)                          https://github.com/respawn-app/ksrc
-
-Let your AI agents search and read 3rd-party Kotlin dependency sources
-
-                                                              $ sdk install ksrc
---------------------------------------------------------------------------------
-ktx (0.1.2)                                      https://github.com/mpetuska/ktx
-
-npx for kotlin and the JVM!
-Install and execute jars or kotlin scripts just like
-any other command line utility.
-
-                                                               $ sdk install ktx
---------------------------------------------------------------------------------
-kUML (Coming soon!)                                             https://kuml.dev
+kUML (0.20.5)                                                   https://kuml.dev
 
 kUML is a Kotlin-native DSL for UML 2, SysML 2, and C4 architecture modelling
 that compiles type-safe Kotlin sources to SVG diagrams through a configurable
@@ -465,16 +412,14 @@ renderer pipeline.
 --------------------------------------------------------------------------------
 Layrry (1.0.0.Final)                         https://github.com/moditect/layrry/
 
-Layrry - A Launcher and API for Modularized Java Applications. It allows to
-assemble modularized applications based on Maven artifact coordinates of the
-(modular) JARs to include. Layrry utilizes the Java Module System's notion of
-module layers, allowing multiple versions of one module to be used within an
-application at the same time, as well as dynamically adding and removing modules
-at application runtime.
+Layrry is a launcher and API for modularised Java applications, assembling them
+from the Maven coordinates of the modular JARs to include. It uses the Java
+Module System's module layers, so multiple versions of a module can coexist and
+modules can be added or removed at runtime.
 
                                                             $ sdk install layrry
 --------------------------------------------------------------------------------
-Leiningen (2.12.0)                                         http://leiningen.org/
+Leiningen (2.12.0)                                        https://leiningen.org/
 
 Leiningen is the easiest way to use Clojure. With a focus on project automation
 and declarative configuration, it gets out of your way and lets you focus on
@@ -499,15 +444,17 @@ reporting and documentation from a central piece of information.
 --------------------------------------------------------------------------------
 MCS (0.11.1)                                   https://github.com/mthmulders/mcs
 
-Search the Maven Central Repository from your command line! Using mcs, you can
-find artifacts and generate the required pom.xml snippet to use directly in your
+mcs searches the Maven Central Repository from the command line. It finds
+artifacts and generates the pom.xml snippet needed to use them directly in a
 Maven project.
 
                                                                $ sdk install mcs
 --------------------------------------------------------------------------------
-Micronaut (5.2.1)                                           http://micronaut.io/
+Micronaut (5.2.2)                                          https://micronaut.io/
 
-Micronaut is an open source microservice framework for the JVM
+Micronaut is an open source microservice framework for the JVM. It resolves
+dependency injection and configuration at compile time, giving fast startup and
+a low memory footprint.
 
                                                          $ sdk install micronaut
 --------------------------------------------------------------------------------
@@ -531,7 +478,7 @@ MyBatis Migrations (3.3.11)                      https://mybatis.org/migrations/
 The MyBatis Schema Migration System (or MyBatis Migrations for short) seeks to
 provide database migrations for any database (new or existing) and make the
 current status of the database easily accessible and comprehensible. Installing
-this candidate provides the migrate command for managing database migrations
+this candidate provides the migrate command for managing database migrations.
 
                                                            $ sdk install mybatis
 --------------------------------------------------------------------------------
@@ -539,77 +486,62 @@ Neo4j-Migrations (4.2.0)                https://neo4j.com/labs/neo4j-migrations/
 
 Neo4j-Migrations is a database migration and refactoring tool that allows
 running Cypher scripts and programmatic refactorings in a controlled and
-repeatable fashion against one or more Neo4j database.
+repeatable fashion against one or more Neo4j databases.
 
                                                    $ sdk install neo4jmigrations
 --------------------------------------------------------------------------------
 Pierrot (1.0.1)                            https://agorapulse.github.io/pierrot/
 
-Pierrot helps you to manage many GitHub repositories with a single command.
+Pierrot manages many GitHub repositories with a single command. It searches
+across repositories, applies the same change to each, and opens the resulting
+pull requests.
 
                                                            $ sdk install pierrot
 --------------------------------------------------------------------------------
 Pomchecker (1.15.0)                       https://github.com/kordamp/pomchecker/
 
-Pomchecker - Checks that POM files comply with the minimum rules required for
-publication to Maven Central. It can also check if a POM is a valid BOM file.
+Pomchecker checks that POM files comply with the minimum rules required for
+publication to Maven Central. It can also check whether a POM is a valid BOM
+file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.40.1)                                           http://quarkus.io
+Quarkus CLI (3.40.1)                                          https://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.
 
                                                            $ sdk install quarkus
 --------------------------------------------------------------------------------
-sbt (2.0.10)                                           http://www.scala-sbt.org/
+sbt (2.0.10)                                          https://www.scala-sbt.org/
 
-SBT is an open source build tool for Scala and Java projects, similar to Java's
-Maven or Ant. Its main features are: native support for compiling Scala code and
-integrating with many Scala test frameworks; build descriptions written in Scala
-using a DSL; dependency management using Ivy (which supports Maven-format
-repositories); continuous compilation, testing, and deployment; integration with
-the Scala interpreter for rapid iteration and debugging; support for mixed
-Java/Scala projects
+SBT is an open source build tool for Scala and Java projects. It compiles Scala
+natively, describes builds in a Scala DSL, manages dependencies through Ivy, and
+supports continuous compilation, testing and mixed Java/Scala projects.
 
                                                                $ sdk install sbt
 --------------------------------------------------------------------------------
-Scala (3.9.0)                                         http://www.scala-lang.org/
+Scala (3.10.0)                                       https://www.scala-lang.org/
 
-Scala is a programming language for general software applications. Scala has
-full support for functional programming and a very strong static type system.
-This allows programs written in Scala to be very concise and thus smaller in
-size than other general-purpose programming languages. Scala source code is
-intended to be compiled to Java bytecode, so that the resulting executable code
-runs on a Java virtual machine. Java libraries may be used directly in Scala
-code and vice versa. Scala is object-oriented, and uses a curly-brace syntax.
-Scala has many features of functional programming languages, including currying,
-type inference, immutability, lazy evaluation, and pattern matching. It also has
-an advanced type system supporting algebraic data types, covariance and
-contravariance, higher-order types, and anonymous types. Other features of Scala
-include operator overloading, optional parameters, named parameters, raw
-strings, and no checked exceptions.
+Scala is a general-purpose programming language combining object-oriented and
+functional programming, with a strong static type system and type inference. It
+compiles to Java bytecode and interoperates directly with Java libraries.
 
                                                              $ sdk install scala
 --------------------------------------------------------------------------------
-Scala CLI (1.17.1)                               https://scala-cli.virtuslab.org
+Scala CLI (1.18.0)                               https://scala-cli.virtuslab.org
 
 Scala CLI is a command-line tool to interact with the Scala language. It lets
-you compile, run, test, and package your Scala code (and more!)
+you compile, run, test, and package your Scala code, and more.
 
                                                           $ sdk install scalacli
 --------------------------------------------------------------------------------
 SchemaCrawler (17.15.7)                            https://www.schemacrawler.com
 
-SchemaCrawler is a free database schema discovery and comprehension tool.
-SchemaCrawler has a good mix of useful features for data governance. You can
-search for database schema objects using regular expressions, and output the
-schema and data in a readable text format. The output serves for database
-documentation, and is designed to be diff-ed against other database schemas.
-SchemaCrawler also generates schema diagrams. You can execute scripts in any
-standard scripting language against your database. You can find potential schema
-design issues with lint.
+SchemaCrawler is a free database schema discovery and comprehension tool. It
+searches schema objects using regular expressions, outputs schema and data in a
+diff-friendly text format, generates schema diagrams, and lints for design
+issues.
 
                                                      $ sdk install schemacrawler
 --------------------------------------------------------------------------------
@@ -628,7 +560,7 @@ fault-tolerance.
 
                                                              $ sdk install spark
 --------------------------------------------------------------------------------
-Spring Boot (4.1.0)                       http://projects.spring.io/spring-boot/
+Spring Boot (4.1.0)                      https://spring.io/projects/spring-boot/
 
 Spring Boot takes an opinionated view of building production-ready Spring
 applications. It favors convention over configuration and is designed to get you
@@ -647,15 +579,14 @@ Taxi (1.71.1)                                               https://taxilang.org
 
 Taxi is a language for documenting data - such as data models - and the
 contracts of APIs. It describes data semantically, allowing powerful tooling to
-discover and map data based on it's meaning, rather than the name of a field.
+discover and map data based on its meaning, rather than the name of a field.
 
                                                               $ sdk install taxi
 --------------------------------------------------------------------------------
 Apache Tomcat (11.0.22)                               https://tomcat.apache.org/
 
-The Apache Tomcat® software is an open source implementation of the Java
-Servlet, JavaServer Pages, Java Expression Language and Java WebSocket
-technologies.
+The Apache Tomcat software is an open source implementation of the Java Servlet,
+JavaServer Pages, Java Expression Language and Java WebSocket technologies.
 
                                                             $ sdk install tomcat
 --------------------------------------------------------------------------------
@@ -666,16 +597,18 @@ MQTT and COAP. It provides a command line client tool for IoT development.
 
                                                            $ sdk install toolkit
 --------------------------------------------------------------------------------
-TornadoVM (7.1.0-jdk21-opencl)                        https://www.tornadovm.org/
+TornadoVM (7.2.0-jdk21-opencl)                        https://www.tornadovm.org/
 
 TornadoVM is a plug-in to OpenJDK and GraalVM that allows Java programmers to
 automatically run on heterogeneous hardware (GPUs, FPGAs, multi-core CPUs).
 
                                                          $ sdk install tornadovm
 --------------------------------------------------------------------------------
-Vert.x (4.5.15)                                                 http://vertx.io/
+Vert.x (4.5.15)                                                https://vertx.io/
 
-Vert.x is a tool-kit for building reactive applications on the JVM.
+Vert.x is a toolkit for building reactive applications on the JVM. It is
+event-driven and non-blocking, and supports several JVM languages from a single
+asynchronous core.
 
                                                              $ sdk install vertx
 --------------------------------------------------------------------------------
@@ -689,21 +622,18 @@ Machine.
 --------------------------------------------------------------------------------
 Webtau (2.2)                      https://github.com/testingisdocumenting/webtau
 
-Webtau (short for web test automation) is a testing API, command line tool and a
-framework to write unit, integration and end-to-end tests. Tests can span
-multiple application layers like REST-API, Graph QL, Browser, Database and CLI.
-Consistent set of matchers and testing concepts work across all testing layers.
-Use REPL mode to speed-up tests development. Leverage rich reporting to
-significantly cut down failure investigation time.
+Webtau (short for web test automation) is a testing API, command-line tool and
+framework for writing unit, integration and end-to-end tests. A consistent set
+of matchers spans the REST, GraphQL, browser, database and CLI layers, and a
+REPL mode speeds up test development.
 
                                                             $ sdk install webtau
 --------------------------------------------------------------------------------
 Znai (1.69)                         https://github.com/testingisdocumenting/znai
 
-Build functional, maintainable, beautiful User Guides with znai. Instant pages
-navigation. Local search. Multiple integrations to work with Python, Java,
-OpenAPI, etc. Transform Getting Started sections into slideshow for your
-workshops. Manage multiple documentations with self-deployed znai hub.
+Znai builds functional, maintainable user guides from Markdown and live code. It
+provides instant page navigation, local search, and integrations with Python,
+Java and OpenAPI.
 
                                                               $ sdk install znai
 --------------------------------------------------------------------------------

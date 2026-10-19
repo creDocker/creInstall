@@ -230,7 +230,7 @@ manifest, manifest entries, bytecode versions, declarative services, and more.
 
                                                             $ sdk install jarviz
 --------------------------------------------------------------------------------
-Java (25.0.4-tem)        https://projects.eclipse.org/projects/adoptium.temurin/
+Java (25.0.4.1+1-tem)    https://projects.eclipse.org/projects/adoptium.temurin/
 
 Java Platform, Standard Edition (Java SE) is a widely used platform for
 developing and deploying portable code for desktop and server environments. It
@@ -261,7 +261,7 @@ of developers seeking lightweight, accessible, yet powerful solutions.
 
                                                               $ sdk install jeka
 --------------------------------------------------------------------------------
-Jenesis (0.15.5)                                           https://jenesis.build
+Jenesis (0.16.1)                                           https://jenesis.build
 
 A Java-native, Java-module-focused build tool. Builds are incremental and
 cache-friendly, configured in plain Java.
@@ -319,7 +319,7 @@ static program analysis.
 
                                                              $ sdk install joern
 --------------------------------------------------------------------------------
-JPX (0.15.5)                                               https://jenesis.build
+JPX (0.16.1)                                               https://jenesis.build
 
 A Java-native, Java-module-focused application runner. Name a module (or Maven
 coordinate) and it fetches, caches and runs the implied application.
@@ -442,7 +442,7 @@ reporting and documentation from a central piece of information.
 
                                                              $ sdk install maven
 --------------------------------------------------------------------------------
-MCS (0.11.1)                                   https://github.com/mthmulders/mcs
+MCS (0.11.2)                                   https://github.com/mthmulders/mcs
 
 mcs searches the Maven Central Repository from the command line. It finds
 artifacts and generates the pom.xml snippet needed to use them directly in a
@@ -513,7 +513,7 @@ GraalVM, crafted from best-of-breed Java libraries and standards.
 
                                                            $ sdk install quarkus
 --------------------------------------------------------------------------------
-sbt (2.0.10)                                          https://www.scala-sbt.org/
+sbt (2.0.11)                                          https://www.scala-sbt.org/
 
 SBT is an open source build tool for Scala and Java projects. It compiles Scala
 natively, describes builds in a Scala DSL, manages dependencies through Ivy, and
@@ -536,7 +536,7 @@ you compile, run, test, and package your Scala code, and more.
 
                                                           $ sdk install scalacli
 --------------------------------------------------------------------------------
-SchemaCrawler (17.15.7)                            https://www.schemacrawler.com
+SchemaCrawler (17.16.0)                            https://www.schemacrawler.com
 
 SchemaCrawler is a free database schema discovery and comprehension tool. It
 searches schema objects using regular expressions, outputs schema and data in a
@@ -597,7 +597,7 @@ MQTT and COAP. It provides a command line client tool for IoT development.
 
                                                            $ sdk install toolkit
 --------------------------------------------------------------------------------
-TornadoVM (7.2.0-jdk21-opencl)                        https://www.tornadovm.org/
+TornadoVM (7.3.1-jdk21-opencl)                        https://www.tornadovm.org/
 
 TornadoVM is a plug-in to OpenJDK and GraalVM that allows Java programmers to
 automatically run on heterogeneous hardware (GPUs, FPGAs, multi-core CPUs).

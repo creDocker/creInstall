@@ -86,6 +86,16 @@ Connect source connector offsets.
 
                                                             $ sdk install connor
 --------------------------------------------------------------------------------
+SDKMAN Contrib (0.1.0)                  https://github.com/sdkman/sdkman-contrib
+
+SDKMAN Contrib is the command-line tool for contributing candidates and versions
+to SDKMAN, for SDKs that rely on community contributions rather than being
+published by their own vendors. It writes and checks the YAML requests that a
+pull request adds, so a contributor sees locally the same verdict that the pull
+request check gives.
+
+                                                           $ sdk install contrib
+--------------------------------------------------------------------------------
 CXF (3.2.5)                                              https://cxf.apache.org/
 
 Apache CXF is an open source services framework. CXF helps you build and develop
@@ -129,7 +139,7 @@ of contents.
 
                                                             $ sdk install gaiden
 --------------------------------------------------------------------------------
-Graal Cloud Native (5.2.2)                          https://www.graal.cloud/gcn/
+Graal Cloud Native (5.2.3)                          https://www.graal.cloud/gcn/
 
 Graal Cloud Native (GCN) is a curated set of Micronaut framework modules
 designed from the ground up to be compiled ahead-of-time with GraalVM Native
@@ -139,14 +149,14 @@ fewer resources to reduce compute costs.
 
                                                                $ sdk install gcn
 --------------------------------------------------------------------------------
-Grace Framework (2024.1.4)                            https://graceframework.org
+Grace Framework (2024.1.5)                            https://graceframework.org
 
 Grace is an open source web application framework for building Spring Boot
 applications with the Groovy programming language. It is a fork of Grails 5.
 
                                                              $ sdk install grace
 --------------------------------------------------------------------------------
-Gradle (9.8.1)                                               https://gradle.org/
+Gradle (9.8.2)                                               https://gradle.org/
 
 A highly scalable build automation tool supporting Java, Kotlin, Scala, Android,
 Groovy, C++, and Swift with both Groovy and Kotlin DSL. Designed for
@@ -180,7 +190,7 @@ meta-programming and functional programming.
 
                                                             $ sdk install groovy
 --------------------------------------------------------------------------------
-GroovyServ (2.0.0)                            https://kobo.github.io/groovyserv/
+GroovyServ (1.2.0)                            https://kobo.github.io/groovyserv/
 
 GroovyServ reduces startup time of the JVM for running Groovy significantly. It
 depends on your environments, but in most cases, it's 10 to 20 times faster than
@@ -230,7 +240,7 @@ manifest, manifest entries, bytecode versions, declarative services, and more.
 
                                                             $ sdk install jarviz
 --------------------------------------------------------------------------------
-Java (25.0.4.1+1-tem)    https://projects.eclipse.org/projects/adoptium.temurin/
+Java (25.0.5.0+8-tem)    https://projects.eclipse.org/projects/adoptium.temurin/
 
 Java Platform, Standard Edition (Java SE) is a widely used platform for
 developing and deploying portable code for desktop and server environments. It
@@ -261,7 +271,7 @@ of developers seeking lightweight, accessible, yet powerful solutions.
 
                                                               $ sdk install jeka
 --------------------------------------------------------------------------------
-Jenesis (0.16.1)                                           https://jenesis.build
+Jenesis (0.17.0)                                           https://jenesis.build
 
 A Java-native, Java-module-focused build tool. Builds are incremental and
 cache-friendly, configured in plain Java.
@@ -319,7 +329,7 @@ static program analysis.
 
                                                              $ sdk install joern
 --------------------------------------------------------------------------------
-JPX (0.16.1)                                               https://jenesis.build
+JPX (0.17.0)                                               https://jenesis.build
 
 A Java-native, Java-module-focused application runner. Name a module (or Maven
 coordinate) and it fetches, caches and runs the implied application.
@@ -354,7 +364,7 @@ much more.
 
                                                              $ sdk install karaf
 --------------------------------------------------------------------------------
-kcctl (1.0.0.CR4)                                 https://github.com/kcctl/kcctl
+kcctl (1.0.0.CR5)                                 https://github.com/kcctl/kcctl
 
 A modern and intuitive command-line client for Kafka Connect. Relying on the
 idioms and semantics of kubectl, it allows you to register and examine
@@ -450,7 +460,7 @@ Maven project.
 
                                                                $ sdk install mcs
 --------------------------------------------------------------------------------
-Micronaut (5.2.2)                                          https://micronaut.io/
+Micronaut (5.2.3)                                          https://micronaut.io/
 
 Micronaut is an open source microservice framework for the JVM. It resolves
 dependency injection and configuration at compile time, giving fast startup and
@@ -506,7 +516,7 @@ file.
 
                                                         $ sdk install pomchecker
 --------------------------------------------------------------------------------
-Quarkus CLI (3.40.1)                                          https://quarkus.io
+Quarkus CLI (3.40.1.1)                                        https://quarkus.io
 
 Quarkus is a Kubernetes Native Java framework tailored for OpenJDK HotSpot and
 GraalVM, crafted from best-of-breed Java libraries and standards.

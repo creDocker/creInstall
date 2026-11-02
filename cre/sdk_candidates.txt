@@ -86,7 +86,7 @@ Connect source connector offsets.
 
                                                             $ sdk install connor
 --------------------------------------------------------------------------------
-SDKMAN Contrib (0.1.0)                  https://github.com/sdkman/sdkman-contrib
+SDKMAN Contrib (0.1.2)                  https://github.com/sdkman/sdkman-contrib
 
 SDKMAN Contrib is the command-line tool for contributing candidates and versions
 to SDKMAN, for SDKs that rely on community contributions rather than being
@@ -139,7 +139,7 @@ of contents.
 
                                                             $ sdk install gaiden
 --------------------------------------------------------------------------------
-Graal Cloud Native (5.2.3)                          https://www.graal.cloud/gcn/
+Graal Cloud Native (5.2.4)                          https://www.graal.cloud/gcn/
 
 Graal Cloud Native (GCN) is a curated set of Micronaut framework modules
 designed from the ground up to be compiled ahead-of-time with GraalVM Native
@@ -256,7 +256,7 @@ and designers.
 
                                                              $ sdk install jbake
 --------------------------------------------------------------------------------
-JBang (0.142.0)                            https://github.com/maxandersen/jbang/
+JBang (0.143.0)                            https://github.com/maxandersen/jbang/
 
 JBang makes it easy to use Java for scripting. It lets you use a single file for
 code and dependency management and allows you to run it directly.
@@ -271,7 +271,7 @@ of developers seeking lightweight, accessible, yet powerful solutions.
 
                                                               $ sdk install jeka
 --------------------------------------------------------------------------------
-Jenesis (0.17.0)                                           https://jenesis.build
+Jenesis (0.18.1)                                           https://jenesis.build
 
 A Java-native, Java-module-focused build tool. Builds are incremental and
 cache-friendly, configured in plain Java.
@@ -329,7 +329,7 @@ static program analysis.
 
                                                              $ sdk install joern
 --------------------------------------------------------------------------------
-JPX (0.17.0)                                               https://jenesis.build
+JPX (0.18.1)                                               https://jenesis.build
 
 A Java-native, Java-module-focused application runner. Name a module (or Maven
 coordinate) and it fetches, caches and runs the implied application.
@@ -346,7 +346,7 @@ implementation.
 
                                                        $ sdk install jqassistant
 --------------------------------------------------------------------------------
-JReleaser (1.26.0)                                         https://jreleaser.org
+JReleaser (1.27.0)                                         https://jreleaser.org
 
 JReleaser is a release automation tool for Java projects. Its goal is to
 simplify creating releases and publishing artifacts to multiple package managers
@@ -460,7 +460,7 @@ Maven project.
 
                                                                $ sdk install mcs
 --------------------------------------------------------------------------------
-Micronaut (5.2.3)                                          https://micronaut.io/
+Micronaut (5.2.4)                                          https://micronaut.io/
 
 Micronaut is an open source microservice framework for the JVM. It resolves
 dependency injection and configuration at compile time, giving fast startup and
@@ -523,7 +523,7 @@ GraalVM, crafted from best-of-breed Java libraries and standards.
 
                                                            $ sdk install quarkus
 --------------------------------------------------------------------------------
-sbt (2.0.11)                                          https://www.scala-sbt.org/
+sbt (2.0.12)                                          https://www.scala-sbt.org/
 
 SBT is an open source build tool for Scala and Java projects. It compiles Scala
 natively, describes builds in a Scala DSL, manages dependencies through Ivy, and
@@ -546,7 +546,7 @@ you compile, run, test, and package your Scala code, and more.
 
                                                           $ sdk install scalacli
 --------------------------------------------------------------------------------
-SchemaCrawler (17.16.0)                            https://www.schemacrawler.com
+SchemaCrawler (18.0.1)                             https://www.schemacrawler.com
 
 SchemaCrawler is a free database schema discovery and comprehension tool. It
 searches schema objects using regular expressions, outputs schema and data in a
@@ -593,7 +593,7 @@ discover and map data based on its meaning, rather than the name of a field.
 
                                                               $ sdk install taxi
 --------------------------------------------------------------------------------
-Apache Tomcat (11.0.22)                               https://tomcat.apache.org/
+Apache Tomcat (11.0.27)                               https://tomcat.apache.org/
 
 The Apache Tomcat software is an open source implementation of the Java Servlet,
 JavaServer Pages, Java Expression Language and Java WebSocket technologies.
@@ -607,7 +607,7 @@ MQTT and COAP. It provides a command line client tool for IoT development.
 
                                                            $ sdk install toolkit
 --------------------------------------------------------------------------------
-TornadoVM (7.3.1-jdk21-opencl)                        https://www.tornadovm.org/
+TornadoVM (8.0.0-jdk21-opencl)                        https://www.tornadovm.org/
 
 TornadoVM is a plug-in to OpenJDK and GraalVM that allows Java programmers to
 automatically run on heterogeneous hardware (GPUs, FPGAs, multi-core CPUs).

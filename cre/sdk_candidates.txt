@@ -156,7 +156,7 @@ applications with the Groovy programming language. It is a fork of Grails 5.
 
                                                              $ sdk install grace
 --------------------------------------------------------------------------------
-Gradle (9.8.2)                                               https://gradle.org/
+Gradle (9.9.0)                                               https://gradle.org/
 
 A highly scalable build automation tool supporting Java, Kotlin, Scala, Android,
 Groovy, C++, and Swift with both Groovy and Kotlin DSL. Designed for
@@ -271,7 +271,7 @@ of developers seeking lightweight, accessible, yet powerful solutions.
 
                                                               $ sdk install jeka
 --------------------------------------------------------------------------------
-Jenesis (0.18.1)                                           https://jenesis.build
+Jenesis (0.18.2)                                           https://jenesis.build
 
 A Java-native, Java-module-focused build tool. Builds are incremental and
 cache-friendly, configured in plain Java.
@@ -329,7 +329,7 @@ static program analysis.
 
                                                              $ sdk install joern
 --------------------------------------------------------------------------------
-JPX (0.18.1)                                               https://jenesis.build
+JPX (0.18.2)                                               https://jenesis.build
 
 A Java-native, Java-module-focused application runner. Name a module (or Maven
 coordinate) and it fetches, caches and runs the implied application.
@@ -460,7 +460,7 @@ Maven project.
 
                                                                $ sdk install mcs
 --------------------------------------------------------------------------------
-Micronaut (5.2.4)                                          https://micronaut.io/
+Micronaut (5.2.5)                                          https://micronaut.io/
 
 Micronaut is an open source microservice framework for the JVM. It resolves
 dependency injection and configuration at compile time, giving fast startup and
@@ -492,7 +492,7 @@ this candidate provides the migrate command for managing database migrations.
 
                                                            $ sdk install mybatis
 --------------------------------------------------------------------------------
-Neo4j-Migrations (4.2.0)                https://neo4j.com/labs/neo4j-migrations/
+Neo4j-Migrations (4.2.1)                https://neo4j.com/labs/neo4j-migrations/
 
 Neo4j-Migrations is a database migration and refactoring tool that allows
 running Cypher scripts and programmatic refactorings in a controlled and
@@ -607,7 +607,7 @@ MQTT and COAP. It provides a command line client tool for IoT development.
 
                                                            $ sdk install toolkit
 --------------------------------------------------------------------------------
-TornadoVM (8.0.0-jdk21-opencl)                        https://www.tornadovm.org/
+TornadoVM (8.1.0-jdk21-opencl)                        https://www.tornadovm.org/
 
 TornadoVM is a plug-in to OpenJDK and GraalVM that allows Java programmers to
 automatically run on heterogeneous hardware (GPUs, FPGAs, multi-core CPUs).

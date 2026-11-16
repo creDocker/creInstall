@@ -139,7 +139,7 @@ of contents.
 
                                                             $ sdk install gaiden
 --------------------------------------------------------------------------------
-Graal Cloud Native (5.2.4)                          https://www.graal.cloud/gcn/
+Graal Cloud Native (5.2.6)                          https://www.graal.cloud/gcn/
 
 Graal Cloud Native (GCN) is a curated set of Micronaut framework modules
 designed from the ground up to be compiled ahead-of-time with GraalVM Native
@@ -156,7 +156,7 @@ applications with the Groovy programming language. It is a fork of Grails 5.
 
                                                              $ sdk install grace
 --------------------------------------------------------------------------------
-Gradle (9.9.0)                                               https://gradle.org/
+Gradle (9.9.1)                                               https://gradle.org/
 
 A highly scalable build automation tool supporting Java, Kotlin, Scala, Android,
 Groovy, C++, and Swift with both Groovy and Kotlin DSL. Designed for
@@ -278,7 +278,7 @@ cache-friendly, configured in plain Java.
 
                                                            $ sdk install jenesis
 --------------------------------------------------------------------------------
-Eclipse Jetty (12.1.14)                                       https://jetty.org/
+Eclipse Jetty (12.1.15)                                       https://jetty.org/
 
 Eclipse Jetty provides a highly scalable and memory-efficient web server and
 servlet container, supporting many protocols such as HTTP/3, HTTP/2, HTTP/1 and
@@ -444,7 +444,7 @@ and applying database schema changes.
 
                                                          $ sdk install liquibase
 --------------------------------------------------------------------------------
-Maven (3.10.0)                                         https://maven.apache.org/
+Maven (3.10.1)                                         https://maven.apache.org/
 
 Apache Maven is a software project management and comprehension tool. Based on
 the concept of a project object model (POM), Maven can manage a project's build,
@@ -460,7 +460,7 @@ Maven project.
 
                                                                $ sdk install mcs
 --------------------------------------------------------------------------------
-Micronaut (5.2.5)                                          https://micronaut.io/
+Micronaut (5.2.6)                                          https://micronaut.io/
 
 Micronaut is an open source microservice framework for the JVM. It resolves
 dependency injection and configuration at compile time, giving fast startup and
@@ -492,7 +492,7 @@ this candidate provides the migrate command for managing database migrations.
 
                                                            $ sdk install mybatis
 --------------------------------------------------------------------------------
-Neo4j-Migrations (4.2.1)                https://neo4j.com/labs/neo4j-migrations/
+Neo4j-Migrations (4.2.2)                https://neo4j.com/labs/neo4j-migrations/
 
 Neo4j-Migrations is a database migration and refactoring tool that allows
 running Cypher scripts and programmatic refactorings in a controlled and
@@ -523,7 +523,7 @@ GraalVM, crafted from best-of-breed Java libraries and standards.
 
                                                            $ sdk install quarkus
 --------------------------------------------------------------------------------
-sbt (2.0.12)                                          https://www.scala-sbt.org/
+sbt (2.1.0)                                           https://www.scala-sbt.org/
 
 SBT is an open source build tool for Scala and Java projects. It compiles Scala
 natively, describes builds in a Scala DSL, manages dependencies through Ivy, and
@@ -531,7 +531,7 @@ supports continuous compilation, testing and mixed Java/Scala projects.
 
                                                                $ sdk install sbt
 --------------------------------------------------------------------------------
-Scala (3.10.0)                                       https://www.scala-lang.org/
+Scala (3.10.1)                                       https://www.scala-lang.org/
 
 Scala is a general-purpose programming language combining object-oriented and
 functional programming, with a strong static type system and type inference. It
@@ -539,14 +539,14 @@ compiles to Java bytecode and interoperates directly with Java libraries.
 
                                                              $ sdk install scala
 --------------------------------------------------------------------------------
-Scala CLI (1.18.0)                               https://scala-cli.virtuslab.org
+Scala CLI (1.19.0)                               https://scala-cli.virtuslab.org
 
 Scala CLI is a command-line tool to interact with the Scala language. It lets
 you compile, run, test, and package your Scala code, and more.
 
                                                           $ sdk install scalacli
 --------------------------------------------------------------------------------
-SchemaCrawler (18.0.1)                             https://www.schemacrawler.com
+SchemaCrawler (18.0.2)                             https://www.schemacrawler.com
 
 SchemaCrawler is a free database schema discovery and comprehension tool. It
 searches schema objects using regular expressions, outputs schema and data in a
